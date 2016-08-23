@@ -1,0 +1,689 @@
+File,Function,LOC,SLOC-P,SLOC-L,MVG,BLOC,C&SLOC,CLOC,CWORD
+F:\papter datasets\Development\stats\nmap\nping\ArgParser.cc,ArgParser::ArgParser(),2,1,1,0,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\ArgParser.cc,ArgParser::~ArgParser(),2,1,1,0,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\ArgParser.cc,"ArgParser::parseArguments(int argc, char *argv[])",1030,833,624,150,69,36,128,975
+F:\papter datasets\Development\stats\nmap\nping\ArgParser.cc,ArgParser::printVersion(void),3,3,3,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\ArgParser.cc,ArgParser::printUsage(void),122,120,2,0,2,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\ArgParser.cc,"ArgParser::parseAdvertEntry(char *str, struct in_addr *addr, u32 *pref)",45,33,25,10,8,0,4,38
+F:\papter datasets\Development\stats\nmap\nping\ArgParser.cc,"ArgParser::atoICMPType(char *opt, u8 *type)",90,70,20,5,2,1,18,83
+F:\papter datasets\Development\stats\nmap\nping\ArgParser.cc,"ArgParser::atoICMPCode(char *opt, u8 *code)",198,169,37,5,8,1,21,123
+F:\papter datasets\Development\stats\nmap\nping\ArgParser.cc,"ArgParser::atoARPOpCode(char *opt, u16 *code)",55,45,14,5,4,3,6,17
+F:\papter datasets\Development\stats\nmap\nping\ArgParser.cc,"ArgParser::atoEtherType(char *opt, u16 *type)",75,66,29,5,3,2,6,16
+F:\papter datasets\Development\stats\nmap\nping\ArgParser.cc,"ArgParser::parseICMPTimestamp(char *optarg, u32 *dst)",43,39,25,9,4,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\common_modified.cc,TargetGroup::TargetGroup(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\common_modified.cc,TargetGroup::Initialize(),6,6,6,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\common_modified.cc,TargetGroup::rewind(),34,25,15,6,2,0,7,74
+F:\papter datasets\Development\stats\nmap\nping\common_modified.cc,TargetGroup::skip_range(_octet_nums octet),49,36,25,12,7,4,6,70
+F:\papter datasets\Development\stats\nmap\nping\common_modified.cc,"TargetGroup::get_next_host(struct sockaddr_storage *ss, size_t *sslen)",102,67,48,10,12,3,23,225
+F:\papter datasets\Development\stats\nmap\nping\common_modified.cc,TargetGroup::return_last_host(),24,21,18,5,1,0,2,27
+F:\papter datasets\Development\stats\nmap\nping\common_modified.cc,"TargetGroup::parse_expr(const char * const target_expr, int af)",188,150,117,36,14,5,24,236
+F:\papter datasets\Development\stats\nmap\nping\common_modified.cc,"getpts_aux(const char *origexpr, int nested, u8 *porttbl, int *portwarning)",189,78,60,20,23,6,88,451
+F:\papter datasets\Development\stats\nmap\nping\common_modified.cc,"devname2ipaddr_alt(char *dev, struct sockaddr_storage *addr)",29,25,21,7,4,1,0,5
+F:\papter datasets\Development\stats\nmap\nping\Crypto.cc,Crypto::Crypto(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\Crypto.cc,Crypto::~Crypto(),2,1,1,0,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\Crypto.cc,Crypto::reset(),2,1,1,0,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\Crypto.cc,"Crypto::hmac_sha256(u8 *inbuff, size_t inlen, u8 *dst_buff, u8 *key, size_t key_len)",15,13,10,3,1,0,1,7
+F:\papter datasets\Development\stats\nmap\nping\Crypto.cc,"Crypto::aes128_cbc_encrypt(u8 *inbuff, size_t inlen, u8 *dst_buff, u8 *key, size_t key_len, u8 *iv)",32,30,23,9,1,0,1,8
+F:\papter datasets\Development\stats\nmap\nping\Crypto.cc,"Crypto::aes128_cbc_decrypt(u8 *inbuff, size_t inlen, u8 *dst_buff, u8 *key, size_t key_len, u8 *iv)",57,30,22,9,2,0,25,198
+F:\papter datasets\Development\stats\nmap\nping\Crypto.cc,"Crypto::generateNonce(u8 *dst_buff, size_t bufflen)",12,10,6,3,0,2,2,19
+F:\papter datasets\Development\stats\nmap\nping\Crypto.cc,"Crypto::deriveKey(const u8 *from, size_t fromlen, size_t *final_len)",41,34,26,9,5,0,2,18
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,EchoClient::EchoClient(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,EchoClient::~EchoClient(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,EchoClient::reset(),6,6,6,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,EchoClient::cleanup(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"EchoClient::start(NpingTarget *target, u16 port)",44,28,23,11,8,0,8,56
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"EchoClient::nep_connect(NpingTarget *target, u16 port)",54,38,29,3,8,0,8,66
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,EchoClient::nep_handshake(),41,30,26,9,7,0,4,20
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,EchoClient::nep_send_packet_spec(),15,12,9,5,2,0,1,4
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,EchoClient::nep_recv_ready(),10,9,7,3,0,0,1,4
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"EchoClient::nep_recv_echo(u8 *packet, size_t packetlen)",50,37,32,9,5,0,8,88
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"EchoClient::parse_hs_server(u8 *pkt, size_t pktlen)",46,32,26,13,5,0,9,51
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"EchoClient::parse_hs_final(u8 *pkt, size_t pktlen)",67,45,36,19,9,0,13,89
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"EchoClient::parse_ready(u8 *pkt, size_t pktlen)",61,41,33,17,8,0,12,68
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"EchoClient::parse_echo(u8 *pkt, size_t pktlen)",70,41,34,15,10,0,19,114
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"EchoClient::parse_error(u8 *pkt, size_t pktlen)",3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,EchoClient::generate_hs_client(EchoHeader *h),25,21,18,6,3,0,1,4
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,EchoClient::generate_packet_spec(EchoHeader *h),118,86,70,15,11,2,21,97
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"EchoClient::nep_echoed_packet_handler(nsock_pool nsp, nsock_event nse, void *arg)",74,55,49,12,8,1,11,140
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"EchoClient::nep_recv_std_header_handler(nsock_pool nsp, nsock_event nse, void *arg)",69,50,44,12,9,1,10,125
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"EchoClient::nep_recv_hs_server_handler(nsock_pool nsp, nsock_event nse, void *arg)",12,10,8,5,0,0,2,12
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"EchoClient::nep_recv_hs_final_handler(nsock_pool nsp, nsock_event nse, void *arg)",12,10,8,5,0,0,2,12
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"EchoClient::nep_recv_ready_handler(nsock_pool nsp, nsock_event nse, void *arg)",12,10,8,5,0,0,2,12
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"echoed_packet_handler(nsock_pool nsp, nsock_event nse, void *arg)",4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"recv_std_header_handler(nsock_pool nsp, nsock_event nse, void *arg)",4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"connect_done_handler(nsock_pool nsp, nsock_event nse, void *arg)",9,9,8,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"write_done_handler(nsock_pool nsp, nsock_event nse, void *arg)",9,9,8,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"recv_hs_server_handler(nsock_pool nsp, nsock_event nse, void *arg)",9,9,8,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"recv_hs_final_handler(nsock_pool nsp, nsock_event nse, void *arg)",9,9,8,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoClient.cc,"recv_ready_handler(nsock_pool nsp, nsock_event nse, void *arg)",9,9,8,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::EchoHeader(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::~EchoHeader(),2,1,1,0,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::reset(),18,16,16,0,1,1,1,10
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getBufferPointer(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,"EchoHeader::storeRecvData(const u8 *buf, size_t len)",9,9,8,3,0,1,0,13
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::protocol_id() const,2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setVersion(u8 val),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getVersion(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setMessageType(u8 val),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getMessageType(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setTotalLength(u16 val),4,4,4,1,0,1,0,6
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setTotalLength(),28,28,19,11,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getTotalLength(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setSequenceNumber(u32 val),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getSequenceNumber(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setTimestamp(u32 val),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setTimestamp(),4,4,4,1,0,1,0,9
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getTimestamp(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setReserved(u32 val),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getReserved(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,"EchoHeader::setMessageAuthenticationCode(u8 *key, size_t keylen)",43,39,30,11,1,0,3,27
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getMessageAuthenticationCode(),29,29,20,18,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,"EchoHeader::verifyMessageAuthenticationCode(u8 *key, size_t keylen)",23,16,13,7,3,0,4,21
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setServerNonce(u8 *nonce),16,14,10,6,2,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getServerNonce(),14,12,8,7,2,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setClientNonce(u8 *nonce),16,14,10,6,2,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getClientNonce(),14,12,8,7,2,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setPartnerAddress(struct in_addr val),18,16,12,6,2,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setPartnerAddress(struct in6_addr val),18,16,12,6,2,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getPartnerAddress(struct in_addr *dst),15,13,9,6,2,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getPartnerAddress(struct in6_addr *dst),15,13,9,6,2,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getIPVersion(),18,15,10,9,3,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setIPVersion(u8 ver),19,16,11,7,3,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setProtocol(u8 proto),11,10,7,5,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getProtocol(),10,9,6,5,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setPacketCount(u16 c),11,10,7,5,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getPacketCount(),10,9,6,5,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getFieldLength(u8 field),43,34,12,11,4,0,5,14
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,"EchoHeader::addFieldSpec(u8 field, u8 *val)",8,7,5,3,0,0,1,7
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,"EchoHeader::addFieldSpec(u8 field, u8 *val, size_t flen)",27,25,21,8,0,0,2,22
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::rewindFieldSpecCounters(),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,"EchoHeader::getNextFieldSpec(u8 *field, u8 *dst_buff, size_t *final_len)",32,30,21,11,0,2,2,21
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setDLT(u16 dlt),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getDLT(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setPacketLength(u16 len),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getPacketLength(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,"EchoHeader::setEchoedPacket(const u8 *pkt, size_t pktlen)",19,18,15,5,0,0,1,7
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getEchoedPacket(u16 *final_len),4,4,3,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getEchoedPacket(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::updateEchoInternals(),12,9,7,4,1,0,2,9
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::setErrorMessage(const char *err),8,8,7,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getErrorMessage(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,EchoHeader::getCiphertextBounds(size_t *final_len),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,"EchoHeader::getCiphertextBounds(size_t *final_len, int message_type)",41,39,29,12,2,1,0,7
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,"EchoHeader::encrypt(u8 *key, size_t key_len, u8 *iv)",21,18,13,9,3,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoHeader.cc,"EchoHeader::decrypt(u8 *key, size_t key_len, u8 *iv, int message_type)",24,20,15,9,3,0,1,9
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,EchoServer::EchoServer(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,EchoServer::~EchoServer(),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,EchoServer::reset(),3,3,3,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,EchoServer::addClientContext(NEPContext ctx),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,EchoServer::getClientContext(clientid_t clnt),10,10,8,4,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,EchoServer::getClientContext(nsock_iod iod),7,7,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,EchoServer::destroyClientContext(clientid_t clnt),12,11,9,4,0,0,1,14
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,EchoServer::getClientNsockIOD(clientid_t clnt),7,7,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,EchoServer::getNewClientID(),7,7,5,2,0,1,0,5
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,EchoServer::nep_listen_socket(),95,66,48,13,14,4,15,169
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"EchoServer::nep_match_headers(IPv4Header *ip4, IPv6Header *ip6, TCPHeader *tcp, UDPHeader *udp, ICMPv4Header *icmp4, RawData *payload)",230,216,161,75,6,2,8,81
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"EchoServer::nep_match_packet(const u8 *pkt, size_t pktlen)",262,240,156,128,21,14,1,30
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"EchoServer::nep_capture_handler(nsock_pool nsp, nsock_event nse, void *param)",55,42,37,9,7,0,6,39
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"EchoServer::nep_echo_handler(nsock_pool nsp, nsock_event nse, void *param)",10,10,9,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"EchoServer::nep_hs_server_handler(nsock_pool nsp, nsock_event nse, void *param)",18,16,14,4,0,0,2,15
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"EchoServer::nep_hs_client_handler(nsock_pool nsp, nsock_event nse, void *param)",42,34,29,11,4,0,4,26
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"EchoServer::nep_hs_final_handler(nsock_pool nsp, nsock_event nse, void *param)",7,6,6,1,0,0,1,3
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"EchoServer::nep_packetspec_handler(nsock_pool nsp, nsock_event nse, void *param)",52,36,32,9,7,0,9,83
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"EchoServer::nep_ready_handler(nsock_pool nsp, nsock_event nse, void *param)",4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"EchoServer::nep_session_ended_handler(nsock_pool nsp, nsock_event nse, void *param)",25,21,17,4,2,0,2,13
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"EchoServer::parse_hs_client(u8 *pkt, size_t pktlen, NEPContext *ctx)",75,49,41,17,12,0,14,90
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"EchoServer::parse_packet_spec(u8 *pkt, size_t pktlen, NEPContext *ctx)",102,74,57,26,9,0,19,148
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"EchoServer::generate_hs_server(EchoHeader *h, NEPContext *ctx)",13,11,10,3,1,0,1,4
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"EchoServer::generate_hs_final(EchoHeader *h, NEPContext *ctx)",30,24,21,6,4,0,2,7
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"EchoServer::generate_ready(EchoHeader *h, NEPContext *ctx)",19,14,12,5,3,0,2,7
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"EchoServer::generate_echo(EchoHeader *h, const u8 *pkt, size_t pktlen, NEPContext *ctx)",50,34,29,8,6,0,10,97
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,EchoServer::start(),104,77,61,17,12,13,15,191
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,EchoServer::cleanup(),3,2,2,1,0,0,1,8
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"capture_handler(nsock_pool nsp, nsock_event nse, void *arg)",4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"echo_handler(nsock_pool nsp, nsock_event nse, void *arg)",4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"hs_server_handler(nsock_pool nsp, nsock_event nse, void *arg)",4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"hs_client_handler(nsock_pool nsp, nsock_event nse, void *arg)",4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"hs_final_handler(nsock_pool nsp, nsock_event nse, void *arg)",4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"packetspec_handler(nsock_pool nsp, nsock_event nse, void *arg)",4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"ready_handler(nsock_pool nsp, nsock_event nse, void *arg)",4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"session_ended_handler(nsock_pool nsp, nsock_event nse, void *arg)",4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\EchoServer.cc,"empty_handler(nsock_pool nsp, nsock_event nse, void *arg)",2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::NEPContext(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::~NEPContext(),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::reset(),17,17,17,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getIdentifier(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::setIdentifier(clientid_t clnt),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getAddress(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::setAddress(struct sockaddr_storage a),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getNsockIOD(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::setNsockIOD(nsock_iod iod),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::ready(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::setState(int st),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getState(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::setNextEncryptionIV(u8 *block),7,7,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getNextEncryptionIV(size_t *final_len),4,4,3,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getNextEncryptionIV(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::setNextDecryptionIV(u8 *block),7,7,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getNextDecryptionIV(size_t *final_len),4,4,3,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getNextDecryptionIV(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::setLastServerSequence(u32 seq),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getLastServerSequence(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getNextServerSequence(),6,6,4,2,0,1,0,5
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::setLastClientSequence(u32 seq),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getLastClientSequence(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getNextClientSequence(),6,6,4,2,0,1,0,5
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::generateInitialServerSequence(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::generateInitialClientSequence(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,"NEPContext::generateKey(int key_type, size_t *final_len)",49,40,32,10,6,1,3,18
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::setMacKeyC2S(u8 *key),6,6,4,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getMacKeyC2S(size_t *final_len),4,4,3,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getMacKeyC2S(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::generateMacKeyC2S(),6,6,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::setMacKeyS2C(u8 *key),6,6,4,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getMacKeyS2C(size_t *final_len),4,4,3,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getMacKeyS2C(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::generateMacKeyS2C(),6,6,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::generateMacKeyS2CInitial(),6,6,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::setCipherKeyC2S(u8 *key),6,6,4,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getCipherKeyC2S(size_t *final_len),4,4,3,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getCipherKeyC2S(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::generateCipherKeyC2S(),6,6,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::setCipherKeyS2C(u8 *key),6,6,4,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getCipherKeyS2C(size_t *final_len),4,4,3,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getCipherKeyS2C(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::generateCipherKeyS2C(),6,6,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::generateClientNonce(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::generateServerNonce(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::setClientNonce(u8 *buff),8,8,6,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::setServerNonce(u8 *buff),8,8,6,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getClientNonce(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getServerNonce(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,"NEPContext::addClientFieldSpec(u8 field, u8 len, u8 *value)",11,11,10,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::getClientFieldSpec(int index),5,5,3,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::isDuplicateFieldSpec(u8 test_field),11,8,6,4,1,0,2,20
+F:\papter datasets\Development\stats\nmap\nping\NEPContext.cc,NEPContext::resetClientFieldSpecs(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\nping.cc,"main(int argc, char *argv[] )",90,59,46,8,18,4,13,127
+F:\papter datasets\Development\stats\nmap\nping\nping.cc,do_safe_checks(),5,5,4,2,0,1,0,13
+F:\papter datasets\Development\stats\nmap\nping\nping.cc,test_stuff(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\nping.cc,signal_handler(int signo),21,20,17,3,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::NpingOps(),226,141,141,0,72,0,13,32
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::~NpingOps(),8,8,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setMode(int md),8,8,6,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getMode(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetMode(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::mode2Ascii(int md),33,26,18,9,7,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getTraceroute(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::enableTraceroute(),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::disableTraceroute(),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetTraceroute(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setVerbosity(int level),22,22,19,5,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getVerbosity(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetVerbosity(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::increaseVerbosity(),8,8,7,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::decreaseVerbosity(),8,8,7,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setDebugging(int level),9,9,8,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getDebugging(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::increaseDebugging(),8,8,7,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetDebugging(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setShowSentPackets(bool val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::showSentPackets(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetShowSentPackets(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setPacketCount(u32 val),8,7,5,2,0,0,1,8
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getPacketCount(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetPacketCount(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setSendPreference(int v),12,12,8,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getSendPreference(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetSendPreference(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::sendPreferenceEthernet(),9,9,5,5,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::sendPreferenceIP(),9,9,5,5,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setSendEth(bool val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::sendEth(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetSendEth(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setDelay(long t),6,6,5,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getDelay(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetDelay(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setDevice(char *n),8,8,7,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getDevice(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetDevice(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::spoofSource(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getSpoofSource(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setSpoofSource(),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetSpoofSource(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setBPFFilterSpec(char *val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getBPFFilterSpec(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetBPFFilterSpec(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setCurrentRound(int val),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getCurrentRound(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::havePcap(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setHavePcap(bool val),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setDisablePacketCapture(bool val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::disablePacketCapture(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetDisablePacketCapture(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setIPVersion(u8 val),9,9,8,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getIPVersion(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetIPVersion(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::ipv4(),5,5,3,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::ipv6(),5,5,3,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::ipv6UsingSocket(),5,5,3,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::af(),5,5,3,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setIsRoot(int v),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setIsRoot(),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::isRoot(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetIsRoot(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setPayloadType(int t),9,9,8,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getPayloadType(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetPayloadType(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,"NpingOps::setPayloadBuffer(u8 *p, int len)",11,11,10,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getPayloadBuffer(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetPayloadBuffer(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getPayloadLen(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetPayloadLen(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setRole(int r),10,10,8,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setRoleClient(),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setRoleServer(),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setRoleNormal(),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getRole(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetRole(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setTTL(u8 t),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setHopLimit(u8 t),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getTTL(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getHopLimit(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetTTL(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetHopLimit(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setTOS(u8 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getTOS(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetTOS(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setIdentification(u16 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getIdentification(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetIdentification(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setMF(),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getMF(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setDF(),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getDF(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetMF(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetDF(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setMTU(u32 t),8,8,7,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getMTU(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetMTU(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::enableBadsumIP(),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::disableBadsumIP(),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getBadsumIP(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetBadsumIP(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setIPv4SourceAddress(struct in_addr i),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getIPv4SourceAddress(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetIPv4SourceAddress(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setIPOptions(char *txt),6,6,5,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getIPOptions(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetIPOptions(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setTrafficClass(u8 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getTrafficClass(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetTrafficClass(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setFlowLabel(u32 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getFlowLabel(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetFlowLabel(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setIPv6SourceAddress(u8 *val),6,6,5,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setIPv6SourceAddress(struct in6_addr val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getIPv6SourceAddress(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetIPv6SourceAddress(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getSourceSockAddr(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getSourceSockAddr(struct sockaddr_storage *ss),30,30,20,6,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getTargetPorts( int *len ),6,6,4,4,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,"NpingOps::setTargetPorts( u16 *pnt, int n )",7,7,6,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetTargetPorts(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::scan_mode_uses_target_ports(int mode),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setSourcePort(u16 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getSourcePort(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetSourcePort(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setTCPSequence(u32 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getTCPSequence(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetTCPSequence(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setTCPAck(u32 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getTCPAck(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetTCPAck(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setFlagTCP(int flag),7,7,5,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setAllFlagsTCP(),5,5,4,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::unsetAllFlagsTCP(),5,5,4,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getFlagTCP(int flag),4,4,3,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getTCPFlags(),19,19,11,9,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetTCPFlags(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setTCPWindow(u16 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getTCPWindow(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetTCPWindow(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::enableBadsum(),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::disableBadsum(),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getBadsum(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetBadsum(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setICMPType(u8 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getICMPType(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetICMPType(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setICMPCode(u8 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getICMPCode(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetICMPCode(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::enableBadsumICMP(),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::disableBadsumICMP(),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getBadsumICMP(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetBadsumICMP(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setICMPRedirectAddress(struct in_addr val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getICMPRedirectAddress(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetICMPRedirectAddress(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setICMPParamProblemPointer(u8 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getICMPParamProblemPointer(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetICMPParamProblemPointer(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setICMPRouterAdvLifetime(u16 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getICMPRouterAdvLifetime(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetICMPRouterAdvLifetime(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setICMPIdentifier(u16 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getICMPIdentifier(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetICMPIdentifier(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setICMPSequence(u16 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getICMPSequence(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetICMPSequence(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setICMPOriginateTimestamp(u32 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getICMPOriginateTimestamp(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetICMPOriginateTimestamp(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setICMPReceiveTimestamp(u32 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getICMPReceiveTimestamp(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetICMPReceiveTimestamp(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setICMPTransmitTimestamp(u32 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getICMPTransmitTimestamp(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetICMPTransmitTimestamp(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,"NpingOps::addICMPAdvertEntry(struct in_addr addr, u32 pref )",8,8,7,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,"NpingOps::getICMPAdvertEntry(int num, struct in_addr *addr, u32 *pref)",8,8,6,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getICMPAdvertEntryCount(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetICMPAdvertEntry(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setSourceMAC(u8 * val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getSourceMAC(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetSourceMAC(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setDestMAC(u8 * val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getDestMAC(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetDestMAC(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setEtherType(u16 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getEtherType(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetEtherType(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setARPHardwareType(u16 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getARPHardwareType(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetARPHardwareType(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setARPProtocolType(u16 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getARPProtocolType(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetARPProtocolType(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setARPHwAddrLen(u8 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getARPHwAddrLen(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetARPHwAddrLen(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setARPProtoAddrLen(u8 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getARPProtoAddrLen(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetARPProtoAddrLen(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setARPOpCode(u16 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getARPOpCode(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetARPOpCode(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setARPSenderHwAddr(u8 * val),4,4,4,1,0,1,0,5
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getARPSenderHwAddr(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetARPSenderHwAddr(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setARPTargetHwAddr(u8 * val),4,4,4,1,0,1,0,5
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getARPTargetHwAddr(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetARPTargetHwAddr(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setARPSenderProtoAddr(struct in_addr val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getARPSenderProtoAddr(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetARPSenderProtoAddr(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setARPTargetProtoAddr(struct in_addr val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getARPTargetProtoAddr(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetARPTargetProtoAddr(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setEchoPort(u16 val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getEchoPort(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetEchoPort(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setEchoPassphrase(const char *str),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getEchoPassphrase(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::issetEchoPassphrase(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setOnce(bool val),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::once(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::validateOptions(),351,225,127,51,44,2,82,831
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::canRunUDPWithoutPrivileges(),22,22,3,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::canDoIPv6ThroughSocket(),12,12,3,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::canDoIPv6Ethernet(),5,5,3,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::displayNpingDoneMsg(),15,14,5,1,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::displayStatistics(),102,93,85,5,5,1,4,17
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::cleanup(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::select_network_iface(),107,72,54,15,11,8,24,277
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setDefaultHeaderValues(),100,89,54,36,8,4,3,48
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::setLastPacketSentTime(struct timeval t),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getLastPacketSentTime(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,"NpingOps::setDelayedRcvd(const char *str, nsock_event_id id)",7,7,6,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getDelayedRcvd(nsock_event_id *id),11,11,9,4,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::doCrypto(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::doCrypto(bool value),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::echoPayload(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::echoPayload(bool value),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingOps.cc,NpingOps::getTotalProbes(),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::NpingTarget(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::Initialize(),41,41,41,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::Recycle(),3,3,3,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::~NpingTarget(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::FreeInternal(),16,13,10,3,0,0,3,24
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,"NpingTarget::getTargetSockAddr(struct sockaddr_storage *ss, size_t *ss_len)",10,9,8,3,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,"NpingTarget::setTargetSockAddr(struct sockaddr_storage *ss, size_t ss_len)",8,8,8,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getIPv4Address(),6,6,6,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getIPv4Address_aux(),6,6,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getIPv6Address_u8(),6,6,4,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getIPv6Address(),6,6,6,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getIPv6Address_aux(),6,6,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,"NpingTarget::getSourceSockAddr(struct sockaddr_storage *ss, size_t *ss_len)",9,9,6,5,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,"NpingTarget::setSourceSockAddr(struct sockaddr_storage *ss, size_t ss_len)",5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,"NpingTarget::setSpoofedSourceSockAddr(struct sockaddr_storage *ss, size_t ss_len)",6,6,6,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,"NpingTarget::getSpoofedSourceSockAddr(struct sockaddr_storage *ss, size_t *ss_len)",9,9,6,5,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::spoofingSourceAddress(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getIPv4SourceAddress(),6,6,6,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getIPv4SourceAddress_aux(),6,6,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getIPv4SpoofedSourceAddress(),6,6,6,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getIPv4SpoofedSourceAddress_aux(),6,6,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getIPv6SourceAddress(),6,6,6,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getIPv6SourceAddress_aux(),6,6,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getIPv6SourceAddress_u8(),6,6,4,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::setDirectlyConnected(bool connected),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::isDirectlyConnectedOrUnset(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::isDirectlyConnected(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,"NpingTarget::getNextHop(struct sockaddr_storage *next_hop, size_t *next_hop_len)",9,9,6,5,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,"NpingTarget::setNextHop(struct sockaddr_storage *next_hop, size_t next_hop_len)",4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::setNextHopMACAddress(const u8 *addy),6,6,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getNextHopMACAddress(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::setMACAddress(const u8 *addy),6,6,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getMACAddress(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::setSrcMACAddress(const u8 *addy),6,6,5,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getSrcMACAddress(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,"NpingTarget::setDeviceNames(const char *name, const char *fullname)",5,5,3,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getDeviceName(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getDeviceFullName(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::setDeviceType(devtype type),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getDeviceType(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::setResolvedHostName(char *name),18,16,12,4,0,0,2,18
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getResolvedHostName(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::setSuppliedHostName(char *name),9,9,7,4,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getSuppliedHostName(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::setNamedHost(bool val),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::isNamedHost(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::generateIPString(),14,14,12,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getSourceIPStr(),17,16,13,4,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getSpoofedSourceIPStr(),17,16,13,4,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getNextHopIPStr(),16,16,13,4,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getMACStr(u8 *mac),6,6,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getTargetMACStr(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getSourceMACStr(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getNextHopMACStr(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getTargetIPstr(),4,4,3,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,"NpingTarget::getNameAndIP(char *buf, size_t buflen)",9,9,9,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getNameAndIP(),4,4,3,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::obtainICMPSequence(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::getICMPIdentifier(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::determineNextHopMACAddress(),77,58,48,18,10,1,9,100
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::determineTargetMACAddress(),8,8,6,4,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::printTargetDetails(),28,26,24,2,2,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,"NpingTarget::setProbeSentTCP(u16 sport, u16 dport)",17,14,11,5,0,1,3,51
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,"NpingTarget::setProbeRecvTCP(u16 sport, u16 dport)",19,13,11,4,1,0,5,58
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,"NpingTarget::setProbeRecvUDP(u16 sport, u16 dport)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,"NpingTarget::setProbeSentUDP(u16 sport, u16 dport)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,"NpingTarget::setProbeSentICMP(u16 id, u16 seq)",18,15,12,5,0,1,3,52
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,"NpingTarget::setProbeRecvICMP(u16 id, u16 seq)",14,10,9,2,3,0,1,4
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::setProbeSentARP(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::setProbeRecvARP(),4,2,2,1,0,0,2,7
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::updateRTTs(unsigned long int diff),18,15,11,4,2,0,1,6
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::printStats(),7,7,7,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::printCounts(),17,9,8,1,2,0,6,37
+F:\papter datasets\Development\stats\nmap\nping\NpingTarget.cc,NpingTarget::printRTTs(),15,13,7,3,2,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTargets.cc,NpingTargets::NpingTargets(),9,9,9,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTargets.cc,NpingTargets::~NpingTargets(),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTargets.cc,NpingTargets::addSpec(char *spec),8,8,6,5,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTargets.cc,"NpingTargets::getNextTargetAddressAndName(struct sockaddr_storage *t, size_t *tlen, char *hname, size_t hlen)",68,52,37,20,10,6,6,121
+F:\papter datasets\Development\stats\nmap\nping\NpingTargets.cc,NpingTargets::getNextIPv4Address(u32 *addr),14,14,11,5,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTargets.cc,NpingTargets::rewindSpecs(),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTargets.cc,NpingTargets::getTargetsFetched(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTargets.cc,NpingTargets::getTargetSpecCount(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTargets.cc,NpingTargets::processSpecs(),95,69,54,12,12,1,14,151
+F:\papter datasets\Development\stats\nmap\nping\NpingTargets.cc,NpingTargets::getNextTarget(),10,7,5,5,0,0,3,33
+F:\papter datasets\Development\stats\nmap\nping\NpingTargets.cc,NpingTargets::rewind(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTargets.cc,NpingTargets::freeTargets(),9,9,8,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\NpingTargets.cc,NpingTargets::findTarget(struct sockaddr_storage *tt),31,25,18,9,3,0,3,19
+F:\papter datasets\Development\stats\nmap\nping\output.cc,"nping_fatal(int level, const char *str, ...)",27,20,17,6,6,1,1,15
+F:\papter datasets\Development\stats\nmap\nping\output.cc,"nping_warning(int level, const char *str, ...)",33,25,20,8,5,2,3,41
+F:\papter datasets\Development\stats\nmap\nping\output.cc,"nping_print(int level, const char *str, ...)",32,24,19,8,5,2,3,41
+F:\papter datasets\Development\stats\nmap\nping\output.cc,"fatal(const char *str, ...)",12,11,11,1,0,0,1,6
+F:\papter datasets\Development\stats\nmap\nping\output.cc,"error(const char *str, ...)",11,10,10,1,0,0,1,6
+F:\papter datasets\Development\stats\nmap\nping\output.cc,"pfatal(const char *str, ...)",12,11,11,1,0,0,1,6
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,ProbeMode::ProbeMode(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,ProbeMode::~ProbeMode(),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,ProbeMode::reset(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,ProbeMode::init_nsock(),21,15,11,4,2,0,4,27
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,ProbeMode::cleanup(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,ProbeMode::getNsockPool(),4,4,3,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,ProbeMode::start(),326,228,178,54,38,32,60,702
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,"ProbeMode::fillPacket(NpingTarget *target, u16 port, u8 *buff, int bufflen, int *filledlen, int rawfd)",86,66,42,18,8,4,12,146
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,"ProbeMode::createIPv4(IPv4Header *i, PacketElement *next_element, const char *next_proto, NpingTarget *target)",37,26,19,7,7,5,4,27
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,"ProbeMode::createIPv6(IPv6Header *i, PacketElement *next_element, const char *next_proto, NpingTarget *target)",31,24,19,5,4,0,3,10
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,ProbeMode::doIPv6ThroughSocket(int rawfd),48,30,17,9,5,1,13,138
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,"ProbeMode::fillPacketTCP(NpingTarget *target, u16 port, u8 *buff, int bufflen, int *filledlen, int rawfd)",120,73,57,24,22,1,25,184
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,"ProbeMode::fillPacketUDP(NpingTarget *target, u16 port, u8 *buff, int bufflen, int *filledlen, int rawfd)",96,61,45,16,21,1,14,124
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,"ProbeMode::fillPacketICMP(NpingTarget *target, u8 *buff, int bufflen, int *filledlen, int rawfd)",152,111,62,25,32,1,9,74
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,"ProbeMode::fillPacketARP(NpingTarget *target, u8 *buff, int bufflen, int *filledlen, int rawfd)",93,60,37,13,19,6,14,93
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,ProbeMode::getBPFFilterString(),215,179,124,45,14,7,22,341
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,"is_response_icmp(const unsigned char *packet, unsigned int packetlen)",66,51,38,22,9,0,6,55
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,"ProbeMode::probe_nping_event_handler(nsock_pool nsp, nsock_event nse, void *mydata)",213,161,125,27,27,1,25,229
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,"ProbeMode::probe_delayed_output_handler(nsock_pool nsp, nsock_event nse, void *mydata)",7,7,6,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,"ProbeMode::probe_tcpconnect_event_handler(nsock_pool nsp, nsock_event nse, void *mydata)",196,141,111,23,20,22,35,523
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,"ProbeMode::probe_udpunpriv_event_handler(nsock_pool nsp, nsock_event nse, void *mydata)",240,160,130,26,33,24,47,651
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,"nping_event_handler(nsock_pool nsp, nsock_event nse, void *arg)",4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,"tcpconnect_event_handler(nsock_pool nsp, nsock_event nse, void *arg)",4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,"udpunpriv_event_handler(nsock_pool nsp, nsock_event nse, void *arg)",4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\ProbeMode.cc,"delayed_output_handler(nsock_pool nsp, nsock_event nse, void *arg)",4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingTimer::NpingTimer(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingTimer::~NpingTimer(),2,1,1,0,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingTimer::reset(),5,5,5,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingTimer::start(),5,5,4,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingTimer::stop(),5,5,4,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingTimer::elapsed(struct timeval *now),19,15,13,4,0,0,4,38
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingTimer::is_started(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingTimer::is_stopped(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingTimer::timeval_set(const struct timeval *tv),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::NpingStats(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::~NpingStats(),2,1,1,0,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::reset(),15,11,11,0,4,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::addSentPacket(u32 len),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::addRecvPacket(u32 len),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::addEchoedPacket(u32 len),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::addEchoClientServed(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::startClocks(),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::stopClocks(),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::startTxClock(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::stopTxClock(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::startRxClock(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::stopRxClock(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::startRuntime(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::stopRuntime(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::elapsedTx(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::elapsedRx(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::elapsedRuntime(struct timeval *now),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::getSentPackets(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::getSentBytes(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::getRecvPackets(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::getRecvBytes(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::getEchoedPackets(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::getEchoedBytes(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::getEchoClientsServed(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::getLostPackets(),5,5,3,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::getLostPacketPercentage(),11,8,7,2,0,0,3,28
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::getLostPacketPercentage100(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::getUnmatchedPackets(),5,5,3,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::getUnmatchedPacketPercentage(),8,8,7,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::getUnmatchedPacketPercentage100(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::getOverallTxPacketRate(),6,6,4,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::getOverallTxByteRate(),6,6,4,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::getOverallRxPacketRate(),6,6,4,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\stats.cc,NpingStats::getOverallRxByteRate(),6,6,4,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils.cc,"contains(const char *source, const char *substring)",7,7,4,4,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils.cc,meansRandom(const char *source),7,7,4,4,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils.cc,"isNumber_range(const char *source, int base, unsigned long min, unsigned long max)",9,8,7,3,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils.cc,"isNumber_u8(const char *source, int base)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils.cc,"isNumber_u16(const char *source, int base)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils.cc,"isNumber_u32(const char *source, int base)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils.cc,"parseBufferSpec(char *str, size_t *outlen)",65,45,31,18,4,1,16,169
+F:\papter datasets\Development\stats\nmap\nping\utils.cc,"bitcmp(u8 *a, u8*b, int len)",29,22,14,11,4,0,3,27
+F:\papter datasets\Development\stats\nmap\nping\utils.cc,"removechar(char *string, char c)",18,15,11,6,0,1,3,34
+F:\papter datasets\Development\stats\nmap\nping\utils.cc,removecolon(char *string),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils.cc,"luis_hdump(char *cp, unsigned int length)",43,36,29,6,2,9,5,82
+F:\papter datasets\Development\stats\nmap\nping\utils.cc,"parse_unsigned_number(const char *str, unsigned long min, unsigned long max, unsigned long *dst)",30,22,17,11,5,0,3,25
+F:\papter datasets\Development\stats\nmap\nping\utils.cc,"parse_u8(const char *str, u8 *dst)",7,7,6,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils.cc,"parse_u16(const char *str, u16 *dst)",7,7,6,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils.cc,"parse_u32(const char *str, u32 *dst)",7,7,6,2,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils.cc,"print_hexdump(int level, const u8 *cp, u32 length)",7,7,6,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"atoIP(const char *hostname, struct in_addr *dst)",7,7,6,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"atoIP(const char *hostname, struct sockaddr_storage *ss, int family)",9,9,6,7,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,IPtoa(u32 i),16,13,11,3,0,0,3,29
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,IPtoa(struct sockaddr_storage *ss),17,17,15,4,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,IPtoa(struct sockaddr_storage ss),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"IPtoa(struct sockaddr_storage *ss, int family)",12,12,11,5,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,IPtoa(struct in_addr addr),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,IPtoa(struct in6_addr addr),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,IPtoa(u8 *ipv6addr),7,7,7,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,isICMPType(u8 type),26,25,7,6,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,sockaddr2port(struct sockaddr_storage ss),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,sockaddr2port(struct sockaddr_storage *ss),9,9,7,4,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,sockaddr2port(struct sockaddr_in *s4),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,sockaddr2port(struct sockaddr_in6 *s6),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"setsockaddrfamily(struct sockaddr_storage *ss, int family)",4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,setsockaddrany(struct sockaddr_storage *ss),10,10,7,3,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,isICMPCode(u8 code),7,5,3,3,0,0,2,9
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"isICMPCode(u8 code, u8 type)",81,61,41,40,18,18,2,68
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"getPacketStrInfo(const char *proto, const u8 *packet, u32 len, u8 *dstbuff, u32 dstlen, struct sockaddr_storage *ss_src, struct sockaddr_storage *ss_dst)",31,28,20,8,3,1,0,8
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"getPacketStrInfo(const char *proto, const u8 *packet, u32 len, u8 *dstbuff, u32 dstlen)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"nping_getpts_simple(const char *origexpr, u16 **list, int *count)",32,22,17,7,6,0,4,34
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"getNetworkInterfaceName(u32 destination, char *dev)",16,16,14,4,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"getNetworkInterfaceName(struct sockaddr_storage *dst, char *dev)",13,13,11,4,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"resolveCached(char *host, struct sockaddr_storage *ss, size_t *sslen, int pf)",86,37,30,11,14,2,35,185
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,gethostbynameCached(char *host),53,36,28,11,9,1,8,70
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,hostentcpy(struct hostent *src),41,27,19,10,9,6,5,45
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,hostentfree(struct hostent *src),33,23,17,8,6,0,4,19
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"parseMAC(const char *txt, u8 *targetbuff)",39,29,21,13,4,0,6,48
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,MACtoa(u8 *mac),6,6,5,1,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"arppackethdrinfo(const u8 *packet, u32 len, int detail)",35,34,26,5,1,4,0,12
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"arppackethdrinfo(const u8 *packet, u32 len, u8 *dstbuff, u32 dstlen)",19,15,11,3,3,1,1,20
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"tcppackethdrinfo(const u8 *packet, size_t len, u8 *dstbuff, size_t dstlen, int detail, struct sockaddr_storage *src, struct sockaddr_storage *dst)",114,92,63,17,15,5,7,56
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"udppackethdrinfo(const u8 *packet, size_t len, u8 *dstbuff, size_t dstlen, int detail, struct sockaddr_storage *src, struct sockaddr_storage *dst)",66,52,40,7,11,2,3,29
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,getRandomTextPayload(),18,15,11,4,1,1,2,13
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"send_packet(NpingTarget *target, int rawfd, u8 *pkt, size_t pktLen)",59,31,27,6,5,2,23,128
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"print_dnet_interface(const struct intf_entry *entry, void *arg)",16,16,14,4,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,print_interfaces_dnet(),10,9,7,3,0,0,1,5
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"getSrcSockAddrFromIPPacket(u8 *pkt, size_t pktLen)",24,22,17,7,2,1,0,8
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"getUDPheaderLocation(u8 *pkt, size_t pktLen)",27,24,14,14,1,3,2,30
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"getTCPheaderLocation(u8 *pkt, size_t pktLen)",29,24,14,14,3,4,2,35
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"getProtoFromIPPacket(u8 *pkt, size_t pktLen)",19,14,11,6,3,0,2,8
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"getSrcPortFromIPPacket(u8 *pkt, size_t pktLen)",16,13,10,6,3,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"getDstPortFromIPPacket(u8 *pkt, size_t pktLen)",15,13,10,6,2,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"getDstPortFromTCPHeader(u8 *pkt, size_t pktLen)",9,8,7,3,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"getDstPortFromUDPHeader(u8 *pkt, size_t pktLen)",9,8,7,3,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,obtainRawSocket(),46,33,23,12,10,0,3,22
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"getinterfaces_inet6_linux(if6_t *ifbuf, int max_ifaces)",156,94,72,21,22,1,40,285
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,"getroutes_inet6_linux(route6_t *rtbuf, int max_routes)",211,123,97,26,22,6,66,450
+F:\papter datasets\Development\stats\nmap\nping\utils_net.cc,route_dst_ipv6_linux(const struct sockaddr_storage *const dst),55,36,28,10,5,8,14,196
+F:\papter datasets\Development\stats\nmap\nping\winfix.cc,win_pre_init(),7,6,5,1,1,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\winfix.cc,start_npf(),54,44,32,13,9,0,1,9
+F:\papter datasets\Development\stats\nmap\nping\winfix.cc,init_dll_path(),20,15,10,4,2,0,3,27
+F:\papter datasets\Development\stats\nmap\nping\winfix.cc,win_init(),59,45,28,7,9,0,5,33
+F:\papter datasets\Development\stats\nmap\nping\winfix.cc,win_cleanup(void),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\nmap\nping\winfix.cc,fork(),3,3,3,1,0,0,0,0

@@ -1,0 +1,180 @@
+File,Function,LOC,SLOC-P,SLOC-L,MVG,BLOC,C&SLOC,CLOC,CWORD
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASBeautifier.cpp,ASBeautifier::ASBeautifier(),50,46,46,0,3,1,1,9
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASBeautifier.cpp,ASBeautifier::ASBeautifier(const ASBeautifier &other),161,138,138,0,14,0,9,54
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASBeautifier.cpp,ASBeautifier::~ASBeautifier(),15,15,15,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASEnhancer.cpp,ASEnhancer::ASEnhancer(),1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASEnhancer.cpp,ASEnhancer::~ASEnhancer(),1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASEnhancer.cpp,"ASEnhancer::init(int _fileType, int _indentLength, int _tabLength, bool _useTabs, bool _forceTab, bool _namespaceIndent, bool _caseIndent, bool _preprocBlockIndent, bool _preprocDefineIndent, bool _emptyLineFill, vector<const pair<const string, const string>* >* _indentableMacros)",38,31,31,0,3,0,4,14
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASEnhancer.cpp,"ASEnhancer::enhance(string &line, bool isInNamespace, bool isInPreprocessor, bool isInSQL)",58,44,24,14,8,0,6,36
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASEnhancer.cpp,ASEnhancer::convertForceTabIndentToSpaces(string &line) const,13,12,7,4,0,0,1,5
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASEnhancer.cpp,ASEnhancer::convertSpaceIndentToForceTab(string &line) const,8,6,6,0,1,1,1,9
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASEnhancer.cpp,"ASEnhancer::findCaseColon(string &line, size_t caseIndex) const",39,39,23,8,0,5,0,17
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASEnhancer.cpp,"ASEnhancer::indentLine(string &line, int indent) const",29,23,15,5,3,1,3,16
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASEnhancer.cpp,"ASEnhancer::isBeginDeclareSectionSQL(string &line, size_t index) const",38,38,25,14,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASEnhancer.cpp,"ASEnhancer::isEndDeclareSectionSQL(string &line, size_t index) const",38,38,25,14,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASFormatter.cpp,ASFormatter::ASFormatter(),59,55,55,0,2,1,2,13
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASFormatter.cpp,ASFormatter::~ASFormatter(),26,17,17,0,4,1,5,32
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASFormatter.cpp,ASFormatter::init(ASSourceIterator* si),148,144,134,0,4,2,0,12
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASFormatter.cpp,ASFormatter::buildLanguageVectors(),23,20,19,1,3,3,0,6
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASFormatter.cpp,ASFormatter::fixOptionVariableConflicts(),105,94,59,7,0,6,11,114
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,ASLocalizer::ASLocalizer(),28,19,14,1,2,1,7,69
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,ASLocalizer::~ASLocalizer(),2,2,2,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,ASLocalizer::setLanguageFromLCID(size_t lcid),24,22,14,5,1,2,1,10
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,ASLocalizer::getLanguageID() const,2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,ASLocalizer::getTranslationClass() const,3,3,3,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,ASLocalizer::setLanguageFromName(const char* langID),18,14,10,2,2,1,2,15
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,ASLocalizer::settext(const char* textIn) const,4,4,4,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,ASLocalizer::setTranslationClass(),44,43,23,2,0,1,1,6
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,"Translation::addPair(const string &english, const wstring &translated)",3,3,3,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,Translation::convertToMultiByte(const wstring &wideStr) const,29,26,18,7,0,0,3,18
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,Translation::getTranslationVectorSize() const,2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,"Translation::getWideTranslation(const string &stringIn, wstring &wideOut) const",12,11,7,4,0,0,1,2
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,Translation::translate(const string &stringIn) const,15,14,9,5,0,0,1,4
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,ChineseSimplified::ChineseSimplified(),27,27,27,0,0,2,0,8
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,ChineseTraditional::ChineseTraditional(),27,27,27,0,0,2,0,8
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,Dutch::Dutch(),27,27,27,0,0,2,0,8
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,English::English(),1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,Finnish::Finnish(),27,27,27,0,0,2,0,8
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,French::French(),27,27,27,0,0,2,0,8
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,German::German(),27,27,27,0,0,2,0,8
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,Hindi::Hindi(),29,27,27,0,0,2,2,21
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,Italian::Italian(),27,27,27,0,0,2,0,8
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,Japanese::Japanese(),27,27,27,0,0,2,0,8
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,Korean::Korean(),27,27,27,0,0,2,0,8
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,Polish::Polish(),27,27,27,0,0,2,0,8
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,Portuguese::Portuguese(),27,27,27,0,0,2,0,8
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,Russian::Russian(),27,27,27,0,0,2,0,8
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,Spanish::Spanish(),27,27,27,0,0,2,0,8
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,Swedish::Swedish(),27,27,27,0,0,2,0,8
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASLocalizer.cpp,Ukrainian::Ukrainian(),27,27,27,0,0,2,0,8
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASResource.cpp,"sortOnLength(const string* a, const string* b)",2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASResource.cpp,"sortOnName(const string* a, const string* b)",2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASResource.cpp,ASResource::buildAssignmentOperators(vector<const string*>* assignmentOperators),20,15,15,0,3,0,2,2
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASResource.cpp,ASResource::buildCastOperators(vector<const string*>* castOperators),5,5,5,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASResource.cpp,"ASResource::buildHeaders(vector<const string*>* headers, int fileType, bool beautifier)",52,48,36,6,4,8,0,14
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASResource.cpp,ASResource::buildIndentableHeaders(vector<const string*>* indentableHeaders),4,3,3,0,1,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASResource.cpp,"ASResource::buildIndentableMacros(vector<const pair<const string, const string>* >* indentableMacros)",17,13,5,1,1,0,3,9
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASResource.cpp,ASResource::buildNonAssignmentOperators(vector<const string*>* nonAssignmentOperators),17,16,16,0,1,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASResource.cpp,"ASResource::buildNonParenHeaders(vector<const string*>* nonParenHeaders, int fileType, bool beautifier)",41,38,26,6,3,6,0,14
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASResource.cpp,"ASResource::buildOperators(vector<const string*>* operators, int fileType)",50,50,48,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASResource.cpp,"ASResource::buildPreBlockStatements(vector<const string*>* preBlockStatements, int fileType)",21,21,15,3,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASResource.cpp,"ASResource::buildPreCommandHeaders(vector<const string*>* preCommandHeaders, int fileType)",23,20,14,3,3,2,0,5
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASResource.cpp,"ASResource::buildPreDefinitionHeaders(vector<const string*>* preDefinitionHeaders, int fileType)",19,19,13,3,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASResource.cpp,"ASBase::findKeyword(const string &line, int i, const string &keyword) const",19,16,11,11,0,0,3,22
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\ASResource.cpp,"ASBase::getCurrentWord(const string &line, size_t index) const",10,10,7,4,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASStreamIterator<T>::ASStreamIterator(T* in),14,13,13,0,0,0,1,4
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASStreamIterator<T>::~ASStreamIterator(),1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASStreamIterator<T>::getStreamLength() const,2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASStreamIterator<T>::nextLine(bool emptyLineWasDeleted),77,63,35,12,8,6,6,65
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASStreamIterator<T>::peekNextLine(),31,23,15,7,6,0,2,7
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASStreamIterator<T>::peekReset(),5,5,5,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASStreamIterator<T>::saveLastInputLine(),3,3,3,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASStreamIterator<T>::tellg(),2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASStreamIterator<T>::getLineEndChange(int lineEndFormat) const,23,22,11,6,1,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::convertLineEnds(ostringstream &out, int lineEnd)",80,76,46,6,0,14,4,50
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::correctMixedLineEnds(ostringstream &out),9,9,6,3,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::detectEncoding(const char* data, size_t dataSize) const",13,11,7,2,2,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::error() const,3,3,3,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::error(const char* why, const char* what) const",3,3,3,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::formatCinToCout(),43,33,23,4,1,0,9,84
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::formatFile(const string &fileName_),94,78,49,13,7,3,9,82
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::getArgvOptions(int argc, char** argv) const",7,7,5,2,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getExcludeHitsVector() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getExcludeVector() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getFileName() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getFileNameVector() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getFileOptionsVector() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getFilesAreIdentical() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getFilesFormatted() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getIgnoreExcludeErrors() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getIgnoreExcludeErrorsDisplay() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getIsDryRun() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getIsFormattedOnly() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getLanguageID() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getIsQuiet() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getIsRecursive() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getIsVerbose() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getLineEndsMixed() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getNoBackup() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getOptionsFileName() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getOptionsVector() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getOrigSuffix() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getPreserveDate() const,1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::setBypassBrowserOpen(bool state),1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::getParam(const string &arg, const char* op)",2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::initializeOutputEOL(LineEndFormat lineEndFormat),18,16,9,4,2,3,0,13
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::readFile(const string &fileName_, stringstream &in) const",42,41,30,9,0,1,1,6
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::setIgnoreExcludeErrors(bool state),1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::setIgnoreExcludeErrorsAndDisplay(bool state),1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::setIsFormattedOnly(bool state),1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::setIsQuiet(bool state),1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::setIsRecursive(bool state),1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::setIsDryRun(bool state),1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::setIsVerbose(bool state),1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::setNoBackup(bool state),1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::setOptionsFileName(string name),1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::setOrigSuffix(string suffix),1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::setPreserveDate(bool state),1,1,1,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::setOutputEOL(LineEndFormat lineEndFormat, const char* currentEOL)",19,19,11,4,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::displayLastError(),15,13,6,0,0,1,2,8
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getCurrentDirectory(const string &fileName_) const,6,6,5,2,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::getFileNames(const string &directory, const string &wildcard)",68,45,27,12,8,2,15,105
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::getNumberFormat(int num, size_t lcid) const",38,30,22,10,1,0,7,57
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::launchDefaultBrowser(const char* filePathIn ) const,52,47,32,11,3,0,2,11
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getCurrentDirectory(const string &fileName_) const,5,5,4,2,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::getFileNames(const string &directory, const string &wildcard)",79,58,34,14,9,4,12,100
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::getNumberFormat(int num, size_t) const",15,7,5,1,2,0,6,49
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::getNumberFormat(int num, const char* groupingArg, const char* separator) const",35,29,20,8,0,1,6,28
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::launchDefaultBrowser(const char* filePathIn ) const,62,53,34,11,3,0,6,29
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::getFilePaths(string &filePath),106,84,48,18,11,2,11,93
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::fileNameVectorIsEmpty() const,2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::isOption(const string &arg, const char* op)",2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::isOption(const string &arg, const char* a, const char* b)",2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::isParamOption(const string &arg, const char* option)",7,6,4,3,0,0,1,12
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::isPathExclued(const string &subPath),38,30,18,10,4,0,4,33
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::printHelp() const,424,424,424,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::processFiles(),19,12,7,4,4,1,3,25
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::processOptions(vector<string> &argvOptions),124,115,64,21,5,2,4,34
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::removeFile(const char* fileName_, const char* errMsg) const",11,11,6,3,0,1,0,4
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::renameFile(const char* oldFileName, const char* newFileName, const char* errMsg) const",17,16,10,3,0,0,1,11
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::standardizePath(string &path, bool removeBeginningSeparator ) const",58,52,35,7,2,1,4,30
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::printMsg(const char* msg, const string &data) const",4,4,3,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::printSeparatingLine() const,5,5,4,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::printVerboseHeader() const,16,13,11,2,0,0,3,9
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::printVerboseStats(clock_t startTime) const,34,30,21,4,2,0,2,14
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::sleep(int seconds) const,4,4,4,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::stringEndsWith(const string &str, const string &suffix) const",16,13,9,6,2,0,1,4
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::updateExcludeVector(string suffixParam),4,4,4,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASConsole::waitForRemove(const char* newFileName) const,12,11,8,4,0,0,1,9
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::wildcmp(const char* wild, const char* data) const",55,50,28,12,5,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASConsole::writeFile(const string &fileName_, FileEncoding encoding, ostringstream &out) const",56,44,29,8,4,0,8,50
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASLibrary::formatUtf16(const utf16_t* pSourceIn, const utf16_t* pOptions, fpError fpErrorHandler, fpAlloc fpMemoryAlloc) const",38,33,23,9,0,0,5,30
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASLibrary::tempMemoryAllocation(unsigned long memoryNeeded),3,3,3,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASLibrary::convertUtf8ToUtf16(const char* utf8In, fpAlloc fpMemoryAlloc) const",19,18,13,5,0,0,1,9
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASLibrary::convertUtf16ToUtf8(const utf16_t* utf16In) const,19,18,13,5,0,0,1,5
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASOptions::parseOptions(vector<string> &optionsVector, const string &errorInfo)",41,35,21,9,3,0,3,16
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASOptions::parseOption(const string &arg, const string &errorInfo)",582,555,285,27,0,2,27,90
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASOptions::importOptions(istream &in, vector<string> &optionsVector)",45,39,24,16,3,0,3,17
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,ASOptions::getOptionErrors() const,2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASOptions::getParam(const string &arg, const char* op)",2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASOptions::getParam(const string &arg, const char* op1, const char* op2)",2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASOptions::isOption(const string &arg, const char* op)",2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASOptions::isOption(const string &arg, const char* op1, const char* op2)",2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASOptions::isOptionError(const string &arg, const string &errorInfo)",4,4,3,1,0,1,0,4
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASOptions::isParamOption(const string &arg, const char* option)",7,6,4,3,0,0,1,12
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"ASOptions::isParamOption(const string &arg, const char* option1, const char* option2)",2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,Utf8_16::getBigEndian() const,4,4,4,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,Utf8_16::swap16bit(int value) const,2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,Utf8_16::utf16len(const utf16* utf16In) const,5,5,4,2,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"Utf8_16::Utf8LengthFromUtf16(const char* utf16In, size_t inLen, bool isBigEndian) const",21,21,14,3,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"Utf8_16::Utf8ToUtf16(char* utf8In, size_t inLen, bool isBigEndian, char* utf16Out) const",67,63,42,10,2,0,2,18
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"Utf8_16::Utf16LengthFromUtf8(const char* utf8In, size_t len) const",22,21,14,3,0,0,1,9
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"Utf8_16::Utf16ToUtf8(char* utf16In, size_t inLen, bool isBigEndian, bool firstBlock, char* utf8Out) const",87,84,55,14,2,1,1,14
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"Java_AStyleInterface_AStyleGetVersion(JNIEnv* env, jclass)",2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"Java_AStyleInterface_AStyleMain(JNIEnv* env, jobject obj, jstring textInJava, jstring optionsJava)",32,21,18,5,6,3,5,41
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"javaErrorHandler(int errorNumber, const char* errorMessage)",3,3,3,0,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,javaMemoryAlloc(unsigned long memoryNeeded),4,3,3,1,0,0,1,8
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"AStyleMainUtf16(const utf16_t* pSourceIn, const utf16_t* pOptions, fpError fpErrorHandler, fpAlloc fpMemoryAlloc)",32,29,18,11,2,1,1,14
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"AStyleMain(const char* pSourceIn, const char* pOptions, fpError fpErrorHandler, fpAlloc fpMemoryAlloc)",72,59,37,16,9,2,4,61
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,AStyleGetVersion(void),2,2,2,1,0,0,0,0
+F:\benchmark\AStyle_2.05.1_windows\AStyle\src\astyle_main.cpp,"main(int argc, char** argv)",23,14,12,3,4,0,5,34

@@ -1,0 +1,51 @@
+File,Function,LOC,SLOC-P,SLOC-L,MVG,BLOC,C&SLOC,CLOC,CWORD
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\App.cpp,"App::TryParseInt(const std::wstring & str, int & num)",3,3,3,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\App.cpp,"App::App(int argc, wchar_t * argv[])",3,3,3,0,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\App.cpp,"App::ConvertCommandLine(int argc, wchar_t * argv[])",6,4,3,1,0,0,2,22
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\App.cpp,App::EnumeratePackages(),3,3,3,0,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\App.cpp,App::PrintHelp(),41,30,30,0,11,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\App.cpp,App::ProcessCommandLine(),96,54,27,9,18,0,24,178
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\App.cpp,App::ExecuteCommandLineOption(),38,28,18,9,7,0,3,3
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\App.cpp,App::OnCommandListPackages(),12,10,7,1,1,0,1,8
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\App.cpp,App::OnCommandEnableDebugging(),14,11,5,1,3,1,0,3
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\App.cpp,App::OnCommandDisableDebugging(),10,7,5,1,3,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\App.cpp,App::OnCommandSuspend(),10,7,5,1,3,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\App.cpp,App::OnCommandResume(),10,7,5,1,3,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\App.cpp,App::OnCommandTerminate(),10,7,5,1,3,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\App.cpp,App::OnCmmmandSetSessionId(),11,8,6,2,3,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\App.cpp,App::Main(),24,15,11,2,5,0,4,25
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\HResult.cpp,HResult::ToHexString() const,5,5,5,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\HResult.cpp,HResult::ToErrorMessage() const,26,23,10,2,3,1,0,3
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\OSVersion.cpp,OSVersion::OSVersion(),9,8,7,1,1,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\PrintfString.cpp,"PrintfToString(const wchar_t * format, ...)",7,7,7,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\RegistryEnum.cpp,"RegistryKeyEnum::RegistryKeyEnum(HKEY parentKey, const std::wstring keyName)",9,8,5,1,1,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\RegistryEnum.cpp,RegistryKeyEnum::~RegistryKeyEnum(),3,3,2,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\RegistryEnum.cpp,RegistryKeyEnum::EnumerateSubkeys(),51,41,15,4,6,0,4,24
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\WRTPackageDebug.cpp,"wmain(int argc, wchar_t* argv[])",61,37,29,4,11,0,13,18
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\ComInit.h,ComInitializer::ComInitializer(),4,4,3,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\ComInit.h,ComInitializer::~ComInitializer(),2,2,2,0,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\Error.h,"Error::Error(HResult hr, const std::wstring & message)",1,1,1,0,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\Error.h,"Error::Error(HResult hr, const wchar_t * message)",1,1,1,0,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\Error.h,Error::~Error(),2,1,1,0,0,0,1,3
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\Error.h,Error::HRes() const,2,2,2,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\Error.h,Error::Message() const,2,2,2,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\HResult.h,HResult::HResult(),1,1,1,0,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\HResult.h,HResult::HResult(HRESULT hr),1,1,1,0,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\HResult.h,HResult::Get() const,2,2,2,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\HResult.h,HResult::Succeeded() const,2,2,2,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\HResult.h,HResult::Failed() const,2,2,2,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\HResult.h,HResult::FromWin32(DWORD errorCode),2,2,2,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\HResult.h,HResult::FromLastError(),3,3,3,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\HResult.h,"operator==(const HResult & hr1, const HResult & hr2)",2,2,2,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\HResult.h,"operator!=(const HResult & hr1, const HResult & hr2)",2,2,2,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\OSVersion.h,OSVersion::Major() const,2,2,2,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\OSVersion.h,OSVersion::Minor() const,2,2,2,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\OSVersion.h,OSVersion::IsMinimumWindows8() const,8,6,4,5,2,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\PkgDebugSettings.h,PackageDebugSettings::PackageDebugSettings(),9,9,3,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\PkgDebugSettings.h,PackageDebugSettings::~PackageDebugSettings(),3,3,2,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\PkgDebugSettings.h,"PackageDebugSettings::EnableDebugging(const std::wstring & packageFullName, const std::wstring & debuggerCommandLine)",5,5,3,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\PkgDebugSettings.h,PackageDebugSettings::DisableDebugging(const std::wstring & packageFullName),5,5,3,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\PkgDebugSettings.h,PackageDebugSettings::Suspend(const std::wstring & packageFullName),5,5,3,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\PkgDebugSettings.h,PackageDebugSettings::Resume(const std::wstring & packageFullName),5,5,3,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\PkgDebugSettings.h,PackageDebugSettings::TerminateAllProcesses(const std::wstring & packageFullName),5,5,3,1,0,0,0,0
+F:\papter datasets\WinRT Package Debug Tool\C++\WRTPackageDebug\PkgDebugSettings.h,PackageDebugSettings::SetTargetSessionId(unsigned long id),5,5,3,1,0,0,0,0

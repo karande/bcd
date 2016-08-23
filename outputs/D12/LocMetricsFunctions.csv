@@ -1,0 +1,808 @@
+File,Function,LOC,SLOC-P,SLOC-L,MVG,BLOC,C&SLOC,CLOC,CWORD
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,ThrowException(const char *errorMessage),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,ThrowUserErrorException(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,CArchiveCommand::IsFromExtractGroup() const,10,10,4,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,CArchiveCommand::GetPathMode() const,9,9,4,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,CArchiveCommand::IsFromUpdateGroup() const,4,4,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,GetRecursedTypeFromIndex(int index),10,10,5,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"ParseArchiveCommand(const UString &commandString, CArchiveCommand &command)",10,10,8,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"AddNameToCensor(NWildcard::CCensor &wildcardCensor, const UString &name, bool include, NRecursedType::EEnum type)",13,12,8,3,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"AddToCensorFromListFile(NWildcard::CCensor &wildcardCensor, LPCWSTR fileName, bool include, NRecursedType::EEnum type, UINT codePage)",8,8,5,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"AddToCensorFromNonSwitchesStrings( int startIndex, NWildcard::CCensor &wildcardCensor, const UStringVector &nonSwitchStrings, NRecursedType::EEnum type, bool thereAreSwitchIncludes, UINT codePage)",13,13,7,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"ParseMapWithPaths(NWildcard::CCensor &wildcardCensor, const UString &switchParam, bool include, NRecursedType::EEnum commonRecursedType)",57,53,35,9,4,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"AddSwitchWildCardsToCensor(NWildcard::CCensor &wildcardCensor, const UStringVector &strings, bool include, NRecursedType::EEnum commonRecursedType, UINT codePage)",32,32,18,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"ConvertToLongName(const UString &prefix, UString &name)",6,6,4,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"ConvertToLongNames(const UString &prefix, CObjectVector<NWildcard::CItem> &items)",8,8,5,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"ConvertToLongNames(const UString &prefix, NWildcard::CCensorNode &node)",28,27,17,5,0,0,1,5
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,ConvertToLongNames(NWildcard::CCensor &censor),6,6,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,GetUpdatePairActionType(int i),9,9,7,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"ParseUpdateCommandString2(const UString &command, NUpdateArchive::CActionSet &actionSet, UString &postString)",23,23,16,10,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"ParseUpdateCommandString(CUpdateOptions &options, const UStringVector &updatePostStrings, const NUpdateArchive::CActionSet &defaultActionSet)",38,37,21,8,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"ParseComplexSize(const UString &src, UInt64 &result)",37,36,25,13,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"SetAddCommandOptions( NCommandType::EEnum commandType, const CParser &parser, CUpdateOptions &options)",46,43,26,10,3,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"SetMethodOptions(const CParser &parser, CObjectVector<CProperty> &properties)",18,18,11,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,CArchiveCommandLineParser::CArchiveCommandLineParser(),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"CArchiveCommandLineParser::Parse1(const UStringVector &commandStrings, CArchiveCommandLineOptions &options)",27,25,16,2,2,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"FindCharset(const NCommandLineParser::CParser &parser, int keyIndex, int defaultVal)",16,15,10,7,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"ConvertStringToUInt32(const wchar_t *s, UInt32 &v)",9,9,7,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,"EnumerateDirItemsAndSort(NWildcard::CCensor &wildcardCensor, UStringVector &sortedPaths, UStringVector &sortedFullPaths)",41,38,27,6,3,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,CArchiveCommandLineParser::Parse2(CArchiveCommandLineOptions &options),189,154,83,33,35,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveExtractCallback.cpp,"CArchiveExtractCallback::Init( const NWildcard::CCensorNode *wildcardCensor, const CArc *arc, IFolderArchiveExtractCallback *extractCallback2, bool stdOutMode, bool testMode, bool crcMode, const FString &directoryPath, const UStringVector &removePathParts, UInt64 packSize)",21,16,16,0,5,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveExtractCallback.cpp,CArchiveExtractCallback::SetTotal(UInt64 size),7,7,4,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveExtractCallback.cpp,"NormalizeVals(UInt64 &v1, UInt64 &v2)",7,7,5,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveExtractCallback.cpp,"MyMultDiv64(UInt64 unpCur, UInt64 unpTotal, UInt64 packTotal)",6,6,5,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveExtractCallback.cpp,CArchiveExtractCallback::SetCompleted(const UInt64 *completeValue),15,14,7,6,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveExtractCallback.cpp,"CArchiveExtractCallback::SetRatioInfo(const UInt64 *inSize, const UInt64 *outSize)",4,4,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveExtractCallback.cpp,"CArchiveExtractCallback::CreateComplexDirectory(const UStringVector &dirPathParts, FString &fullPath)",9,9,6,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveExtractCallback.cpp,"CArchiveExtractCallback::GetTime(int index, PROPID propID, FILETIME &filetime, bool &filetimeIsDefined)",12,12,9,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveExtractCallback.cpp,CArchiveExtractCallback::GetUnpackSize(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveExtractCallback.cpp,"CArchiveExtractCallback::SendMessageError(const char *message, const FString &path)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveExtractCallback.cpp,"CArchiveExtractCallback::GetStream(UInt32 index, ISequentialOutStream **outStream, Int32 askExtractMode)",241,219,128,58,20,0,2,8
+F:\papter datasets\Development\stats\7zip\console\ArchiveExtractCallback.cpp,CArchiveExtractCallback::PrepareOperation(Int32 askExtractMode),15,15,8,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveExtractCallback.cpp,CArchiveExtractCallback::SetOperationResult(Int32 operationResult),45,44,23,10,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveExtractCallback.cpp,CArchiveExtractCallback::CryptoGetTextPassword(BSTR *password),9,9,4,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveOpenCallback.cpp,"COpenCallbackImp::SetTotal(const UInt64 *files, const UInt64 *bytes)",8,8,4,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveOpenCallback.cpp,"COpenCallbackImp::SetCompleted(const UInt64 *files, const UInt64 *bytes)",8,8,4,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveOpenCallback.cpp,"COpenCallbackImp::GetProperty(PROPID propID, PROPVARIANT *value)",22,22,14,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveOpenCallback.cpp,COpenCallbackImp::FindName(const UString &name),5,5,3,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveOpenCallback.cpp,"COpenCallbackImp::GetStream(const wchar_t *name, IInStream **inStream)",26,26,18,10,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ArchiveOpenCallback.cpp,COpenCallbackImp::CryptoGetTextPassword(BSTR *password),13,13,7,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"CBenchmarkInStream::Read(void *data, UInt32 size, UInt32 *processedSize)",13,13,9,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"CBenchmarkOutStream::Write(const void *data, UInt32 size, UInt32 *processedSize)",14,13,9,5,0,0,1,3
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"CCrcOutStream::Write(const void *data, UInt32 size, UInt32 *processedSize)",5,5,4,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,GetTimeCount(),18,13,6,5,0,0,5,7
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,GetFreq(),15,10,4,3,0,0,5,7
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,GetTime64(const FILETIME &t),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,GetWinUserTime(),11,11,4,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,GetUserFreq(),6,6,3,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,CBenchProgressInfo::SetStartTime(),6,6,6,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,CBenchProgressInfo::SetFinishTime(CBenchInfo &dest),4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"CBenchProgressInfo::SetRatioInfo(const UInt64 *inSize, const UInt64 *outSize)",23,23,16,7,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,GetLogSize(UInt32 size),6,6,3,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"NormalizeVals(UInt64 &v1, UInt64 &v2)",6,6,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,CBenchInfo::GetUsage() const,12,12,10,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,CBenchInfo::GetRatingPerUsage(UInt64 rating) const,12,12,10,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"MyMultDiv64(UInt64 value, UInt64 elapsedTime, UInt64 freq)",6,6,5,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,CBenchProps::SetLzmaCompexity(),4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"CBenchProps::GetCompressRating(UInt32 dictSize, UInt64 elapsedTime, UInt64 freq, UInt64 size)",11,11,8,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"CBenchProps::GetDecompressRating(UInt64 elapsedTime, UInt64 freq, UInt64 outSize, UInt64 inSize, UInt32 numIterations)",3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"GetCompressRating(UInt32 dictSize, UInt64 elapsedTime, UInt64 freq, UInt64 size)",4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"GetDecompressRating(UInt64 elapsedTime, UInt64 freq, UInt64 outSize, UInt64 inSize, UInt32 numIterations)",4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"CEncoderInfo::Init( const COneMethodInfo &method, UInt32 uncompressedDataSize, unsigned generateDictBits, CBaseRandomGenerator *rgLoc)",48,42,29,12,6,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,CEncoderInfo::Encode(),10,9,9,1,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,CEncoderInfo::Decode(UInt32 decoderIndex),50,44,31,9,6,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"MethodBench( DECL_EXTERNAL_CODECS_LOC_VARS bool oldLzmaBenchMode, UInt32 numThreads, const COneMethodInfo &method2, UInt32 uncompressedDataSize, unsigned generateDictBits, IBenchPrintCallback *printCallback, IBenchCallback *callback, CBenchProps *benchProps)",201,182,104,37,19,1,0,1
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"GetLZMAUsage(bool multiThread, UInt32 dictionary)",13,13,11,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"GetBenchMemoryUsage(UInt32 numThreads, UInt32 dictionary)",7,7,6,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"CrcBig(const void *data, UInt32 size, UInt32 numCycles, UInt32 crcBase)",5,5,3,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,CrcThreadFunction(void *param),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"CrcCalc1(const Byte *buf, UInt32 size)",5,5,4,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"RandGen(Byte *buf, UInt32 size, CBaseRandomGenerator &RG)",3,3,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"RandGenCrc(Byte *buf, UInt32 size, CBaseRandomGenerator &RG)",3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,CrcInternalTest(),21,21,15,10,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"CrcBench(UInt32 numThreads, UInt32 bufferSize, UInt64 &speed)",58,54,37,15,4,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"PrintNumber(IBenchPrintCallback &f, UInt64 value, int size, bool withSpace = true)",18,18,13,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"PrintRating(IBenchPrintCallback &f, UInt64 rating)",2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"PrintResults(IBenchPrintCallback &f, UInt64 usage, UInt64 rpu, UInt64 rating)",4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"PrintResults(IBenchPrintCallback &f, const CBenchInfo &info, UInt64 rating, CTotalBenchRes &res)",10,10,10,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"PrintTotals(IBenchPrintCallback &f, const CTotalBenchRes &res)",3,3,3,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"PrintRequirements(IBenchPrintCallback &f, const char *sizeString, UInt64 size, const char *threadsString, UInt32 numThreads)",8,8,8,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"CBenchCallbackToPrint::SetEncodeResult(const CBenchInfo &info, bool final)",8,8,6,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"CBenchCallbackToPrint::SetDecodeResult(const CBenchInfo &info, bool final)",13,13,11,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,CBenchCallbackToPrint::Print(const char *s),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,CBenchCallbackToPrint::NewLine(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"CBenchCallbackToPrint::PrintLeftAligned(const char *s, unsigned size)",5,5,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"TotalBench( DECL_EXTERNAL_CODECS_LOC_VARS UInt32 numThreads, UInt32 unpackSize, IBenchPrintCallback *printCallback, CBenchCallbackToPrint *callback)",26,25,17,3,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"String_to_PropVariant(const UString &s, NCOM::CPropVariant &prop)",9,9,6,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,"Bench( DECL_EXTERNAL_CODECS_LOC_VARS IBenchPrintCallback *printCallback, IBenchCallback *benchCallback, const CObjectVector<CProperty> props, UInt32 numIterations, bool multiDict)",219,200,129,41,19,0,0,0
+F:\papter datasets\Development\stats\7zip\console\BenchCon.cpp,CPrintBenchCallback::Print(const char *s),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\BenchCon.cpp,CPrintBenchCallback::NewLine(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\BenchCon.cpp,CPrintBenchCallback::CheckBreak(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\BenchCon.cpp,"BenchCon(DECL_EXTERNAL_CODECS_LOC_VARS const CObjectVector<CProperty> props, UInt32 numIterations, FILE *f)",6,6,5,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CommandLineParser.cpp,"SplitCommandLine(const UString &src, UString &dest1, UString &dest2)",19,19,13,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CommandLineParser.cpp,"SplitCommandLine(const UString &s, UStringVector &parts)",13,13,9,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CommandLineParser.cpp,IsItSwitchChar(wchar_t c),2,2,2,1,0,1,0,5
+F:\papter datasets\Development\stats\7zip\console\CommandLineParser.cpp,CParser::CParser(int numSwitches),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CommandLineParser.cpp,CParser::~CParser(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CommandLineParser.cpp,"CParser::ParseStrings(const CSwitchForm *switchForms, const UStringVector &commandStrings)",15,15,8,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CommandLineParser.cpp,"CParser::ParseString(const UString &s, const CSwitchForm *switchForms)",103,101,62,28,1,1,1,10
+F:\papter datasets\Development\stats\7zip\console\CommandLineParser.cpp,CParser::operator[](size_t index) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CommandLineParser.cpp,"ParseCommand(int numCommandForms, const CCommandForm *commandForms, const UString &commandString, UString &postString)",20,20,11,7,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ConsoleClose.cpp,HandlerRoutine(DWORD ctrlType),21,9,6,5,1,0,11,17
+F:\papter datasets\Development\stats\7zip\console\ConsoleClose.cpp,TestBreakSignal(),10,6,3,2,0,0,4,7
+F:\papter datasets\Development\stats\7zip\console\ConsoleClose.cpp,CheckCtrlBreak(),3,3,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ConsoleClose.cpp,CCtrlHandlerSetter::CCtrlHandlerSetter(),5,5,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ConsoleClose.cpp,CCtrlHandlerSetter::~CCtrlHandlerSetter(),5,5,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CopyCoder.cpp,CCopyCoder::~CCopyCoder(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CopyCoder.cpp,"CCopyCoder::Code(ISequentialInStream *inStream, ISequentialOutStream *outStream, const UInt64 * , const UInt64 *outSize, ICompressProgressInfo *progress)",29,28,16,11,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CopyCoder.cpp,CCopyCoder::GetInStreamProcessedSize(UInt64 *value),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CopyCoder.cpp,"CopyStream(ISequentialInStream *inStream, ISequentialOutStream *outStream, ICompressProgressInfo *progress)",3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CreateCoder.cpp,RegisterCodec(const CCodecInfo *codecInfo),3,3,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CreateCoder.cpp,"ReadNumberOfStreams(ICompressCodecsInfo *codecsInfo, UInt32 index, PROPID propID, UInt32 &res)",10,10,7,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CreateCoder.cpp,"ReadIsAssignedProp(ICompressCodecsInfo *codecsInfo, UInt32 index, PROPID propID, bool &res)",10,10,7,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CreateCoder.cpp,"LoadExternalCodecs(ICompressCodecsInfo *codecsInfo, CObjectVector<CCodecInfoEx> &externalCodecs)",33,26,20,5,3,1,4,14
+F:\papter datasets\Development\stats\7zip\console\CreateCoder.cpp,"FindMethod( #ifdef EXTERNAL_CODECS ICompressCodecsInfo * , const CObjectVector<CCodecInfoEx> *externalCodecs, #endif const UString &name, CMethodId &methodId, UInt32 &numInStreams, UInt32 &numOutStreams)",28,28,17,8,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CreateCoder.cpp,"FindMethod( #ifdef EXTERNAL_CODECS ICompressCodecsInfo * , const CObjectVector<CCodecInfoEx> *externalCodecs, #endif CMethodId methodId, UString &name)",24,24,13,8,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CreateCoder.cpp,"CreateCoder( DECL_EXTERNAL_CODECS_LOC_VARS CMethodId methodId, CMyComPtr<ICompressFilter> &filter, CMyComPtr<ICompressCoder> &coder, CMyComPtr<ICompressCoder2> &coder2, bool encode, bool onlyCoder)",91,89,48,27,2,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CreateCoder.cpp,"CreateCoder( DECL_EXTERNAL_CODECS_LOC_VARS CMethodId methodId, CMyComPtr<ICompressCoder> &coder, CMyComPtr<ICompressCoder2> &coder2, bool encode)",6,6,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CreateCoder.cpp,"CreateCoder( DECL_EXTERNAL_CODECS_LOC_VARS CMethodId methodId, CMyComPtr<ICompressCoder> &coder, bool encode)",7,7,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CreateCoder.cpp,"CreateFilter( DECL_EXTERNAL_CODECS_LOC_VARS CMethodId methodId, CMyComPtr<ICompressFilter> &filter, bool encode)",7,7,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\DefaultName.cpp,"GetDefaultName3(const UString &fileName, const UString &extension, const UString &addSubExtension)",18,17,10,9,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\DefaultName.cpp,"GetDefaultName2(const UString &fileName, const UString &extension, const UString &addSubExtension)",4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\DLL.cpp,CLibrary::Free(),7,7,5,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\DLL.cpp,"CLibrary::LoadEx(CFSTR path, DWORD flags)",14,14,7,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\DLL.cpp,CLibrary::Load(CFSTR path),14,14,7,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\DLL.cpp,MyGetModuleFileName(FString &path),28,28,18,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\DLL.cpp,GetModuleDirPrefix(),9,9,6,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\EnumDirItems.cpp,"AddDirFileInfo(int phyParent, int logParent, const NFind::CFileInfo &fi, CObjectVector<CDirItem> &dirItems)",11,11,11,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\EnumDirItems.cpp,"CDirItems::GetPrefixesPath(const CIntVector &parents, int index, const UString &name) const",19,19,16,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\EnumDirItems.cpp,CDirItems::GetPhyPath(int index) const,3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\EnumDirItems.cpp,CDirItems::GetLogPath(int index) const,3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\EnumDirItems.cpp,CDirItems::ReserveDown(),5,5,5,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\EnumDirItems.cpp,"CDirItems::AddPrefix(int phyParent, int logParent, const UString &prefix)",4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\EnumDirItems.cpp,CDirItems::DeleteLastPrefix(),4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\EnumDirItems.cpp,"CDirItems::EnumerateDirectory(int phyParent, int logParent, const FString &phyPrefix, FStringVector &errorPaths, CRecordVector<DWORD> &errorCodes)",22,22,15,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\EnumDirItems.cpp,"CDirItems::EnumerateDirItems2(const FString &phyPrefix, const UString &logPrefix, const FStringVector &filePaths, FStringVector &errorPaths, CRecordVector<DWORD> &errorCodes)",32,31,23,4,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\EnumDirItems.cpp,"EnumerateDirItems_Spec(const NWildcard::CCensorNode &curNode, int phyParent, int logParent, const FString &curFolderName, const FString &phyPrefix, const UStringVector &addArchivePrefix, CDirItems &dirItems, bool enterToSubFolders, IEnumDirItemCallback *callback, FStringVector &errorPaths, CRecordVector<DWORD> &errorCodes)",9,9,7,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\EnumDirItems.cpp,"EnumerateDirItems(const NWildcard::CCensorNode &curNode, int phyParent, int logParent, const FString &phyPrefix, const UStringVector &addArchivePrefix, CDirItems &dirItems, bool enterToSubFolders, IEnumDirItemCallback *callback, FStringVector &errorPaths, CRecordVector<DWORD> &errorCodes)",160,146,91,39,10,1,4,33
+F:\papter datasets\Development\stats\7zip\console\EnumDirItems.cpp,"EnumerateItems( const NWildcard::CCensor &censor, CDirItems &dirItems, IEnumDirItemCallback *callback, FStringVector &errorPaths, CRecordVector<DWORD> &errorCodes)",10,10,7,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Error.cpp,"MyFormatMessage(DWORD errorCode, UString &message)",22,22,10,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Error.cpp,MyFormatMessageW(DWORD errorCode),15,15,11,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Extract.cpp,"DecompressArchive( const CArc &arc, UInt64 packSize, const NWildcard::CCensorNode &wildcardCensor, const CExtractOptions &options, IExtractCallbackUI *callback, CArchiveExtractCallback *extractCallbackSpec, UString &errorMessage, UInt64 &stdInProcessed)",73,62,35,13,8,0,3,8
+F:\papter datasets\Development\stats\7zip\console\Extract.cpp,"DecompressArchives( CCodecs *codecs, const CIntVector &formatIndices, UStringVector &arcPaths, UStringVector &arcPathsFull, const NWildcard::CCensorNode &wildcardCensor, const CExtractOptions &options, IOpenCallbackUI *openCallback, IExtractCallbackUI *extractCallback, UString &errorMessage, CDecompressStat &stat)",152,139,87,27,13,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractCallbackConsole.cpp,CExtractCallbackConsole::SetTotal(UInt64),4,4,3,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractCallbackConsole.cpp,CExtractCallbackConsole::SetCompleted(const UInt64 *),4,4,3,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractCallbackConsole.cpp,"CExtractCallbackConsole::AskOverwrite( const wchar_t *existName, const FILETIME *, const UInt64 *, const wchar_t *newName, const FILETIME *, const UInt64 *, Int32 *answer)",18,16,13,2,2,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractCallbackConsole.cpp,"CExtractCallbackConsole::PrepareOperation(const wchar_t *name, bool , Int32 askExtractMode, const UInt64 *position)",11,11,9,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractCallbackConsole.cpp,CExtractCallbackConsole::MessageError(const wchar_t *message),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractCallbackConsole.cpp,"CExtractCallbackConsole::SetOperationResult(Int32 operationResult, bool encrypted)",28,28,17,7,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractCallbackConsole.cpp,CExtractCallbackConsole::SetPassword(const UString &password),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractCallbackConsole.cpp,CExtractCallbackConsole::CryptoGetTextPassword(BSTR *password),7,7,5,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractCallbackConsole.cpp,CExtractCallbackConsole::BeforeOpen(const wchar_t *name),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractCallbackConsole.cpp,"CExtractCallbackConsole::OpenResult(const wchar_t * , HRESULT result, bool encrypted)",22,22,12,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractCallbackConsole.cpp,CExtractCallbackConsole::ThereAreNoFiles(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractCallbackConsole.cpp,CExtractCallbackConsole::ExtractResult(HRESULT result),24,24,15,8,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractingFilePath.cpp,ReplaceIncorrectChars(const UString &s),17,17,10,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractingFilePath.cpp,"CheckTail(const UString &name, int len)",7,7,6,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractingFilePath.cpp,"CheckNameNum(const UString &name, const wchar_t *reservedName)",10,10,7,7,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractingFilePath.cpp,IsSupportedName(const UString &name),15,15,9,8,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractingFilePath.cpp,GetCorrectFileName(const UString &path),4,4,3,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractingFilePath.cpp,MakeCorrectPath(UStringVector &pathParts),16,16,8,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractingFilePath.cpp,MakePathNameFromParts(const UStringVector &parts),9,9,6,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractingFilePath.cpp,GetCorrectFsPath(const UString &path),7,7,4,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ExtractingFilePath.cpp,GetCorrectFullFsPath(const UString &path),14,14,8,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,MyGetWindowsDirectory(FString &path),19,19,13,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,MyGetSystemDirectory(FString &path),19,19,13,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,"SetDirTime(CFSTR fileName, const FILETIME *cTime, const FILETIME *aTime, const FILETIME *mTime)",27,26,13,6,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,"GetLongPaths(CFSTR s1, CFSTR s2, UString &d1, UString &d2)",9,9,6,7,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,"MySetFileAttributes(CFSTR fileName, DWORD fileAttributes)",19,19,8,8,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,MyRemoveDirectory(CFSTR path),19,19,8,8,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,"MyMoveFile(CFSTR existFileName, CFSTR newFileName)",19,19,8,8,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,MyCreateDirectory(CFSTR path),22,22,9,9,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,CreateComplexDirectory(CFSTR _aPathName),41,41,25,21,0,2,0,5
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,DeleteFileAlways(CFSTR name),21,21,9,10,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,"RemoveDirectorySubItems2(const FString pathPrefix, const NFind::CFileInfo &fileInfo)",4,4,3,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,RemoveDirectoryWithSubItems(const FString &path),12,12,8,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,"MyGetFullPathName(CFSTR fileName, FString &resFullPath)",3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,GetLastPart(CFSTR path),9,9,6,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,"AddTrailingDots(CFSTR oldPath, FString &newPath)",13,13,10,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,"MyGetFullPathName(CFSTR fileName, FString &resFullPath)",44,44,30,11,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,MySetCurrentDirectory(CFSTR path),11,11,5,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,MyGetCurrentDirectory(FString &path),20,20,14,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,"GetFullPathAndSplit(CFSTR path, FString &resDirPrefix, FString &resFileName)",11,11,8,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,"GetOnlyDirPrefix(CFSTR path, FString &resDirPrefix)",3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,MyGetTempPath(FString &path),20,20,14,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,"CreateTempFile(CFSTR prefix, bool addRandom, FString &path, NIO::COutFile *outFile)",50,50,31,15,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,"CTempFile::Create(CFSTR prefix, NIO::COutFile *outFile)",7,7,5,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,"CTempFile::CreateRandomInTempFolder(CFSTR namePrefix, NIO::COutFile *outFile)",10,10,7,7,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,CTempFile::Remove(),5,5,4,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,"CTempFile::MoveTo(CFSTR name, bool deleteDestBefore)",7,7,4,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,CTempDir::Create(CFSTR prefix),10,10,7,7,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,CTempDir::Remove(),5,5,4,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,CFileInfo::IsDots() const,6,6,4,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,"ConvertWIN32_FIND_DATA_To_FileInfo(const WIN32_FIND_DATAW &fd, CFileInfo &fi)",3,3,3,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,GetCurrentCodePage(),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,"ConvertWIN32_FIND_DATA_To_FileInfo(const WIN32_FIND_DATA &fd, CFileInfo &fi)",3,3,3,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,CFindFile::Close(),7,7,5,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,"CFindFile::FindFirst(CFSTR wildcard, CFileInfo &fi)",30,30,16,10,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,CFindFile::FindNext(CFileInfo &fi),18,18,10,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,CFileInfoBase::Clear(),6,6,6,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,CFileInfo::Find(CFSTR wildcard),57,57,34,16,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,DoesFileExist(CFSTR name),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,DoesDirExist(CFSTR name),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,DoesFileOrDirExist(CFSTR name),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,CEnumerator::NextAny(CFileInfo &fi),5,5,3,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,CEnumerator::Next(CFileInfo &fi),8,8,4,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,"CEnumerator::Next(CFileInfo &fi, bool &found)",8,8,6,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,CFindChangeNotification::Close(),7,7,5,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,"CFindChangeNotification::FindFirst(CFSTR pathName, bool watchSubtree, DWORD notifyFilter)",18,18,8,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,MyGetLogicalDriveStrings(CObjectVector<FString> &driveStrings),51,51,31,15,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,IsDeviceName(CFSTR n),21,20,10,14,0,0,1,8
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,"GetLongPathBase(CFSTR s, UString &res)",24,23,16,8,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,"GetLongPath(CFSTR path, UString &longPath)",4,4,3,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,CFileBase::~CFileBase(),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,"CFileBase::Create(CFSTR fileName, DWORD desiredAccess, DWORD shareMode, DWORD creationDisposition, DWORD flagsAndAttributes)",30,28,11,6,2,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,CFileBase::Close(),7,7,5,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,CFileBase::GetPosition(UInt64 &position) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,CFileBase::GetLength(UInt64 &length) const,16,15,9,6,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,"CFileBase::Seek(Int64 distanceToMove, DWORD moveMethod, UInt64 &newPosition) const",17,16,10,5,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,"CFileBase::Seek(UInt64 position, UInt64 &newPosition)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,CFileBase::SeekToBegin(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,CFileBase::SeekToEnd(UInt64 &newPosition),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,CInFile::GetDeviceLength(),26,23,12,5,2,0,1,1
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,"CInFile::Open(CFSTR fileName, DWORD shareMode, DWORD creationDisposition, DWORD flagsAndAttributes)",4,4,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,"CInFile::OpenShared(CFSTR fileName, bool shareForWrite)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,CInFile::Open(CFSTR fileName),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,"CInFile::Read1(void *data, UInt32 size, UInt32 &processedSize)",5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,"CInFile::ReadPart(void *data, UInt32 size, UInt32 &processedSize)",4,4,3,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,"CInFile::Read(void *data, UInt32 size, UInt32 &processedSize)",16,16,12,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,GetCreationDisposition(bool createAlways),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,"COutFile::Open(CFSTR fileName, DWORD shareMode, DWORD creationDisposition, DWORD flagsAndAttributes)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,"COutFile::Open(CFSTR fileName, DWORD creationDisposition)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,"COutFile::Create(CFSTR fileName, bool createAlways)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,"COutFile::SetTime(const FILETIME *cTime, const FILETIME *aTime, const FILETIME *mTime)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,COutFile::SetMTime(const FILETIME *mTime),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,"COutFile::WritePart(const void *data, UInt32 size, UInt32 &processedSize)",7,7,6,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,"COutFile::Write(const void *data, UInt32 size, UInt32 &processedSize)",16,16,12,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,COutFile::SetEndOfFile(),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,COutFile::SetLength(UInt64 length),7,7,5,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileName.cpp,NormalizeDirPathPrefix(FString &dirPath),5,5,3,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileName.cpp,NormalizeDirPathPrefix(UString &dirPath),5,5,3,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FilePathAutoRename.cpp,"MakeAutoName(const FString &name, const FString &extension, unsigned value, FString &path)",7,7,7,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FilePathAutoRename.cpp,AutoRenamePath(FString &fullProcessedPath),29,27,18,4,2,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileStreams.cpp,ConvertBoolToHRESULT(bool result),11,11,6,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileStreams.cpp,CInFileStream::CInFileStream(),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileStreams.cpp,CInFileStream::~CInFileStream(),4,4,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileStreams.cpp,"CInFileStream::Read(void *data, UInt32 size, UInt32 *processedSize)",115,105,60,40,10,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileStreams.cpp,"CStdInFileStream::Read(void *data, UInt32 size, UInt32 *processedSize)",5,5,4,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileStreams.cpp,"CStdInFileStream::Read(void *data, UInt32 size, UInt32 *processedSize)",31,27,16,11,4,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileStreams.cpp,"CInFileStream::Seek(Int64 offset, UInt32 seekOrigin, UInt64 *newPosition)",45,37,21,12,8,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileStreams.cpp,CInFileStream::GetSize(UInt64 *size),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileStreams.cpp,COutFileStream::Close(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileStreams.cpp,"COutFileStream::Write(const void *data, UInt32 size, UInt32 *processedSize)",23,19,12,7,4,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileStreams.cpp,"COutFileStream::Seek(Int64 offset, UInt32 seekOrigin, UInt64 *newPosition)",21,17,10,8,4,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileStreams.cpp,COutFileStream::SetSize(UInt64 newSize),12,12,8,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileStreams.cpp,"CStdOutFileStream::Write(const void *data, UInt32 size, UInt32 *processedSize)",5,5,4,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileStreams.cpp,"CStdOutFileStream::Write(const void *data, UInt32 size, UInt32 *processedSize)",39,33,20,11,4,0,2,16
+F:\papter datasets\Development\stats\7zip\console\FilterCoder.cpp,CFilterCoder::CFilterCoder(),4,4,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FilterCoder.cpp,CFilterCoder::~CFilterCoder(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FilterCoder.cpp,"CFilterCoder::WriteWithLimit(ISequentialOutStream *outStream, UInt32 size)",10,10,7,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FilterCoder.cpp,"CFilterCoder::Code(ISequentialInStream *inStream, ISequentialOutStream *outStream, const UInt64 * , const UInt64 *outSize, ICompressProgressInfo *progress)",41,35,23,11,5,0,1,8
+F:\papter datasets\Development\stats\7zip\console\FilterCoder.cpp,CFilterCoder::SetOutStream(ISequentialOutStream *outStream),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FilterCoder.cpp,CFilterCoder::ReleaseOutStream(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FilterCoder.cpp,"CFilterCoder::Write(const void *data, UInt32 size, UInt32 *processedSize)",31,31,21,11,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FilterCoder.cpp,CFilterCoder::Flush(),20,19,12,8,0,0,1,9
+F:\papter datasets\Development\stats\7zip\console\FilterCoder.cpp,CFilterCoder::SetInStream(ISequentialInStream *inStream),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FilterCoder.cpp,CFilterCoder::ReleaseInStream(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FilterCoder.cpp,"CFilterCoder::Read(void *data, UInt32 size, UInt32 *processedSize)",40,40,27,12,0,1,0,2
+F:\papter datasets\Development\stats\7zip\console\FilterCoder.cpp,"CFilterCoder::CryptoSetPassword(const Byte *data, UInt32 size)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FilterCoder.cpp,"CFilterCoder::SetCoderProperties(const PROPID *propIDs, const PROPVARIANT *properties, UInt32 numProperties)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FilterCoder.cpp,CFilterCoder::WriteCoderProperties(ISequentialOutStream *outStream),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FilterCoder.cpp,CFilterCoder::ResetInitVector(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FilterCoder.cpp,"CFilterCoder::SetDecoderProperties2(const Byte *data, UInt32 size)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\IntToString.cpp,"ConvertUInt64ToString(UInt64 value, char *s, UInt32 base)",19,19,14,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\IntToString.cpp,"ConvertUInt64ToString(UInt64 value, wchar_t *s)",13,13,10,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\IntToString.cpp,"ConvertUInt32ToString(UInt32 value, char *s)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\IntToString.cpp,"ConvertUInt32ToString(UInt32 value, wchar_t *s)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\IntToString.cpp,"ConvertInt64ToString(Int64 value, char *s)",7,7,5,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\IntToString.cpp,"ConvertInt64ToString(Int64 value, wchar_t *s)",7,7,5,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\IntToString.cpp,"ConvertUInt32ToHexWithZeros(UInt32 value, char *s)",8,8,6,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\List.cpp,"GetAttribString(DWORD wa, bool isDir, char *s)",7,7,7,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\List.cpp,PrintSpaces(int numSpaces),3,3,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\List.cpp,"PrintString(EAdjustment adjustment, int width, const UString &textString)",18,18,13,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\List.cpp,"CFieldPrinter::Init(const CFieldInfoInit *standardFieldTable, int numItems)",14,14,12,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\List.cpp,"GetPropName(PROPID propID, BSTR name)",12,12,8,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\List.cpp,CFieldPrinter::Init(IInArchive *archive),16,16,14,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\List.cpp,CFieldPrinter::PrintTitle(),8,8,5,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\List.cpp,CFieldPrinter::PrintTitleLines(),8,8,5,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\List.cpp,IsFileTimeZero(CONST FILETIME *lpFileTime),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\List.cpp,PrintTime(const NCOM::CPropVariant &prop),16,16,9,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\List.cpp,"CFieldPrinter::PrintItemInfo(const CArc &arc, UInt32 index, bool techMode)",71,61,36,10,2,0,8,16
+F:\papter datasets\Development\stats\7zip\console\List.cpp,"PrintNumberString(EAdjustment adjustment, int width, const UInt64 *value)",5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\List.cpp,"CFieldPrinter::PrintSummaryInfo(UInt64 numFiles, UInt64 numDirs, const UInt64 *size, const UInt64 *compressedSize)",28,28,21,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\List.cpp,"GetUInt64Value(IInArchive *archive, UInt32 index, PROPID propID, UInt64 &value)",8,8,6,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\List.cpp,"PrintPropPair(const wchar_t *name, const wchar_t *value)",2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\List.cpp,"ListArchives(CCodecs *codecs, const CIntVector &formatIndices, bool stdInMode, UStringVector &arcPaths, UStringVector &arcPathsFull, const NWildcard::CCensorNode &wildcardCensor, bool enableHeaders, bool techMode, #ifndef _NO_CRYPTO bool &passwordEnabled, UString &password, #endif UInt64 &numErrors)",229,208,137,42,21,1,0,5
+F:\papter datasets\Development\stats\7zip\console\ListFileUtils.cpp,RemoveQuote(UString &s),4,4,2,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ListFileUtils.cpp,"ReadNamesFromListFile(CFSTR fileName, UStringVector &resultStrings, UINT codePage)",54,52,32,18,2,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,"ReadPathFromRegistry(HKEY baseKey, LPCWSTR value, FString &path)",13,13,9,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,GetBaseFolderPrefixFromRegistry(),15,15,9,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,"GetCoderClass(GetMethodPropertyFunc getMethodProperty, UInt32 index, PROPID propId, CLSID &clsId, bool &isAssigned)",12,12,9,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,CCodecs::LoadCodecs(),25,21,16,5,4,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,"ReadProp( GetHandlerPropertyFunc getProp, GetHandlerPropertyFunc2 getProp2, UInt32 index, PROPID propID, NCOM::CPropVariant &prop)",4,4,3,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,"ReadBoolProp( GetHandlerPropertyFunc getProp, GetHandlerPropertyFunc2 getProp2, UInt32 index, PROPID propID, bool &res)",8,8,6,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,"ReadStringProp( GetHandlerPropertyFunc getProp, GetHandlerPropertyFunc2 getProp2, UInt32 index, PROPID propID, UString &res)",8,8,6,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,RegisterArc(const CArcInfo *arcInfo),3,3,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,"SplitString(const UString &srcString, UStringVector &destStrings)",22,22,13,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,CArcInfoEx::FindExtension(const UString &ext) const,5,5,3,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,"CArcInfoEx::AddExts(const wchar_t *ext, const wchar_t *addExt)",18,18,11,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,CCodecs::LoadFormats(),55,48,34,12,7,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,CCodecIcons::LoadIcons(HMODULE m),26,26,18,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,"CCodecIcons::FindIconIndex(const UString &ext, int &iconIndex) const",12,12,8,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,"CCodecs::LoadDll(const FString &dllPath, bool needCheckDll)",46,44,25,10,2,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,CCodecs::LoadDllsFromFolder(const FString &folderPrefix),10,10,7,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,"SetBuffer(CByteBuffer &bb, const Byte *data, int size)",3,3,3,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,CCodecs::Load(),32,30,20,2,2,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,CCodecs::FindFormatForArchiveName(const UString &arcPath) const,15,15,10,7,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,CCodecs::FindFormatForExtension(const UString &ext) const,7,7,4,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,CCodecs::FindFormatForArchiveType(const UString &arcType) const,5,5,3,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,"CCodecs::FindFormatForArchiveType(const UString &arcType, CIntVector &formatIndices) const",18,18,13,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,CCodecs::GetNumberOfMethods(UInt32 *numMethods),7,7,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,"CCodecs::GetProperty(UInt32 index, PROPID propID, PROPVARIANT *value)",27,25,14,7,2,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,"CCodecs::CreateDecoder(UInt32 index, const GUID *iid, void **coder)",13,13,5,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,"CCodecs::CreateEncoder(UInt32 index, const GUID *iid, void **coder)",13,13,5,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,"CCodecs::CreateCoder(const UString &name, bool encode, CMyComPtr<ICompressCoder> &coder) const",18,18,12,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,CCodecs::GetCodecLibIndex(UInt32 index),15,15,5,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,CCodecs::GetCodecEncoderIsAssigned(UInt32 index),21,21,8,7,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,"CCodecs::GetCodecId(UInt32 index, UInt64 &id)",8,8,7,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,CCodecs::GetCodecName(UInt32 index),7,7,5,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Main.cpp,"ShowMessageAndThrowException(CStdOutStream &s, LPCSTR message, NExitCode::EEnum code)",3,3,3,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Main.cpp,PrintHelpAndExit(CStdOutStream &s),3,3,3,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Main.cpp,"GetArguments(int numArgs, const char *args[], UStringVector &parts)",7,7,5,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Main.cpp,"ShowCopyrightAndHelp(CStdOutStream &s, bool needHelp)",5,4,3,1,0,0,1,9
+F:\papter datasets\Development\stats\7zip\console\Main.cpp,"PrintString(CStdOutStream &stdStream, const AString &s, int size)",5,5,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Main.cpp,"PrintString(CStdOutStream &stdStream, const UString &s, int size)",5,5,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Main.cpp,GetHex(Byte value),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Main.cpp,"Main2( #ifndef _WIN32 int numArgs, const char *args[] #endif )",408,373,217,59,31,0,4,9
+F:\papter datasets\Development\stats\7zip\console\MainAr.cpp,"main( #ifndef _WIN32 int numArgs, const char *args[] #endif )",84,75,43,15,2,0,7,18
+F:\papter datasets\Development\stats\7zip\console\MemoryLock.cpp,EnableLockMemoryPrivilege(bool enable),7,7,6,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,"StringToBool(const UString &s, bool &res)",12,12,8,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,"PROPVARIANT_to_bool(const PROPVARIANT &prop, bool &dest)",8,8,6,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,"ParseStringToUInt32(const UString &srcString, UInt32 &number)",11,11,9,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,"ParsePropToUInt32(const UString &name, const PROPVARIANT &prop, UInt32 &resValue)",21,17,11,11,1,0,3,3
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,"ParseMtProp(const UString &name, const PROPVARIANT &prop, UInt32 defaultNumThreads, UInt32 &numThreads)",21,21,13,8,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,"StringToDictSize(const UString &srcStringSpec, UInt32 &dicSize)",30,30,23,10,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,"PROPVARIANT_to_DictSize(const PROPVARIANT &prop, UInt32 &resValue)",12,12,8,7,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,"CProps::AddProp32(PROPID propid, UInt32 level)",6,6,6,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,CCoderProps::AddProp(const CProp &prop),6,6,5,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,"CProps::SetCoderProps(ICompressSetCoderProperties *scp, const UInt64 *dataSizeReduce) const",12,12,9,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,CMethodProps::FindProp(PROPID id) const,5,5,3,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,CMethodProps::GetLevel() const,8,8,6,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,FindPropIdExact(const UString &name),5,5,3,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,"ConvertProperty(const PROPVARIANT &srcProp, VARTYPE varType, NCOM::CPropVariant &destProp)",20,20,13,9,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,"SplitParams(const UString &srcString, UStringVector &subStrings)",18,18,12,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,"SplitParam(const UString &param, UString &name, UString &value)",17,17,12,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,IsLogSizeProp(PROPID propid),10,10,4,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,"CMethodProps::SetParam(const UString &name, const UString &value)",39,38,24,10,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,CMethodProps::ParseParamsFromString(const UString &srcString),11,11,9,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,"CMethodProps::ParseParamsFromPROPVARIANT(const UString &realName, const PROPVARIANT &value)",35,30,20,10,2,0,3,3
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,"COneMethodInfo::ParseMethodFromPROPVARIANT(const UString &realName, const PROPVARIANT &value)",15,14,10,7,0,0,1,1
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,MyStringGetNextCharPointer(const char *p),6,6,3,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,"FindCharPosInString(const char *s, char c)",9,9,5,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,"FindCharPosInString(const wchar_t *s, wchar_t c)",8,8,4,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,MyCharUpper(wchar_t c),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,MyStringUpper(wchar_t *s),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,MyStringLower(wchar_t *s),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,"MyStringGetPrevCharPointer(const char * , const char *p)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,"MyStringGetPrevCharPointer(const char *base, const char *p)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,MyStringUpper(char *s),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,MyStringLower(char *s),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,MyCharUpper(wchar_t c),15,15,12,7,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,MyCharLower(wchar_t c),15,15,12,7,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,MyStringUpper(wchar_t *s),10,10,8,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,MyStringLower(wchar_t *s),10,10,8,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,MyCharUpper(wchar_t c),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,MyStringUpper(wchar_t *s),6,6,4,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,"MyStringCompare(const char *s1, const char *s2)",9,9,7,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,"MyStringCompare(const wchar_t *s1, const wchar_t *s2)",9,9,7,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,"MyStringCompareNoCase(const wchar_t *s1, const wchar_t *s2)",14,14,10,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,"MyStringCompareNoCase(const char *s1, const char *s2)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,GetCurrentCodePage(),6,6,3,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,fs2fas(CFSTR s),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,fas2fs(const AString &s),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,fs2us(const FString &s),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,us2fs(const wchar_t *s),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyVector.cpp,CBaseRecordVector::~CBaseRecordVector(),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyVector.cpp,CBaseRecordVector::ClearAndFree(),6,6,6,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyVector.cpp,CBaseRecordVector::Clear(),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyVector.cpp,CBaseRecordVector::DeleteBack(),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyVector.cpp,CBaseRecordVector::DeleteFrom(int index),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyVector.cpp,CBaseRecordVector::ReserveOnePosition(),9,9,6,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyVector.cpp,CBaseRecordVector::Reserve(int newCapacity),21,20,14,5,0,0,1,4
+F:\papter datasets\Development\stats\7zip\console\MyVector.cpp,CBaseRecordVector::ReserveDown(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyVector.cpp,"CBaseRecordVector::MoveItems(int destIndex, int srcIndex)",4,4,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyVector.cpp,CBaseRecordVector::InsertOneItem(int index),4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyVector.cpp,"CBaseRecordVector::Delete(int index, int num)",7,7,5,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\NewHandler.cpp,operator new(size_t size),6,5,4,2,0,0,1,6
+F:\papter datasets\Development\stats\7zip\console\NewHandler.cpp,throw(),7,2,2,0,0,0,5,9
+F:\papter datasets\Development\stats\7zip\console\NewHandler.cpp,operator new(size_t size),16,16,11,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\NewHandler.cpp,operator delete(void *p),11,6,5,1,0,0,5,17
+F:\papter datasets\Development\stats\7zip\console\OpenArchive.cpp,"GetArchiveItemBoolProp(IInArchive *archive, UInt32 index, PROPID propID, bool &result)",9,9,7,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenArchive.cpp,"IsArchiveItemFolder(IInArchive *archive, UInt32 index, bool &result)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenArchive.cpp,"CArc::GetItemPath(UInt32 index, UString &result) const",25,25,16,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenArchive.cpp,"CArc::GetItemSize(UInt32 index, UInt64 &size, bool &defined) const",16,16,14,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenArchive.cpp,"CArc::GetItemMTime(UInt32 index, FILETIME &ft, bool &defined) const",18,18,13,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenArchive.cpp,"TestSignature(const Byte *p1, const Byte *p2, size_t size)",5,5,3,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenArchive.cpp,"CArc::OpenStream( CCodecs *codecs, int formatIndex, IInStream *stream, ISequentialInStream *seqStream, IArchiveOpenCallback *callback)",213,197,130,45,15,0,1,1
+F:\papter datasets\Development\stats\7zip\console\OpenArchive.cpp,"CArc::OpenStreamOrFile( CCodecs *codecs, int formatIndex, bool stdInMode, IInStream *stream, IArchiveOpenCallback *callback)",24,14,10,4,2,0,8,12
+F:\papter datasets\Development\stats\7zip\console\OpenArchive.cpp,CArchiveLink::Close(),7,7,5,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenArchive.cpp,CArchiveLink::Release(),3,3,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenArchive.cpp,"CArchiveLink::Open( CCodecs *codecs, const CIntVector &formatIndices, bool stdInMode, IInStream *stream, const UString &filePath, IArchiveOpenCallback *callback)",80,67,49,22,13,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenArchive.cpp,"SetCallback(const FString &filePath, IOpenCallbackUI *callbackUI, IArchiveOpenCallback *reOpenCallback, CMyComPtr<IArchiveOpenCallback> &callback)",9,8,8,0,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenArchive.cpp,"CArchiveLink::Open2(CCodecs *codecs, const CIntVector &formatIndices, bool stdInMode, IInStream *stream, const UString &filePath, IOpenCallbackUI *callbackUI)",23,21,16,3,2,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenArchive.cpp,"CArchiveLink::ReOpen(CCodecs *codecs, const UString &filePath, IArchiveOpenCallback *callback)",17,14,11,7,3,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenCallbackConsole.cpp,COpenCallbackConsole::Open_CheckBreak(),4,4,3,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenCallbackConsole.cpp,"COpenCallbackConsole::Open_SetTotal(const UInt64 *, const UInt64 *)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenCallbackConsole.cpp,"COpenCallbackConsole::Open_SetCompleted(const UInt64 *, const UInt64 *)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenCallbackConsole.cpp,COpenCallbackConsole::Open_CryptoGetTextPassword(BSTR *password),9,9,7,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenCallbackConsole.cpp,COpenCallbackConsole::Open_GetPasswordIfAny(UString &password),4,4,3,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenCallbackConsole.cpp,COpenCallbackConsole::Open_WasPasswordAsked(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OpenCallbackConsole.cpp,COpenCallbackConsole::Open_ClearPasswordWasAskedFlag(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\OutStreamWithCRC.cpp,"COutStreamWithCRC::Write(const void *data, UInt32 size, UInt32 *processedSize)",10,10,7,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PercentPrinter.cpp,"ClearPrev(char *p, unsigned num)",6,6,6,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PercentPrinter.cpp,CPercentPrinter::ClosePrint(),7,7,6,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PercentPrinter.cpp,CPercentPrinter::PrintString(const char *s),3,3,3,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PercentPrinter.cpp,CPercentPrinter::PrintString(const wchar_t *s),3,3,3,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PercentPrinter.cpp,CPercentPrinter::PrintNewLine(),3,3,3,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PercentPrinter.cpp,CPercentPrinter::RePrintRatio(),42,39,29,6,3,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PercentPrinter.cpp,CPercentPrinter::PrintRatio(),5,5,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ProgressUtils.cpp,CLocalProgress::CLocalProgress(),3,3,3,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ProgressUtils.cpp,"CLocalProgress::Init(IProgress *progress, bool inSizeIsMain)",5,5,5,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ProgressUtils.cpp,"CLocalProgress::SetRatioInfo(const UInt64 *inSize, const UInt64 *outSize)",15,15,10,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\ProgressUtils.cpp,CLocalProgress::SetCur(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropIDUtils.cpp,"ConvertUInt32ToHex(UInt32 value, wchar_t *s)",8,8,6,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropIDUtils.cpp,"ConvertPropertyToString(const PROPVARIANT &prop, PROPID propID, bool full)",68,66,41,23,2,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,CPropVariant::CPropVariant(const PROPVARIANT &varSrc),3,3,3,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,CPropVariant::CPropVariant(const CPropVariant &varSrc),3,3,3,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,CPropVariant::CPropVariant(BSTR bstrSrc),3,3,3,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,CPropVariant::CPropVariant(LPCOLESTR lpszSrc),3,3,3,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,CPropVariant::operator=(const CPropVariant &varSrc),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,CPropVariant::operator=(const PROPVARIANT &varSrc),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,CPropVariant::operator=(BSTR bstrSrc),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,CPropVariant::operator=(LPCOLESTR lpszSrc),12,10,8,2,0,0,2,6
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,CPropVariant::operator=(const char *s),18,16,11,3,0,0,2,6
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,CPropVariant::operator=(bool bSrc),8,8,6,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,MyPropVariantClear(PROPVARIANT *prop),24,24,6,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,CPropVariant::Clear(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,CPropVariant::Copy(const PROPVARIANT* pSrc),24,24,6,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,CPropVariant::Attach(PROPVARIANT *pSrc),7,7,6,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,CPropVariant::Detach(PROPVARIANT *pDest),7,7,6,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,CPropVariant::InternalClear(),8,8,6,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,CPropVariant::InternalCopy(const PROPVARIANT *pSrc),9,9,6,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,CPropVariant::Compare(const CPropVariant &a),22,19,15,4,0,1,3,14
+F:\papter datasets\Development\stats\7zip\console\PropVariantConversions.cpp,ConvertUInt64ToString(UInt64 value),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariantConversions.cpp,ConvertInt64ToString(Int64 value),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariantConversions.cpp,"UIntToStringSpec(char c, UInt32 value, char *s, int numPos)",19,19,14,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariantConversions.cpp,"ConvertFileTimeToString(const FILETIME &ft, char *s, bool includeTime, bool includeSeconds)",16,16,12,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariantConversions.cpp,"ConvertFileTimeToString(const FILETIME &ft, bool includeTime, bool includeSeconds)",4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\PropVariantConversions.cpp,ConvertPropVariantToString(const PROPVARIANT &prop),17,16,14,1,0,0,1,4
+F:\papter datasets\Development\stats\7zip\console\PropVariantConversions.cpp,ConvertPropVariantToUInt64(const PROPVARIANT &prop),9,9,7,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::Create(HKEY parentKey, LPCTSTR keyName, LPTSTR keyClass, DWORD options, REGSAM accessMask, LPSECURITY_ATTRIBUTES securityAttributes, LPDWORD disposition)",14,14,10,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::Open(HKEY parentKey, LPCTSTR keyName, REGSAM accessMask)",11,11,9,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,CKey::Close(),8,8,6,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,CKey::DeleteSubKey(LPCTSTR subKeyName),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,CKey::RecurseDeleteKey(LPCTSTR subKeyName),18,18,14,6,0,1,0,3
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,BoolToUINT32(bool value),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,UINT32ToBool(UInt32 value),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,CKey::DeleteValue(LPCTSTR name),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,CKey::DeleteValue(LPCWSTR name),5,5,4,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::SetValue(LPCTSTR name, UInt32 value)",4,4,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::SetValue(LPCTSTR name, bool value)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::SetValue(LPCTSTR name, LPCTSTR value)",5,5,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::SetValue(LPCWSTR name, LPCWSTR value)",8,8,5,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::SetValue(LPCTSTR name, const void *value, UInt32 size)",5,5,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"SetValue(HKEY parentKey, LPCTSTR keyName, LPCTSTR valueName, LPCTSTR value)",7,7,6,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::SetKeyValue(LPCTSTR keyName, LPCTSTR valueName, LPCTSTR value)",7,7,6,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::QueryValue(LPCTSTR name, UInt32 &value)",8,8,7,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::QueryValue(LPCTSTR name, bool &value)",5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::GetValue_IfOk(LPCTSTR name, UInt32 &value)",6,6,5,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::GetValue_IfOk(LPCTSTR name, bool &value)",6,6,5,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::QueryValue(LPCTSTR name, LPTSTR value, UInt32 &count)",6,6,6,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::QueryValue(LPCTSTR name, CSysString &value)",10,10,9,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::QueryValue(LPCWSTR name, LPWSTR value, UInt32 &count)",6,6,6,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::QueryValue(LPCWSTR name, UString &value)",21,20,15,4,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::QueryValue(LPCTSTR name, void *value, UInt32 &count)",5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::QueryValue(LPCTSTR name, CByteBuffer &value, UInt32 &dataSize)",8,8,7,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,CKey::EnumKeys(CSysStringVector &keyNames),18,18,13,6,0,1,0,3
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::SetValue_Strings(LPCTSTR valueName, const UStringVector &strings)",15,15,12,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,"CKey::GetValue_Strings(LPCTSTR valueName, UStringVector &strings)",24,24,17,7,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\SetProperties.cpp,"ParseNumberString(const UString &s, NCOM::CPropVariant &prop)",9,9,6,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\SetProperties.cpp,"SetProperties(IUnknown *unknown, const CObjectVector<CProperty> &properties)",49,47,30,11,2,0,0,0
+F:\papter datasets\Development\stats\7zip\console\SortUtils.cpp,"CompareStrings(const int *p1, const int *p2, void *param)",3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\SortUtils.cpp,"SortFileNames(const UStringVector &strings, CIntVector &indices)",7,7,6,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdInStream.cpp,CStdInStream::Open(LPCTSTR fileName),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdInStream.cpp,CStdInStream::Close(),5,5,4,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdInStream.cpp,CStdInStream::~CStdInStream(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdInStream.cpp,CStdInStream::ScanStringUntilNewLine(bool allowEOF),19,19,12,8,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdInStream.cpp,CStdInStream::ScanUStringUntilNewLine(),11,11,8,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdInStream.cpp,CStdInStream::ReadToString(AString &resultString),5,5,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdInStream.cpp,CStdInStream::Eof(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdInStream.cpp,CStdInStream::GetChar(),5,5,4,2,0,1,0,5
+F:\papter datasets\Development\stats\7zip\console\StdOutStream.cpp,CStdOutStream::Open(const char *fileName),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdOutStream.cpp,CStdOutStream::Close(),8,8,6,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdOutStream.cpp,CStdOutStream::Flush(),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdOutStream.cpp,CStdOutStream::~CStdOutStream(),2,2,2,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdOutStream.cpp,CStdOutStream::operator<<(CStdOutStream & (*aFunction)(CStdOutStream &)),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdOutStream.cpp,endl(CStdOutStream & outStream),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdOutStream.cpp,CStdOutStream::operator<<(const char *s),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdOutStream.cpp,CStdOutStream::operator<<(const wchar_t *s),11,11,8,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdOutStream.cpp,CStdOutStream::operator<<(char c),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdOutStream.cpp,CStdOutStream::operator<<(int number),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StdOutStream.cpp,CStdOutStream::operator<<(UInt64 number),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StreamUtils.cpp,"ReadStream(ISequentialInStream *stream, void *data, size_t *processedSize)",16,16,13,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StreamUtils.cpp,"ReadStream_FALSE(ISequentialInStream *stream, void *data, size_t size)",4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StreamUtils.cpp,"ReadStream_FAIL(ISequentialInStream *stream, void *data, size_t size)",4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StreamUtils.cpp,"WriteStream(ISequentialOutStream *stream, const void *data, size_t size)",13,13,10,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.cpp,"MultiByteToUnicodeString(const AString &srcString, UINT codePage)",12,12,7,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.cpp,"UnicodeStringToMultiByte(const UString &s, UINT codePage, char defaultChar, bool &defaultCharWasUsed)",16,16,11,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.cpp,"UnicodeStringToMultiByte(const UString &srcString, UINT codePage)",3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.cpp,SystemStringToOemString(const CSysString &srcString),5,5,5,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.cpp,"MultiByteToUnicodeString(const AString &srcString, UINT codePage)",13,5,4,2,0,0,8,25
+F:\papter datasets\Development\stats\7zip\console\StringConvert.cpp,"UnicodeStringToMultiByte(const UString &srcString, UINT codePage)",14,5,4,2,0,0,9,31
+F:\papter datasets\Development\stats\7zip\console\StringToInt.cpp,"ConvertStringToUInt64(const char *s, const char **end)",15,15,10,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringToInt.cpp,"ConvertOctStringToUInt64(const char *s, const char **end)",15,15,10,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringToInt.cpp,"ConvertHexStringToUInt64(const char *s, const char **end)",19,19,14,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringToInt.cpp,"ConvertStringToUInt64(const wchar_t *s, const wchar_t **end)",15,15,10,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringToInt.cpp,"ConvertStringToInt64(const char *s, const char **end)",4,4,3,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringToInt.cpp,"ConvertStringToInt64(const wchar_t *s, const wchar_t **end)",4,4,3,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\System.cpp,GetNumberOfProcessors(),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\System.cpp,GetRamSize(),23,23,12,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\TempFiles.cpp,CTempFiles::Clear(),6,6,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Time.cpp,"DosTimeToFileTime(UInt32 dosTime, FILETIME &ft)",15,15,10,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Time.cpp,"FileTimeToDosTime(const FILETIME &ft, UInt32 &dosTime)",71,61,48,14,10,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Time.cpp,"UnixTimeToFileTime(UInt32 unixTime, FILETIME &ft)",4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Time.cpp,"UnixTime64ToFileTime(Int64 unixTime, FILETIME &ft)",22,22,14,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Time.cpp,FileTimeToUnixTime64(const FILETIME &ft),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Time.cpp,"FileTimeToUnixTime(const FILETIME &ft, UInt32 &unixTime)",16,16,12,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Time.cpp,"GetSecondsSince1601(unsigned year, unsigned month, unsigned day, unsigned hour, unsigned min, unsigned sec, UInt64 &resSeconds)",16,16,13,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Time.cpp,GetCurUtcFileTime(FILETIME &ft),4,4,4,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Update.cpp,COutMultiVolStream::Close(),13,13,8,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Update.cpp,"COutMultiVolStream::Write(const void *data, UInt32 size, UInt32 *processedSize)",75,67,48,17,5,0,3,6
+F:\papter datasets\Development\stats\7zip\console\Update.cpp,"COutMultiVolStream::Seek(Int64 offset, UInt32 seekOrigin, UInt64 *newPosition)",20,20,13,8,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Update.cpp,COutMultiVolStream::SetSize(UInt64 newSize),28,28,20,7,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Update.cpp,"CUpdateOptions::Init(const CCodecs *codecs, const CIntVector &formatIndices, const UString &arcPath)",35,34,23,12,0,0,1,12
+F:\papter datasets\Development\stats\7zip\console\Update.cpp,"Compress( CCodecs *codecs, const CActionSet &actionSet, IInArchive *archive, const CCompressionMethodMode &compressionMethod, CArchivePath &archivePath, const CObjectVector<CArcItem> &arcItems, bool shareForWrite, bool stdInMode, bool stdOutMode, const CDirItems &dirItems, bool sfxMode, const FString &sfxModule, const CRecordVector<UInt64> &volumesSizes, CTempFiles &tempFiles, CUpdateErrorInfo &errorInfo, IUpdateCallbackUI *callback)",191,165,108,35,19,2,7,26
+F:\papter datasets\Development\stats\7zip\console\Update.cpp,"EnumerateInArchiveItems(const NWildcard::CCensor &censor, const CArc &arc, CObjectVector<CArcItem> &arcItems)",38,35,24,6,3,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Update.cpp,"UpdateWithItemLists( CCodecs *codecs, CUpdateOptions &options, IInArchive *archive, const CObjectVector<CArcItem> &arcItems, CDirItems &dirItems, CTempFiles &tempFiles, CUpdateErrorInfo &errorInfo, IUpdateCallbackUI2 *callback)",33,30,10,3,2,0,1,2
+F:\papter datasets\Development\stats\7zip\console\Update.cpp,"UpdateArchive( CCodecs *codecs, const NWildcard::CCensor &censor, CUpdateOptions &options, CUpdateErrorInfo &errorInfo, IOpenCallbackUI *openCallback, IUpdateCallbackUI2 *callback)",272,244,154,57,19,0,9,32
+F:\papter datasets\Development\stats\7zip\console\UpdateCallback.cpp,CArchiveUpdateCallback::CArchiveUpdateCallback(),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallback.cpp,CArchiveUpdateCallback::SetTotal(UInt64 size),4,4,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallback.cpp,CArchiveUpdateCallback::SetCompleted(const UInt64 *completeValue),4,4,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallback.cpp,"CArchiveUpdateCallback::SetRatioInfo(const UInt64 *inSize, const UInt64 *outSize)",4,4,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallback.cpp,"CArchiveUpdateCallback::GetUpdateItemInfo(UInt32 index, Int32 *newData, Int32 *newProps, UInt32 *indexInArchive)",14,14,9,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallback.cpp,"CArchiveUpdateCallback::GetProperty(UInt32 index, PROPID propID, PROPVARIANT *value)",82,79,45,20,3,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallback.cpp,"CArchiveUpdateCallback::GetStream(UInt32 index, ISequentialInStream **inStream)",38,34,22,10,4,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallback.cpp,CArchiveUpdateCallback::SetOperationResult(Int32 operationResult),4,4,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallback.cpp,"CArchiveUpdateCallback::GetVolumeSize(UInt32 index, UInt64 *size)",7,7,5,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallback.cpp,"CArchiveUpdateCallback::GetVolumeStream(UInt32 index, ISequentialOutStream **volumeStream)",18,18,14,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallback.cpp,"CArchiveUpdateCallback::CryptoGetTextPassword2(Int32 *passwordIsDefined, BSTR *password)",4,4,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallback.cpp,CArchiveUpdateCallback::CryptoGetTextPassword(BSTR *password),4,4,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,"CUpdateCallbackConsole::OpenResult(const wchar_t *name, HRESULT result)",5,5,4,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,CUpdateCallbackConsole::StartScanning(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,"CUpdateCallbackConsole::ScanProgress(UInt64 , UInt64 , const wchar_t * )",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,"CUpdateCallbackConsole::CanNotFindError(const wchar_t *name, DWORD systemError)",15,14,12,2,0,0,1,1
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,CUpdateCallbackConsole::FinishScanning(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,"CUpdateCallbackConsole::StartArchive(const wchar_t *name, bool updating)",11,11,7,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,CUpdateCallbackConsole::FinishArchive(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,CUpdateCallbackConsole::CheckBreak(),4,4,3,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,CUpdateCallbackConsole::Finilize(),16,16,9,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,CUpdateCallbackConsole::SetNumFiles(UInt64 ),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,CUpdateCallbackConsole::SetTotal(UInt64 size),5,5,3,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,CUpdateCallbackConsole::SetCompleted(const UInt64 *completeValue),14,14,8,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,"CUpdateCallbackConsole::SetRatioInfo(const UInt64 * , const UInt64 * )",4,4,3,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,"CUpdateCallbackConsole::GetStream(const wchar_t *name, bool isAnti)",14,14,8,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,"CUpdateCallbackConsole::OpenFileError(const wchar_t *name, DWORD systemError)",13,11,9,1,0,0,2,6
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,CUpdateCallbackConsole::SetOperationResult(Int32 ),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,"CUpdateCallbackConsole::CryptoGetTextPassword2(Int32 *passwordIsDefined, BSTR *password)",22,17,10,4,5,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,CUpdateCallbackConsole::CryptoGetTextPassword(BSTR *password),19,14,8,3,5,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdatePair.cpp,"MyCompareTime(NFileTimeType::EEnum fileTimeType, const FILETIME &time1, const FILETIME &time2)",21,21,14,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdatePair.cpp,"ThrowError(const UString &message, const UString &s1, const UString &s2)",7,7,7,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdatePair.cpp,"TestDuplicateString(const UStringVector &strings, const CIntVector &indices)",4,4,2,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdatePair.cpp,"GetUpdatePairInfoList( const CDirItems &dirItems, const CObjectVector<CArcItem> &arcItems, NFileTimeType::EEnum fileTimeType, CRecordVector<CUpdatePair> &updatePairs)",91,83,55,8,8,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UpdateProduce.cpp,"UpdateProduce( const CRecordVector<CUpdatePair> &updatePairs, const CActionSet &actionSet, CRecordVector<CUpdatePair2> &operationChain, IUpdateProduceCallback *callback)",42,32,20,8,5,0,5,10
+F:\papter datasets\Development\stats\7zip\console\UserInputUtils.cpp,ScanUserYesNoAllQuit(CStdOutStream *outStream),30,30,14,9,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UserInputUtils.cpp,GetPassword(CStdOutStream *outStream),24,23,13,5,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UTFConvert.cpp,"Utf8_To_Utf16(wchar_t *dest, size_t *destLen, const char *src, size_t srcLen)",61,58,36,21,3,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UTFConvert.cpp,"Utf16_To_Utf8(char *dest, size_t *destLen, const wchar_t *src, size_t srcLen)",46,46,29,17,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UTFConvert.cpp,"ConvertUTF8ToUnicode(const AString &src, UString &dest)",9,9,9,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\UTFConvert.cpp,"ConvertUnicodeToUTF8(const UString &src, AString &dest)",9,9,9,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,IsCharDirLimiter(wchar_t c),6,6,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,"CompareFileNames(const UString &s1, const UString &s2)",4,4,3,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,"EnhancedMaskTest(const wchar_t *mask, const wchar_t *name)",28,28,14,13,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,"SplitPathToParts(const UString &path, UStringVector &pathParts)",18,18,12,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,"SplitPathToParts(const UString &path, UString &dirPrefix, UString &name)",7,7,5,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,ExtractDirPrefixFromPath(const UString &path),6,6,4,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,ExtractFileNameFromPath(const UString &path),6,6,4,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,"CompareWildCardWithName(const UString &mask, const UString &name)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,DoesNameContainWildCard(const UString &path),2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,"CItem::CheckPath(const UStringVector &pathParts, bool isFile) const",33,33,18,19,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,CCensorNode::FindSubNode(const UString &name) const,5,5,3,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,"CCensorNode::AddItemSimple(bool include, CItem &item)",5,5,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,"CCensorNode::AddItem(bool include, CItem &item)",17,17,12,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,"CCensorNode::AddItem(bool include, const UString &path, bool recursive, bool forFile, bool forDir)",7,7,7,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,CCensorNode::NeedCheckSubDirs() const,8,8,5,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,CCensorNode::AreThereIncludeItems() const,7,7,4,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,"CCensorNode::CheckPathCurrent(bool include, const UStringVector &pathParts, bool isFile) const",6,6,4,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,"CCensorNode::CheckPath(UStringVector &pathParts, bool isFile, bool &include) const",19,19,13,8,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,"CCensorNode::CheckPath(const UString &path, bool isFile, bool &include) const",4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,"CCensorNode::CheckPath(const UString &path, bool isFile) const",5,5,4,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,"CCensorNode::CheckPathToRoot(bool include, UStringVector &pathParts, bool isFile) const",7,7,5,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,"CCensorNode::AddItem2(bool include, const UString &path, bool recursive)",12,12,9,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,CCensorNode::ExtendExclude(const CCensorNode &fromNodes),10,10,7,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,CCensor::FindPrefix(const UString &prefix) const,5,5,3,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,"CCensor::AddItem(bool include, const UString &path, bool recursive)",55,54,36,12,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,"CCensor::CheckPath(const UString &path, bool isFile) const",13,13,8,5,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,CCensor::ExtendExclude(),11,11,6,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Buffer.h,"operator==(const CBuffer<T>& b1, const CBuffer<T>& b2)",7,7,4,6,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Buffer.h,"operator!=(const CBuffer<T>& b1, const CBuffer<T>& b2)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CpuArch.h,"SetUi16(p, d)",2,2,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CpuArch.h,"SetUi32(p, d)",4,4,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CpuArch.h,"SetUi64(p, d)",2,2,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CreateCoder.h,x::SetCompressCodecsInfo(ICompressCodecsInfo *compressCodecsInfo),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Defs.h,"MyMin(T a, T b)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Defs.h,"MyMax(T a, T b)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Defs.h,"MyCompare(T a, T b)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Defs.h,BoolToInt(bool value),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Defs.h,IntToBool(int value),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.h,IsReadOnly(DWORD attrib),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.h,IsHidden(DWORD attrib),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.h,IsSystem(DWORD attrib),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.h,IsDir(DWORD attrib),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.h,IsArchived(DWORD attrib),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.h,IsCompressed(DWORD attrib),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\FileFind.h,IsEncrypted(DWORD attrib),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\IFileExtractCallback.h,"DECL_INTERFACE_SUB(IFolderArchiveExtractCallback, IProgress, 0x01, 0x07)",9,9,5,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyCom.h,RINOK(x),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyCom.h,"StringToBstr(LPCOLESTR src, BSTR *bstr)",3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyCom.h,"\(REFGUID iid, void **outObject)",12,8,3,0,4,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyCom.h,"STDMETHOD_(ULONG, AddRef)()",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyCom.h,"STDMETHOD_(ULONG, Release)()",1,1,1,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,MyStringLen(const T *s),4,4,4,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,"MyStringCopy(T *dest, const T *src)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,MyStringGetNextCharPointer(wchar_t *p),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,MyStringGetNextCharPointer(const wchar_t *p),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,"MyStringGetPrevCharPointer(const wchar_t *, wchar_t *p)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,"MyStringGetPrevCharPointer(const wchar_t *, const wchar_t *p)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,"operator+(const CStringBase<T>& s1, const CStringBase<T>& s2)",4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,"operator+(const CStringBase<T>& s, T c)",4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,"operator+(T c, const CStringBase<T>& s)",4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,"operator+(const CStringBase<T>& s, const T * chars)",4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,"operator+(const T * chars, const CStringBase<T>& s)",4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,"operator==(const CStringBase<T>& s1, const CStringBase<T>& s2)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,"operator<(const CStringBase<T>& s1, const CStringBase<T>& s2)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,"operator==(const T *s1, const CStringBase<T>& s2)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,"operator==(const CStringBase<T>& s1, const T *s2)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,"operator!=(const CStringBase<T>& s1, const CStringBase<T>& s2)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,"operator!=(const T *s1, const CStringBase<T>& s2)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\MyString.h,"operator!=(const CStringBase<T>& s1, const T *s2)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\NtCheck.h,IsItWindowsNT(),4,4,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,GetUnicodeString(const wchar_t* unicodeString),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,GetUnicodeString(const UString &unicodeString),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,GetUnicodeString(const AString &ansiString),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,"GetUnicodeString(const AString &multiByteString, UINT codePage)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,"GetUnicodeString(const wchar_t* unicodeString, UINT)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,"GetUnicodeString(const UString &unicodeString, UINT)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,GetAnsiString(const char* ansiString),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,GetAnsiString(const AString &ansiString),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,GetAnsiString(const UString &unicodeString),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,GetOemString(const char* oemString),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,GetOemString(const AString &oemString),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,GetOemString(const UString &unicodeString),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,GetSystemString(const wchar_t* unicodeString),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,GetSystemString(const UString &unicodeString),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,"GetSystemString(const wchar_t* unicodeString, UINT )",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,"GetSystemString(const UString &unicodeString, UINT )",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,"GetSystemString(const AString &multiByteString, UINT codePage)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,GetSystemString(const AString &multiByteString),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,GetSystemString(const char *ansiString),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,"GetSystemString(const AString &multiByteString, UINT)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,"GetSystemString(const char *multiByteString, UINT)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,GetSystemString(const UString &unicodeString),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,"GetSystemString(const UString &unicodeString, UINT codePage)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\7zCrc.c,"CrcUpdate(UInt32 v, const void *data, size_t size)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\7zCrc.c,"CrcCalc(const void *data, size_t size)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\7zCrc.c,CrcGenerateTable(),43,39,20,6,4,0,0,0
+F:\papter datasets\Development\stats\7zip\console\7zCrcOpt.c,"CrcUpdateT4(UInt32 v, const void *data, size_t size, const UInt32 *table)",16,16,8,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\7zCrcOpt.c,"CrcUpdateT8(UInt32 v, const void *data, size_t size, const UInt32 *table)",2,2,2,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\7zCrcOpt.c,"CrcUpdateT1_BeT4(UInt32 v, const void *data, size_t size, const UInt32 *table)",20,20,12,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Alloc.c,MyAlloc(size_t size),12,12,7,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Alloc.c,MyFree(void *address),6,6,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Alloc.c,MidAlloc(size_t size),7,7,4,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Alloc.c,MidFree(void *address),8,8,4,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Alloc.c,SetLargePageSize(),12,12,7,2,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Alloc.c,BigAlloc(size_t size),17,16,7,6,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Alloc.c,BigFree(void *address),9,8,4,2,1,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CpuArch.c,CheckFlag(UInt32 flag),31,31,15,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CpuArch.c,"MyCPUID(UInt32 function, UInt32 *a, UInt32 *b, UInt32 *c, UInt32 *d)",43,34,22,0,9,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CpuArch.c,x86cpuid_CheckAndRead(Cx86cpuid *p),5,5,4,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CpuArch.c,x86cpuid_GetFirm(const Cx86cpuid *p),11,11,6,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CpuArch.c,CPU_Is_InOrder(),16,16,13,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CpuArch.c,CPU_Sys_Is_SSE_Supported(),6,6,5,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\CpuArch.c,CPU_Is_Aes_Supported(),6,6,4,3,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Threads.c,GetError(),3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Threads.c,HandleToWRes(HANDLE h),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Threads.c,BOOLToWRes(BOOL v),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Threads.c,HandlePtr_Close(HANDLE *p),6,6,4,4,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Threads.c,Handle_WaitObject(HANDLE h),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Threads.c,"Thread_Create(CThread *p, THREAD_FUNC_TYPE func, LPVOID param)",10,9,5,1,0,1,1,25
+F:\papter datasets\Development\stats\7zip\console\Threads.c,"Event_Create(CEvent *p, BOOL manualReset, int signaled)",3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Threads.c,Event_Set(CEvent *p),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Threads.c,Event_Reset(CEvent *p),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Threads.c,"ManualResetEvent_Create(CManualResetEvent *p, int signaled)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Threads.c,"AutoResetEvent_Create(CAutoResetEvent *p, int signaled)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Threads.c,ManualResetEvent_CreateNotSignaled(CManualResetEvent *p),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Threads.c,AutoResetEvent_CreateNotSignaled(CAutoResetEvent *p),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Threads.c,"Semaphore_Create(CSemaphore *p, UInt32 initCount, UInt32 maxCount)",3,3,3,1,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Threads.c,"Semaphore_Release(CSemaphore *p, LONG releaseCount, LONG *previousCount)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Threads.c,"Semaphore_ReleaseN(CSemaphore *p, UInt32 num)",1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Threads.c,Semaphore_Release1(CSemaphore *p),1,1,1,0,0,0,0,0
+F:\papter datasets\Development\stats\7zip\console\Threads.c,CriticalSection_Init(CCriticalSection *p),13,11,5,1,0,0,2,10
+,,,,,,,,,
+,,,,,,,,,
+File,,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\ArchiveCommandLine.cpp,28,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\ArchiveExtractCallback.cpp,14,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\ArchiveOpenCallback.cpp,6,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\Bench.cpp,48,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\BenchCon.cpp,4,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\CommandLineParser.cpp,9,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\ConsoleClose.cpp,5,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\CopyCoder.cpp,4,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\CreateCoder.cpp,10,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\DefaultName.cpp,2,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\DLL.cpp,5,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\EnumDirItems.cpp,12,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\Error.cpp,2,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\Extract.cpp,2,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\ExtractCallbackConsole.cpp,12,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\ExtractingFilePath.cpp,9,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\FileDir.cpp,28,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\FileFind.cpp,18,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\FileIO.cpp,29,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\FileName.cpp,2,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\FilePathAutoRename.cpp,2,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\FileStreams.cpp,14,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\FilterCoder.cpp,16,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\IntToString.cpp,7,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\List.cpp,16,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\ListFileUtils.cpp,2,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\LoadCodecs.cpp,31,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\Main.cpp,8,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\MainAr.cpp,1,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\MemoryLock.cpp,1,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\MethodProps.cpp,21,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\MyString.cpp,25,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\MyVector.cpp,11,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\NewHandler.cpp,4,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\OpenArchive.cpp,14,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\OpenCallbackConsole.cpp,7,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\OutStreamWithCRC.cpp,1,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\PercentPrinter.cpp,7,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\ProgressUtils.cpp,4,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\PropIDUtils.cpp,2,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\PropVariant.cpp,18,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\PropVariantConversions.cpp,7,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\Registry.cpp,29,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\SetProperties.cpp,2,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\SortUtils.cpp,2,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\StdInStream.cpp,8,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\StdOutStream.cpp,11,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\StreamUtils.cpp,4,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\StringConvert.cpp,6,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\StringToInt.cpp,6,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\System.cpp,2,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\TempFiles.cpp,1,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\Time.cpp,8,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\Update.cpp,9,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\UpdateCallback.cpp,12,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\UpdateCallbackConsole.cpp,18,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\UpdatePair.cpp,4,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\UpdateProduce.cpp,1,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\UserInputUtils.cpp,2,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\UTFConvert.cpp,4,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\Wildcard.cpp,27,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\Buffer.h,2,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\CpuArch.h,3,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\CreateCoder.h,1,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\Defs.h,5,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\FileFind.h,7,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\IFileExtractCallback.h,1,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\MyCom.h,5,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\MyString.h,18,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\NtCheck.h,1,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\StringConvert.h,23,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\7zCrc.c,3,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\7zCrcOpt.c,3,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\Alloc.c,7,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\CpuArch.c,7,,,,,,,,
+F:\papter datasets\Development\stats\7zip\console\Threads.c,18,,,,,,,,

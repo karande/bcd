@@ -1,0 +1,53 @@
+File,Function,LOC,SLOC-P,SLOC-L,MVG,BLOC,C&SLOC,CLOC,CWORD
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\AboutDlg.cpp,AboutDlg::AboutDlg(),3,1,1,0,0,0,2,2
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\AboutDlg.cpp,AboutDlg::DoDataExchange(CDataExchange* pDX),4,2,2,0,0,0,2,2
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\DistributorMQ.cpp,DistributorMQApp::InitInstance(),56,26,22,3,13,0,17,147
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\DistributorMQ.cpp,DistributorMQApp::ExitInstance(),15,10,8,3,3,0,2,14
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\DistributorMQ.cpp,DistributorMQApp::OnAppAbout(),4,3,3,0,1,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\DistributorMQ.cpp,DistributorMQApp::OnConfigObserver(),7,5,5,0,2,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\DistributorMQ.cpp,DistributorMQApp::OnLogGui(),3,3,2,0,0,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\DistributorMQ.cpp,DistributorMQApp::OnLogCom(),3,3,2,0,0,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\DistributorMQ.cpp,DistributorMQApp::OnLogUserActivity(),4,4,2,0,0,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\DlgObserverData.cpp,DlgObserverData::DlgObserverData( CWnd* pParent ),3,1,1,0,0,0,2,2
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\DlgObserverData.cpp,DlgObserverData::ConnectControls(),12,9,9,0,1,1,2,7
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\DlgObserverData.cpp,DlgObserverData::OnInitDialog(),7,4,4,1,2,1,1,17
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\DlgObserverData.cpp,DlgObserverData::OnOK(),53,39,25,8,10,0,4,23
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\LogDistributor.cpp,LogDistributor::Instance(),4,3,3,1,1,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\LogDistributor.cpp,LogDistributor::~LogDistributor(),23,15,10,3,4,1,4,28
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\LogDistributor.cpp,LogDistributor::Initialize(),14,10,8,2,4,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\LogDistributor.cpp,LogDistributor::operator+=( LogObserver * pObserver ),21,13,10,2,7,0,1,7
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\LogDistributor.cpp,LogDistributor::operator-=( const LogObserver * pObserver ),35,21,14,3,9,0,5,34
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\LogDistributor.cpp,LogDistributor::Log( const LogMessage & rMessage ),4,3,3,0,1,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\LogDistributor.cpp,LogDistributor::Operation(),13,8,6,1,4,0,1,7
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\LoggerThread.cpp,LoggerThread::Operation(),9,6,5,0,3,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\LogMessageQueue.cpp,LogMessageQueue::LogMessageQueue(),4,3,3,0,1,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\LogMessageQueue.cpp,LogMessageQueue::~LogMessageQueue(),8,7,5,1,1,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\LogMessageQueue.cpp,LogMessageQueue::operator+=( const LogMessage & rLogMessage ),6,4,4,0,2,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\LogMessageQueue.cpp,LogMessageQueue::GetMessage(),19,15,10,2,4,1,0,4
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\LogObserver.cpp,"LogObserver::LogObserver( const int iArea, const LogMessage::Level nLevel, const Type nType )",8,7,5,1,1,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\LogObserver.cpp,LogObserver::~LogObserver(),6,6,4,1,0,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\LogObserver.cpp,LogObserver::SetProcessQueueToEnd( const bool bProcessQueueToEnd ),6,4,4,0,2,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\LogObserver.cpp,LogObserver::GetProcessQueueToEnd(),10,6,6,1,4,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\LogObserver.cpp,LogObserver::Operation(),23,23,12,6,0,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\MainFrm.cpp,MainFrame::MainFrame(),3,1,1,0,1,0,1,6
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\MainFrm.cpp,MainFrame::~MainFrame(),1,1,1,0,0,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\MainFrm.cpp,MainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct),27,21,12,7,4,2,2,20
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\MainFrm.cpp,MainFrame::PreCreateWindow(CREATESTRUCT& cs),7,4,3,3,1,0,2,13
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\MainFrm.cpp,MainFrame::AssertValid() const,2,2,2,0,0,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\MainFrm.cpp,MainFrame::Dump(CDumpContext& dc) const,2,2,2,0,0,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\PpCfgObserver.cpp,PpCfgObserver::PpCfgObserver(),4,1,1,0,0,0,3,10
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\PpCfgObserver.cpp,PpCfgObserver::ConnectControls(),8,5,5,0,1,1,2,7
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\PpCfgObserver.cpp,PpCfgObserver::OnInitDialog(),16,9,9,1,5,1,2,23
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\PpCfgObserver.cpp,PpCfgObserver::FillObserverList(),71,57,39,15,8,0,6,42
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\PpCfgObserver.cpp,PpCfgObserver::OnBtnAdd(),7,5,4,1,2,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\PpCfgObserver.cpp,PpCfgObserver::OnBtnRemove(),17,11,8,1,4,1,2,15
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\PpCfgObserver.cpp,"PpCfgObserver::OnItemChangedLbxObserver( NMHDR* pNMHDR, LRESULT* pResult )",10,7,5,1,3,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\PpCfgObserver.cpp,"InsertColumn( CListCtrl & rListCtrl, const int iCol, const int iResourceId, const int iWidth )",6,4,4,0,2,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\ThreadBase.cpp,ThreadBase::ThreadBase(),4,3,3,0,1,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\ThreadBase.cpp,ThreadBase::CleanUp( const bool bDeleteCriticalSection ),14,12,8,2,2,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\ThreadBase.cpp,ThreadBase::Handle(),10,6,6,1,4,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\ThreadBase.cpp,ThreadBase::Run(),13,10,7,4,3,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\ThreadBase.cpp,ThreadBase::Start( const int iPriority ),11,8,5,1,3,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\ThreadBase.cpp,ThreadBase::End( const bool bCalledFromOutside ),15,8,6,2,4,0,3,26
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\ThreadBase.cpp,ThreadBase::GetContinue(),10,6,6,1,4,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DistributorMQ\ThreadBase.cpp,ThreadBase::SetContinue( const bool bContinue ),6,4,4,0,2,0,0,0

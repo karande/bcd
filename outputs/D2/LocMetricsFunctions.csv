@@ -1,0 +1,16 @@
+File,Function,LOC,SLOC-P,SLOC-L,MVG,BLOC,C&SLOC,CLOC,CWORD
+F:\papter datasets\DirectX Video Memory\C++\VideoMemory.cpp,SAFE_RELEASE(p),1,1,2,0,0,0,0,0
+F:\papter datasets\DirectX Video Memory\C++\VideoMemory.cpp,EnumerateUsingDXGI( IDXGIFactory* pDXGIFactory ),43,36,22,8,7,2,0,22
+F:\papter datasets\DirectX Video Memory\C++\VideoMemory.cpp,EnumerateUsingD3D9( IDirect3D9* pD3D9 ),52,42,26,5,8,0,2,25
+F:\papter datasets\DirectX Video Memory\C++\VideoMemory.cpp,main(),62,42,28,9,14,0,6,64
+F:\papter datasets\DirectX Video Memory\C++\VidMemViaD3D9.cpp,SAFE_RELEASE(p),1,1,2,0,0,0,0,0
+F:\papter datasets\DirectX Video Memory\C++\VidMemViaD3D9.cpp,"GetVideoMemoryViaD3D9( HMONITOR hMonitor, UINT* pdwAvailableTextureMem )",54,46,36,7,8,0,0,0
+F:\papter datasets\DirectX Video Memory\C++\VidMemViaD3D9.cpp,"GetHMonitorFromD3D9Device( IDirect3DDevice9* pd3dDevice, HMONITOR hMonitor )",19,18,12,5,1,0,0,0
+F:\papter datasets\DirectX Video Memory\C++\VidMemViaDDraw.cpp,SAFE_RELEASE(p),1,1,2,0,0,0,0,0
+F:\papter datasets\DirectX Video Memory\C++\VidMemViaDDraw.cpp,"DDEnumCallbackEx( GUID FAR* lpGUID, LPSTR lpDriverDescription, LPSTR lpDriverName, LPVOID lpContext, HMONITOR hm )",11,10,8,2,1,0,0,0
+F:\papter datasets\DirectX Video Memory\C++\VidMemViaDDraw.cpp,"GetVideoMemoryViaDirectDraw( HMONITOR hMonitor, DWORD* pdwAvailableVidMem )",49,41,30,8,8,0,0,0
+F:\papter datasets\DirectX Video Memory\C++\VidMemViaDDraw.cpp,"GetDeviceIDFromHMonitor( HMONITOR hm, WCHAR* strDeviceID, int cchDeviceID )",55,41,28,9,12,0,2,18
+F:\papter datasets\DirectX Video Memory\C++\VidMemViaDxDiag.cpp,SAFE_RELEASE(p),1,1,2,0,0,0,0,0
+F:\papter datasets\DirectX Video Memory\C++\VidMemViaDxDiag.cpp,"GetVideoMemoryViaDxDiag( HMONITOR hMonitor, DWORD* pdwDisplayMemory )",103,91,59,17,9,1,3,32
+F:\papter datasets\DirectX Video Memory\C++\VidMemViaWMI.cpp,SAFE_RELEASE(p),1,1,2,0,0,0,0,0
+F:\papter datasets\DirectX Video Memory\C++\VidMemViaWMI.cpp,"GetVideoMemoryViaWMI( HMONITOR hMonitor, DWORD* pdwAdapterRam )",146,122,71,28,21,2,3,30

@@ -1,0 +1,31 @@
+File,Function,LOC,SLOC-P,SLOC-L,MVG,BLOC,C&SLOC,CLOC,CWORD
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\AboutDlg.cpp,AboutDlg::AboutDlg(),3,1,1,0,0,0,2,2
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\AboutDlg.cpp,AboutDlg::DoDataExchange(CDataExchange* pDX),4,2,2,0,0,0,2,2
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\DlgObserverData.cpp,DlgObserverData::DlgObserverData( CWnd* pParent ),3,1,1,0,0,0,2,2
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\DlgObserverData.cpp,DlgObserverData::ConnectControls(),12,9,9,0,1,1,2,7
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\DlgObserverData.cpp,DlgObserverData::OnInitDialog(),7,4,4,1,2,1,1,17
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\DlgObserverData.cpp,DlgObserverData::OnOK(),53,39,25,8,10,0,4,23
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\DynamicObserver.cpp,DynamicObserverApp::InitInstance(),42,22,18,3,9,0,11,97
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\DynamicObserver.cpp,DynamicObserverApp::ExitInstance(),8,6,4,3,1,0,1,8
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\DynamicObserver.cpp,DynamicObserverApp::OnAppAbout(),4,3,3,0,1,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\DynamicObserver.cpp,DynamicObserverApp::OnConfigObserver(),7,5,5,0,2,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\DynamicObserver.cpp,DynamicObserverApp::OnLogGui(),3,3,2,0,0,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\DynamicObserver.cpp,DynamicObserverApp::OnLogCom(),3,3,2,0,0,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\DynamicObserver.cpp,DynamicObserverApp::OnLogUserActivity(),4,4,2,0,0,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\LogDistributor.cpp,LogDistributor::Instance(),4,3,3,1,1,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\LogDistributor.cpp,LogDistributor::~LogDistributor(),4,3,2,1,0,0,1,3
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\LogDistributor.cpp,LogDistributor::operator+=( LogObserver * pObserver ),9,6,5,2,2,0,1,7
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\LogDistributor.cpp,LogDistributor::operator-=( const LogObserver * pObserver ),15,8,7,3,4,0,3,15
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\MainFrm.cpp,MainFrame::MainFrame(),3,1,1,0,1,0,1,6
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\MainFrm.cpp,MainFrame::~MainFrame(),1,1,1,0,0,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\MainFrm.cpp,MainFrame::OnCreate(LPCREATESTRUCT lpCreateStruct),27,21,12,7,4,2,2,20
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\MainFrm.cpp,MainFrame::PreCreateWindow(CREATESTRUCT& cs),7,4,3,3,1,0,2,13
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\MainFrm.cpp,MainFrame::AssertValid() const,2,2,2,0,0,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\MainFrm.cpp,MainFrame::Dump(CDumpContext& dc) const,2,2,2,0,0,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\PpCfgObserver.cpp,PpCfgObserver::PpCfgObserver(),4,1,1,0,0,0,3,10
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\PpCfgObserver.cpp,PpCfgObserver::ConnectControls(),8,5,5,0,1,1,2,7
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\PpCfgObserver.cpp,PpCfgObserver::OnInitDialog(),16,9,9,1,5,1,2,23
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\PpCfgObserver.cpp,PpCfgObserver::FillObserverList(),71,57,39,15,8,0,6,42
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\PpCfgObserver.cpp,PpCfgObserver::OnBtnAdd(),7,5,4,1,2,0,0,0
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\PpCfgObserver.cpp,PpCfgObserver::OnBtnRemove(),17,11,8,1,4,1,2,15
+F:\papter datasets\Logging in a Multithreaded Environment\C++\DynamicObserver\PpCfgObserver.cpp,"InsertColumn( CListCtrl & rListCtrl, const int iCol, const int iResourceId, const int iWidth )",6,4,4,0,2,0,0,0

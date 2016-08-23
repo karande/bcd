@@ -1,0 +1,49 @@
+2007-12-21:
+- improved robustness of MinimizerBarnesHut for layouts with very small
+  or very large distances (which often occur for unconnected graphs)
+- added alternative layouter class MinimizerClassic, which is usually slower
+  than MinimizerBarnesHut, but simpler and not limited to three dimensions
+- the primary reference for the LinLog energy models is now the journal paper
+  A. Noack: "Energy Models for Graph Clustering",  Journal of Graph Algorithms
+  and Applications, Vol. 11, no. 2, pp. 453-480, 2007.  http://jgaa.info/
+
+2008-01-14
+- added clustering by maximizing Mark Newman's Modularity measure
+- improved layouter classes MinimizerBarnesHut and MinimizerClassic
+  * simplified interface
+  * implementation using Java Collections Framework
+  * replaced float with double
+  * corrected movement of nodes in OctTree (MinimizerBarnesHut)
+- added example Food.el
+
+2008-01-21
+- improved graph viewer
+  * search for nodes
+  * labels can be turned on and off
+  * transparency for improved representation of overlapping nodes
+  * all node names are listed when pointing at overlapping nodes
+
+2008-03-21
+- minor changes in OptimizerModularity
+  * fixed bug for modularity clusterings with one cluster
+  * optional code for randomized contraction (commented out)
+- replaced example graph 8Clusters.el
+
+2008-11-13
+- minor changes in MinimizerBarnesHut and MinimizerClassic
+  * improved gravitation, such that the same "gravitation factor" (gravFactor)
+    should now work more consistently across different graphs and energy models;
+    as a consequence, the value of the parameter gravFactor of the constructors
+    may need to be adapted (values from 0.01 to 0.1 should mostly work well).
+- minor changes in OptimizerModularity
+  * removed option to optimize the "normalized cut"
+  * changed console output to modularity, instead of negative modularity
+  * added reference to new preprint "Modularity clustering is force-directed
+    layout"
+- added example graph Karate.el (Zachary's karate club) and example screenshots
+
+2008-11-14
+- changes in MinimizerBarnesHut and MinimizerClassic
+  * removed restriction that attrExponent must be positive
+  * another fix of the gravitation
+- minor changes in the documentation

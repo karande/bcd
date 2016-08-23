@@ -1,0 +1,766 @@
+File,Function,LOC,SLOC-P,SLOC-L,MVG,BLOC,C&SLOC,CLOC,CWORD
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,safe_handle( HANDLE h ),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,"SetDebugObjectName(_In_ ID3D11DeviceChild* resource, _In_ const char (&name)[TNameLength])",7,7,4,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,"LoadTextureDataFromFile( _In_z_ const wchar_t* fileName, std::unique_ptr<uint8_t[]>& ddsData, DDS_HEADER** header, uint8_t** bitData, size_t* bitSize )",116,89,42,24,16,0,11,83
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,BitsPerPixel( _In_ DXGI_FORMAT fmt ),156,141,16,15,15,1,0,3
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,"GetSurfaceInfo( _In_ size_t width, _In_ size_t height, _In_ DXGI_FORMAT fmt, _Out_opt_ size_t* outNumBytes, _Out_opt_ size_t* outRowBytes, _Out_opt_ size_t* outNumRows )",131,120,63,14,11,2,0,18
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,GetDXGIFormat( const DDS_PIXELFORMAT& ddpf ),207,156,75,71,32,12,19,220
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,MakeSRGB( _In_ DXGI_FORMAT format ),27,20,10,9,7,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,"FillInitData( _In_ size_t width, _In_ size_t height, _In_ size_t depth, _In_ size_t mipCount, _In_ size_t arraySize, _In_ DXGI_FORMAT format, _In_ size_t maxsize, _In_ size_t bitSize, _In_reads_bytes_(bitSize) const uint8_t* bitData, _Out_ size_t& twidth, _Out_ size_t& theight, _Out_ size_t& tdepth, _Out_ size_t& skipMip, _Out_writes_(mipCount*arraySize) D3D11_SUBRESOURCE_DATA* initData )",80,70,44,12,9,0,1,8
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,"CreateD3DResources( _In_ ID3D11Device* d3dDevice, _In_ uint32_t resDim, _In_ size_t width, _In_ size_t height, _In_ size_t depth, _In_ size_t mipCount, _In_ size_t arraySize, _In_ DXGI_FORMAT format, _In_ D3D11_USAGE usage, _In_ unsigned int bindFlags, _In_ unsigned int cpuAccessFlags, _In_ unsigned int miscFlags, _In_ bool forceSRGB, _In_ bool isCubeMap, _In_reads_opt_(mipCount*arraySize) D3D11_SUBRESOURCE_DATA* initData, _Outptr_opt_ ID3D11Resource** texture, _Outptr_opt_ ID3D11ShaderResourceView** textureView )",216,196,119,27,19,0,1,8
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,"CreateTextureFromDDS( _In_ ID3D11Device* d3dDevice, _In_opt_ ID3D11DeviceContext* d3dContext, _In_ const DDS_HEADER* header, _In_reads_bytes_(bitSize) const uint8_t* bitData, _In_ size_t bitSize, _In_ size_t maxsize, _In_ D3D11_USAGE usage, _In_ unsigned int bindFlags, _In_ unsigned int cpuAccessFlags, _In_ unsigned int miscFlags, _In_ bool forceSRGB, _Outptr_opt_ ID3D11Resource** texture, _Outptr_opt_ ID3D11ShaderResourceView** textureView )",330,279,147,69,41,9,10,121
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,GetAlphaMode( _In_ const DDS_HEADER* header ),24,23,10,7,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,"DirectX::CreateDDSTextureFromMemory( ID3D11Device* d3dDevice, const uint8_t* ddsData, size_t ddsDataSize, ID3D11Resource** texture, ID3D11ShaderResourceView** textureView, size_t maxsize, DDS_ALPHA_MODE* alphaMode )",4,4,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,"DirectX::CreateDDSTextureFromMemory( ID3D11Device* d3dDevice, ID3D11DeviceContext* d3dContext, const uint8_t* ddsData, size_t ddsDataSize, ID3D11Resource** texture, ID3D11ShaderResourceView** textureView, size_t maxsize, DDS_ALPHA_MODE* alphaMode )",4,4,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,"DirectX::CreateDDSTextureFromMemoryEx( ID3D11Device* d3dDevice, const uint8_t* ddsData, size_t ddsDataSize, size_t maxsize, D3D11_USAGE usage, unsigned int bindFlags, unsigned int cpuAccessFlags, unsigned int miscFlags, bool forceSRGB, ID3D11Resource** texture, ID3D11ShaderResourceView** textureView, DDS_ALPHA_MODE* alphaMode )",4,4,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,"DirectX::CreateDDSTextureFromMemoryEx( ID3D11Device* d3dDevice, ID3D11DeviceContext* d3dContext, const uint8_t* ddsData, size_t ddsDataSize, size_t maxsize, D3D11_USAGE usage, unsigned int bindFlags, unsigned int cpuAccessFlags, unsigned int miscFlags, bool forceSRGB, ID3D11Resource** texture, ID3D11ShaderResourceView** textureView, DDS_ALPHA_MODE* alphaMode )",79,63,31,19,12,0,4,25
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,"DirectX::CreateDDSTextureFromFile( ID3D11Device* d3dDevice, const wchar_t* fileName, ID3D11Resource** texture, ID3D11ShaderResourceView** textureView, size_t maxsize, DDS_ALPHA_MODE* alphaMode )",4,4,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,"DirectX::CreateDDSTextureFromFile( ID3D11Device* d3dDevice, ID3D11DeviceContext* d3dContext, const wchar_t* fileName, ID3D11Resource** texture, ID3D11ShaderResourceView** textureView, size_t maxsize, DDS_ALPHA_MODE* alphaMode )",4,4,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,"DirectX::CreateDDSTextureFromFileEx( ID3D11Device* d3dDevice, const wchar_t* fileName, size_t maxsize, D3D11_USAGE usage, unsigned int bindFlags, unsigned int cpuAccessFlags, unsigned int miscFlags, bool forceSRGB, ID3D11Resource** texture, ID3D11ShaderResourceView** textureView, DDS_ALPHA_MODE* alphaMode )",4,4,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,"DirectX::CreateDDSTextureFromFileEx( ID3D11Device* d3dDevice, ID3D11DeviceContext* d3dContext, const wchar_t* fileName, size_t maxsize, D3D11_USAGE usage, unsigned int bindFlags, unsigned int cpuAccessFlags, unsigned int miscFlags, bool forceSRGB, ID3D11Resource** texture, ID3D11ShaderResourceView** textureView, DDS_ALPHA_MODE* alphaMode )",91,82,33,15,9,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\dxerr.cpp,DXGetErrorStringW( _In_ HRESULT hr ),3208,3049,3,2,14,0,145,176
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\dxerr.cpp,"DXGetErrorDescriptionW( _In_ HRESULT hr, _Out_cap_(count) WCHAR* desc, _In_ size_t count )",305,247,10,4,17,2,41,122
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\dxerr.cpp,"DXTraceW( _In_z_ const WCHAR* strFile, _In_ DWORD dwLine, _In_ HRESULT hr, _In_opt_ const WCHAR* strMsg, _In_ bool bPopMsgBox )",46,37,27,7,9,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTCreateState(),8,8,5,4,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTDestroyState(),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,GetDXUTState(),7,5,5,1,0,0,2,32
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetBackBufferWidthFromDS( _In_ DXUTDeviceSettings* pNewDeviceSettings ),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetBackBufferHeightFromDS( _In_ DXUTDeviceSettings* pNewDeviceSettings ),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetIsWindowedFromDS( _In_ DXUTDeviceSettings* pNewDeviceSettings ),5,4,3,3,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetMSAASwapChainCreated(),5,5,4,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetD3D11DeviceFeatureLevel(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetDXGISwapChain(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetD3D11RenderTargetView(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetD3D11DepthStencilView(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetDXGIBackBufferSurfaceDesc(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetHINSTANCE(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetHWND(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetHWNDFocus(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetHWNDDeviceFullScreen(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetHWNDDeviceWindowed(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetWindowClientRect(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetWindowWidth(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetWindowHeight(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetWindowClientRectAtModeChange(),1,1,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetFullsceenClientRectAtModeChange(),1,1,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetTime(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetElapsedTime(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetFPS(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetWindowTitle(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetDeviceStats(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTIsRenderingPaused(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTIsTimePaused(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTIsActive(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetExitCode(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetShowMsgBoxOnError(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetAutomation(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTIsWindowed(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTIsInGammaCorrectMode(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetDXGIFactory(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetD3D11Device(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetD3D11DeviceContext(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetD3D11Device1(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetD3D11DeviceContext1(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetD3D11Device2(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetD3D11DeviceContext2(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetCallbackDeviceChanging( _In_ LPDXUTCALLBACKMODIFYDEVICESETTINGS pCallback, _In_opt_ void* pUserContext )",1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetCallbackDeviceRemoved( _In_ LPDXUTCALLBACKDEVICEREMOVED pCallback, _In_opt_ void* pUserContext )",1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetCallbackFrameMove( _In_ LPDXUTCALLBACKFRAMEMOVE pCallback, _In_opt_ void* pUserContext )",1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetCallbackKeyboard( _In_ LPDXUTCALLBACKKEYBOARD pCallback, _In_opt_ void* pUserContext )",1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetCallbackMouse( _In_ LPDXUTCALLBACKMOUSE pCallback, bool bIncludeMouseMove, _In_opt_ void* pUserContext )",1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetCallbackMsgProc( _In_ LPDXUTCALLBACKMSGPROC pCallback, _In_opt_ void* pUserContext )",1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetCallbackD3D11DeviceAcceptable( _In_ LPDXUTCALLBACKISD3D11DEVICEACCEPTABLE pCallback, _In_opt_ void* pUserContext )",1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetCallbackD3D11DeviceCreated( _In_ LPDXUTCALLBACKD3D11DEVICECREATED pCallback, _In_opt_ void* pUserContext )",1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetCallbackD3D11SwapChainResized( _In_ LPDXUTCALLBACKD3D11SWAPCHAINRESIZED pCallback, _In_opt_ void* pUserContext )",1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetCallbackD3D11FrameRender( _In_ LPDXUTCALLBACKD3D11FRAMERENDER pCallback, _In_opt_ void* pUserContext )",1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetCallbackD3D11SwapChainReleasing( _In_ LPDXUTCALLBACKD3D11SWAPCHAINRELEASING pCallback, _In_opt_ void* pUserContext )",1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetCallbackD3D11DeviceDestroyed( _In_ LPDXUTCALLBACKD3D11DEVICEDESTROYED pCallback, _In_opt_ void* pUserContext )",1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTGetCallbackD3D11DeviceAcceptable( _In_ LPDXUTCALLBACKISD3D11DEVICEACCEPTABLE* ppCallback, _Outptr_ void** ppUserContext )",1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTInit( bool bParseCommandLine, bool bShowMsgBoxOnError, WCHAR* strExtraCommandLineParams, bool bThreadSafeDXUT )",41,27,24,8,11,0,3,25
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTParseCommandLine(WCHAR* strCommandLine, bool bIgnoreFirstCommand )",202,179,113,35,21,0,2,5
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTIsNextArg( WCHAR*& strCmdLine, const WCHAR* strArg )",13,11,7,3,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTGetCmdParam( WCHAR*& strCmdLine, WCHAR* strFlag, int cchDest )",26,21,15,4,3,1,2,12
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTCreateWindow( const WCHAR* strWindowTitle, HINSTANCE hInstance, HICON hIcon, HMENU hMenu, int x, int y )",96,71,50,21,16,1,9,86
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetWindow( HWND hWndFocus, HWND hWndDeviceFullScreen, HWND hWndDeviceWindowed, bool bHandleMessages )",53,33,24,13,10,0,10,90
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTStaticWndProc( HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam )",394,293,166,62,45,7,56,526
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTMainLoop( _In_opt_ HACCEL hAccel ),80,57,33,18,12,1,11,115
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTCreateDevice(D3D_FEATURE_LEVEL reqFL, bool bWindowed, int nSuggestedWidth, int nSuggestedHeight)",82,59,35,14,12,0,11,112
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTCreateDeviceFromSettings( DXUTDeviceSettings* pDeviceSettings, bool bClipWindowToSingleAdapter )",38,22,16,10,8,0,8,76
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTChangeDevice( DXUTDeviceSettings* pNewDeviceSettings, bool bClipWindowToSingleAdapter )",379,260,171,47,51,7,68,731
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTDelayLoadDXGI(),18,14,9,6,3,0,1,5
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTUpdateDeviceSettingsWithOverrides( _Inout_ DXUTDeviceSettings* pDeviceSettings ),55,46,24,10,8,0,1,7
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTSetupD3D11Views( _In_ ID3D11DeviceContext* pd3dDeviceContext ),19,14,14,1,3,0,2,11
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTCreateD3D11Views( ID3D11Device* pd3dDevice, ID3D11DeviceContext* pd3dImmediateContext, DXUTDeviceSettings* pDeviceSettings )",65,55,46,13,6,0,4,20
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTCreate3DEnvironment11(),296,252,152,45,29,12,15,156
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTReset3DEnvironment11(),83,55,36,7,10,0,18,190
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTRender3DEnvironment(),167,124,74,22,21,2,22,201
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTCleanup3DEnvironment( _In_ bool bReleaseSettings ),144,111,79,13,21,0,12,89
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTLowLevelKeyboardProc( int nCode, WPARAM wParam, LPARAM lParam )",21,19,10,7,2,1,0,4
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetShortcutKeySettings( bool bAllowWhenFullscreen, bool bAllowWhenWindowed )",12,10,6,2,1,0,1,11
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTAllowShortcutKeys( _In_ bool bAllowKeys ),65,46,31,6,10,0,9,77
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTPause( bool bPauseTime, bool bPauseRendering )",28,23,17,5,3,0,2,8
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetTimer( LPDXUTCALLBACKTIMER pCallbackTimer, float fTimeoutInSecs, UINT* pnIDEvent, void* pCallbackUserContext )",28,23,18,7,5,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTKillTimer( _In_ UINT nIDEvent ),23,19,13,8,4,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTHandleTimers(),26,20,13,4,3,0,3,21
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTDisplayErrorMessage( _In_ HRESULT hr ),42,37,26,6,4,1,1,18
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTMapButtonToArrayIndex( _In_ BYTE vButton ),19,18,8,7,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTToggleFullScreen(),50,39,26,7,7,0,4,36
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTToggleWARP(),41,29,17,7,6,0,6,60
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTToggleREF(),45,33,19,7,6,0,6,60
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTCheckForDXGIFullScreenSwitch(),27,24,17,3,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTResizeDXGIBuffers( UINT Width, UINT Height, BOOL bFullScreen )",112,79,59,8,17,0,16,117
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTCheckForDXGIBufferChange(),21,15,9,2,3,0,3,12
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTCheckForWindowSizeChange(),7,4,3,1,2,0,1,6
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTCheckForWindowChangingMonitors(),43,34,21,6,3,0,6,67
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetMonitorFromAdapter( _In_ DXUTDeviceSettings* pDeviceSettings ),9,9,7,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTGetAdapterOrdinalFromMonitor( HMONITOR hMonitor, UINT* pAdapterOrdinal )",27,22,15,5,2,0,3,21
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTGetOutputOrdinalFromMonitor( HMONITOR hMonitor, UINT* pOutputOrdinal )",28,23,16,6,3,0,2,13
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTHandleDeviceRemoved(),28,18,12,6,5,0,5,53
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTUpdateBackBufferDesc(),19,19,17,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTSetupCursor(),13,11,7,1,0,0,2,10
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTUpdateStaticFrameStats(),30,24,14,4,5,0,1,1
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTUpdateFrameStats(),22,17,14,2,3,0,2,13
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetFrameStats( _In_ bool bShowFPS ),5,5,5,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTUpdateD3D11DeviceStats( D3D_DRIVER_TYPE DeviceType, D3D_FEATURE_LEVEL featureLevel, DXGI_ADAPTER_DESC* pAdapterDesc )",62,53,32,13,5,0,4,28
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTGetDeviceSettings(),14,12,8,3,0,0,2,22
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTIsVsyncEnabled(),10,10,6,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTIsKeyDown( _In_ BYTE vKey ),8,8,5,4,0,3,0,16
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTWasKeyPressed( _In_ BYTE vKey ),5,5,5,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTIsMouseButtonDown( _In_ BYTE vButton ),4,4,4,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTSetMultimonSettings( _In_ bool bAutoChangeAdapter ),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetHotkeyHandling( bool bAltEnterToToggleFullscreen, bool bEscapeToQuit, bool bPauseToToggleTimePause )",4,4,4,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetCursorSettings( bool bShowCursorWhenFullScreen, bool bClipCursorWhenFullScreen )",4,4,4,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTSetWindowSettings( _In_ bool bCallDefWindowProc ),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSetConstantFrameTime( bool bEnabled, float fTimePerFrame )",8,8,6,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTResetFrameworkState(),3,3,3,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTShutdown( _In_ int nExitCode ),23,10,9,1,4,0,9,88
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTSetIsInGammaCorrectMode( _In_ bool bGammaCorrect ),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,DXUTApplyDefaultDeviceSettings(DXUTDeviceSettings *modifySettings),30,29,26,0,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,"DXUTSnapDeviceSettingsToEnumDevice( DXUTDeviceSettings* pDeviceSettings, bool forceEnum, D3D_FEATURE_LEVEL forceFL )",97,83,55,20,13,2,1,7
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,DXUTCreateD3D11Enumeration(),8,8,5,4,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,DXUTDestroyD3D11Enumeration(),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,"DXUTGetD3D11Enumeration( bool bForceEnumerate, bool bEnumerateAllAdapterFormats, D3D_FEATURE_LEVEL forceFL )",15,12,10,2,2,0,1,14
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,CD3D11Enumeration::CD3D11Enumeration(),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,CD3D11Enumeration::~CD3D11Enumeration(),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,"CD3D11Enumeration::Enumerate( LPDXUTCALLBACKISD3D11DEVICEACCEPTABLE IsD3D11DeviceAcceptableFunc, void* pIsD3D11DeviceAcceptableFuncUserContext )",171,132,83,30,24,1,15,122
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,CD3D11Enumeration::EnumerateOutputs( _In_ CD3D11EnumAdapterInfo* pAdapterInfo ),39,35,23,7,3,2,1,16
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,CD3D11Enumeration::EnumerateDisplayModes( _In_ CD3D11EnumOutputInfo* pOutputInfo ),123,101,58,19,12,2,10,87
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,CD3D11Enumeration::EnumerateDevices( _In_ CD3D11EnumAdapterInfo* pAdapterInfo ),132,116,55,10,11,0,5,47
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,CD3D11Enumeration::EnumerateDeviceCombosNoAdapter( _In_ CD3D11EnumAdapterInfo* pAdapterInfo ),66,44,24,8,11,1,11,93
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,CD3D11Enumeration::EnumerateDeviceCombos( CD3D11EnumAdapterInfo* pAdapterInfo ),84,60,33,14,13,1,11,93
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,CD3D11Enumeration::ClearAdapterInfoList(),7,7,5,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,CD3D11Enumeration::ResetPossibleDepthStencilFormats(),6,6,6,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,CD3D11Enumeration::SetEnumerateAllAdapterFormats( _In_ bool bEnumerateAllAdapterFormats ),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,"CD3D11Enumeration::BuildMultiSampleQualityList( DXGI_FORMAT fmt, CD3D11EnumDeviceSettingsCombo* pDeviceCombo )",45,33,19,5,8,0,4,60
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,CD3D11Enumeration::GetAdapterInfoList(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,CD3D11Enumeration::GetAdapterInfo( _In_ UINT AdapterOrdinal ) const,8,7,4,4,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,"CD3D11Enumeration::GetDeviceInfo( UINT AdapterOrdinal, D3D_DRIVER_TYPE DeviceType ) const",12,11,6,5,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,"CD3D11Enumeration::GetOutputInfo( UINT AdapterOrdinal, UINT Output ) const",8,7,5,3,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,"CD3D11Enumeration::GetDeviceSettingsCombo( UINT AdapterOrdinal, DXGI_FORMAT BackBufferFormat, BOOL Windowed ) const",14,13,7,5,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,CD3D11EnumOutputInfo::~CD3D11EnumOutputInfo(),3,3,3,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,CD3D11EnumDeviceInfo::~CD3D11EnumDeviceInfo(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,CD3D11EnumAdapterInfo::~CD3D11EnumAdapterInfo(),23,20,14,3,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,DXUTGetDXGIColorChannelBits( DXGI_FORMAT fmt ),51,45,9,8,6,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,"DXUTRankD3D11DeviceCombo( CD3D11EnumDeviceSettingsCombo* pDeviceSettingsCombo, DXUTD3D11DeviceSettings* pOptimalDeviceSettings, int &bestModeIndex, int &bestMSAAIndex )",178,106,61,27,27,0,45,100
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,"DXUTGetD3D11AdapterDisplayMode( UINT AdapterOrdinal, UINT nOutput, DXGI_MODE_DESC* pModeDesc )",31,25,19,8,5,0,1,11
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,DXUTGetGlobalTimer(),4,3,3,1,0,0,1,10
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,CDXUTTimer::CDXUTTimer(),12,9,10,0,2,0,1,9
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,CDXUTTimer::Reset(),7,6,6,0,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,CDXUTTimer::Start(),10,8,8,1,1,0,1,4
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,CDXUTTimer::Stop(),9,9,8,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,CDXUTTimer::Advance(),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,CDXUTTimer::GetAbsoluteTime() const,7,5,6,1,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,CDXUTTimer::GetTime() const,6,4,4,1,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,"CDXUTTimer::GetTimeValues( double* pfTime, double* pfAbsoluteTime, float* pfElapsedTime )",21,10,9,1,4,0,7,72
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,CDXUTTimer::GetElapsedTime(),11,7,6,2,3,0,1,7
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,CDXUTTimer::GetAdjustedCurrentTime() const,7,7,5,2,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,CDXUTTimer::LimitThreadAffinityToCurrentProc(),24,16,11,2,4,0,4,42
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,"DXUTDXGIFormatToString( DXGI_FORMAT format, bool bWithPrefix )",116,111,6,4,3,0,2,4
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,"DXUTOutputDebugStringW( LPCWSTR strMsg, ... )",14,12,9,0,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,"DXUTOutputDebugStringA( LPCSTR strMsg, ... )",14,12,9,0,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,DXUT_EnsureD3D9APIs(),21,15,12,4,2,1,4,43
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,DXUT_EnsureD3D11APIs(),34,26,15,9,5,3,3,35
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,"DXUT_Dynamic_D3DPERF_BeginEvent( _In_ DWORD col, _In_z_ LPCWSTR wszName )",5,5,3,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,DXUT_Dynamic_D3DPERF_EndEvent(),5,5,3,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,"DXUT_Dynamic_D3DPERF_SetMarker( _In_ DWORD col, _In_z_ LPCWSTR wszName )",3,3,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,"DXUT_Dynamic_D3DPERF_SetRegion( _In_ DWORD col, _In_z_ LPCWSTR wszName )",3,3,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,DXUT_Dynamic_D3DPERF_QueryRepeatFrame(),5,5,3,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,DXUT_Dynamic_D3DPERF_SetOptions( _In_ DWORD dwOptions ),3,3,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,DXUT_Dynamic_D3DPERF_GetStatus(),5,5,3,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,"DXUT_Dynamic_CreateDXGIFactory1( REFIID rInterface, void** ppOut )",5,5,3,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,"DXUT_Dynamic_DXGIGetDebugInterface( REFIID rInterface, void** ppOut )",5,5,3,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,"DXUT_Dynamic_D3D11CreateDevice( IDXGIAdapter* pAdapter, D3D_DRIVER_TYPE DriverType, HMODULE Software, UINT32 Flags, D3D_FEATURE_LEVEL* pFeatureLevels, UINT FeatureLevels, UINT32 SDKVersion, ID3D11Device** ppDevice, D3D_FEATURE_LEVEL* pFeatureLevel, ID3D11DeviceContext** ppImmediateContext )",6,6,3,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,DXUTTraceWindowsMessage( _In_ UINT uMsg ),220,220,217,2,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,"DXUTGetMonitorInfo( HMONITOR hMonitor, LPMONITORINFO lpMonitorInfo )",29,27,19,7,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,"DXUTMonitorFromWindow( HWND hWnd, DWORD dwFlags )",15,14,9,5,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,"DXUTMonitorFromRect( LPCRECT lprcScreenCoords, DWORD dwFlags )",14,13,9,5,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,"DXUTGetDesktopResolution( UINT AdapterOrdinal, UINT* pWidth, UINT* pHeight )",23,19,16,3,4,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,"DXUTTrace( const CHAR* strFile, DWORD dwLine, HRESULT hr, const WCHAR* strMsg, bool bPopMsgBox )",18,16,8,3,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,"DXUTGetGamepadState( DWORD dwPort, DXUT_GAMEPAD* pGamePad, bool bThumbstickDeadZone, bool bSnapThumbstickToCardinals )",103,80,48,18,12,1,11,93
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,DXUTEnableXInput( _In_ bool bEnable ),11,10,6,3,1,1,0,2
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,DXUTStopRumbleOnAllControllers(),18,16,11,6,2,1,0,2
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,MAKE_SRGB( _In_ DXGI_FORMAT format ),39,31,12,11,8,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,MAKE_TYPELESS( _In_ DXGI_FORMAT format ),109,89,23,22,20,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,"DXUTSnapD3D11Screenshot( _In_z_ LPCWSTR szFileName, _In_ bool usedds )",30,23,16,8,7,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\ScreenGrab.cpp,safe_handle( HANDLE h ),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\ScreenGrab.cpp,BitsPerPixel( _In_ DXGI_FORMAT fmt ),156,141,16,15,15,1,0,3
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\ScreenGrab.cpp,IsCompressed( _In_ DXGI_FORMAT fmt ),29,28,4,3,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\ScreenGrab.cpp,"GetSurfaceInfo( _In_ size_t width, _In_ size_t height, _In_ DXGI_FORMAT fmt, _Out_opt_ size_t* outNumBytes, _Out_opt_ size_t* outRowBytes, _Out_opt_ size_t* outNumRows )",131,120,63,14,11,2,0,18
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\ScreenGrab.cpp,EnsureNotTypeless( DXGI_FORMAT fmt ),25,24,22,1,0,0,1,9
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\ScreenGrab.cpp,"CaptureTexture( _In_ ID3D11DeviceContext* pContext, _In_ ID3D11Resource* pSource, _Inout_ D3D11_TEXTURE2D_DESC& desc, _Inout_ ComPtr<ID3D11Texture2D>& pStaging )",90,66,48,20,21,0,3,35
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\ScreenGrab.cpp,_GetWIC(),53,46,16,8,6,0,1,14
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\ScreenGrab.cpp,"DirectX::SaveDDSTextureToFile( _In_ ID3D11DeviceContext* pContext, _In_ ID3D11Resource* pSource, _In_z_ LPCWSTR fileName )",147,118,92,26,23,12,6,53
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\ScreenGrab.cpp,"DirectX::SaveWICTextureToFile( _In_ ID3D11DeviceContext* pContext, _In_ ID3D11Resource* pSource, _In_ REFGUID guidContainerFormat, _In_z_ LPCWSTR fileName, _In_opt_ const GUID* targetFormat, _In_opt_ std::function<void(IPropertyBag2*)> setCustomProps )",267,214,142,64,41,5,12,81
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\WICTextureLoader.cpp,"SetDebugObjectName(_In_ ID3D11DeviceChild* resource, _In_ const char (&name)[TNameLength])",7,7,4,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\WICTextureLoader.cpp,_GetWIC(),53,46,16,8,6,0,1,14
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\WICTextureLoader.cpp,_WICToDXGI( const GUID& guid ),16,14,6,7,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\WICTextureLoader.cpp,_WICBitsPerPixel( REFGUID targetGuid ),25,19,13,13,6,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\WICTextureLoader.cpp,MakeSRGB( _In_ DXGI_FORMAT format ),27,20,10,9,7,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\WICTextureLoader.cpp,"CreateTextureFromWIC( _In_ ID3D11Device* d3dDevice, _In_opt_ ID3D11DeviceContext* d3dContext, _In_ IWICBitmapFrameDecode *frame, _In_ size_t maxsize, _In_ D3D11_USAGE usage, _In_ unsigned int bindFlags, _In_ unsigned int cpuAccessFlags, _In_ unsigned int miscFlags, _In_ bool forceSRGB, _Out_opt_ ID3D11Resource** texture, _Out_opt_ ID3D11ShaderResourceView** textureView )",347,283,174,73,44,4,20,168
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\WICTextureLoader.cpp,"DirectX::CreateWICTextureFromMemory( ID3D11Device* d3dDevice, const uint8_t* wicData, size_t wicDataSize, ID3D11Resource** texture, ID3D11ShaderResourceView** textureView, size_t maxsize )",4,4,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\WICTextureLoader.cpp,"DirectX::CreateWICTextureFromMemory( ID3D11Device* d3dDevice, ID3D11DeviceContext* d3dContext, const uint8_t* wicData, size_t wicDataSize, ID3D11Resource** texture, ID3D11ShaderResourceView** textureView, size_t maxsize )",4,4,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\WICTextureLoader.cpp,"DirectX::CreateWICTextureFromMemoryEx( ID3D11Device* d3dDevice, const uint8_t* wicData, size_t wicDataSize, size_t maxsize, D3D11_USAGE usage, unsigned int bindFlags, unsigned int cpuAccessFlags, unsigned int miscFlags, bool forceSRGB, ID3D11Resource** texture, ID3D11ShaderResourceView** textureView )",4,4,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\WICTextureLoader.cpp,"DirectX::CreateWICTextureFromMemoryEx( ID3D11Device* d3dDevice, ID3D11DeviceContext* d3dContext, const uint8_t* wicData, size_t wicDataSize, size_t maxsize, D3D11_USAGE usage, unsigned int bindFlags, unsigned int cpuAccessFlags, unsigned int miscFlags, bool forceSRGB, ID3D11Resource** texture, ID3D11ShaderResourceView** textureView )",63,49,28,23,12,0,2,7
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\WICTextureLoader.cpp,"DirectX::CreateWICTextureFromFile( ID3D11Device* d3dDevice, const wchar_t* fileName, ID3D11Resource** texture, ID3D11ShaderResourceView** textureView, size_t maxsize )",4,4,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\WICTextureLoader.cpp,"DirectX::CreateWICTextureFromFile( ID3D11Device* d3dDevice, ID3D11DeviceContext* d3dContext, const wchar_t* fileName, ID3D11Resource** texture, ID3D11ShaderResourceView** textureView, size_t maxsize )",4,4,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\WICTextureLoader.cpp,"DirectX::CreateWICTextureFromFileEx( ID3D11Device* d3dDevice, const wchar_t* fileName, size_t maxsize, D3D11_USAGE usage, unsigned int bindFlags, unsigned int cpuAccessFlags, unsigned int miscFlags, bool forceSRGB, ID3D11Resource** texture, ID3D11ShaderResourceView** textureView )",4,4,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\WICTextureLoader.cpp,"DirectX::CreateWICTextureFromFileEx( ID3D11Device* d3dDevice, ID3D11DeviceContext* d3dContext, const wchar_t* fileName, size_t maxsize, D3D11_USAGE usage, unsigned int bindFlags, unsigned int cpuAccessFlags, unsigned int miscFlags, bool forceSRGB, ID3D11Resource** texture, ID3D11ShaderResourceView** textureView )",80,70,30,17,9,0,1,2
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.h,V(x),1,1,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.h,V_RETURN(x),1,1,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.h,V(x),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.h,V_RETURN(x),1,1,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.h,SAFE_DELETE(p),1,1,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.h,SAFE_DELETE_ARRAY(p),1,1,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.h,SAFE_RELEASE(p),1,1,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.h,"DXUT_SetDebugName( _In_ IDXGIObject* pObj, _In_z_ const CHAR* pstrName )",3,3,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.h,"DXUT_SetDebugName( _In_ ID3D11Device* pObj, _In_z_ const CHAR* pstrName )",3,3,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.h,"DXUT_SetDebugName( _In_ ID3D11DeviceChild* pObj, _In_z_ const CHAR* pstrName )",3,3,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,CD3DArcBall::CD3DArcBall(),10,8,8,0,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,CD3DArcBall::Reset(),13,11,11,0,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,"CD3DArcBall::OnBegin( _In_ int nX, _In_ int nY )",13,11,6,1,0,0,2,13
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,"CD3DArcBall::OnMove( _In_ int nX, _In_ int nY )",12,10,8,1,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,CD3DArcBall::OnEnd(),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,"CD3DArcBall::HandleMessages( HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam )",75,62,39,11,9,1,4,31
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,CBaseCamera::CBaseCamera(),21,13,13,0,6,0,2,8
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,"CBaseCamera::SetViewParams( FXMVECTOR vEyePt, FXMVECTOR vLookatPt )",22,13,13,0,5,0,4,41
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,"CBaseCamera::SetProjParams( float fFOV, float fAspect, float fNearPlane, float fFarPlane )",9,7,7,0,1,0,1,6
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,"CBaseCamera::HandleMessages( HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam )",126,104,54,20,10,0,12,88
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,"CBaseCamera::GetInput( bool bGetKeyboardInput, bool bGetMouseInput, bool bGetGamepadInput )",71,59,32,15,7,0,5,36
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,CBaseCamera::UpdateMouseDelta(),41,24,22,1,6,0,11,95
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,CBaseCamera::UpdateVelocity( _In_ float fElapsedTime ),61,38,26,3,11,0,12,93
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,CBaseCamera::MapKey( _In_ UINT nKey ),51,45,23,22,4,2,2,19
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,CBaseCamera::Reset(),5,4,4,0,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,CFirstPersonCamera::CFirstPersonCamera(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,CFirstPersonCamera::FrameMove( _In_ float fElapsedTime ),83,49,34,10,16,0,18,128
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,"CFirstPersonCamera::SetRotateButtons( bool bLeft, bool bMiddle, bool bRight, bool bRotateWithoutButtonDown )",5,5,3,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,CModelViewerCamera::CModelViewerCamera(),10,8,8,0,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,CModelViewerCamera::FrameMove( _In_ float fElapsedTime ),100,55,49,5,23,1,22,206
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,CModelViewerCamera::SetDragRect( _In_ const RECT& rc ),7,5,5,0,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,CModelViewerCamera::Reset(),12,10,10,0,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,"CModelViewerCamera::SetViewParams( FXMVECTOR vEyePt, FXMVECTOR vLookatPt )",15,9,9,0,3,0,3,20
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,"CModelViewerCamera::HandleMessages( HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam )",80,71,28,11,9,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,CDXUTDirectionWidget::CDXUTDirectionWidget(),9,7,7,0,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,"CDXUTDirectionWidget::HandleMessages( HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam )",66,60,30,11,6,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,CDXUTDirectionWidget::UpdateLightDir(),34,22,22,1,7,0,5,49
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,"CDXUTDirectionWidget::OnRender( FXMVECTOR color, CXMMATRIX mView, CXMMATRIX mProj, FXMVECTOR vEyePt )",7,6,6,1,0,0,1,2
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,"CDXUTDirectionWidget::StaticOnD3D11CreateDevice( ID3D11Device* pd3dDevice, ID3D11DeviceContext* pd3dImmediateContext )",5,4,4,1,0,0,1,2
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,CDXUTDirectionWidget::StaticOnD3D11DestroyDevice(),2,1,1,0,0,0,1,2
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,D3DCOLOR_TO_D3DCOLORVALUE( DWORD c ),5,5,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,RectWidth( RECT& rc ),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,RectHeight( RECT& rc ),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"InitFont11( _In_ ID3D11Device* pd3d11Device, _In_ ID3D11InputLayout* pInputLayout )",9,7,7,1,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,EndFont11(),4,4,4,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,BeginText11(),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"DrawText11DXUT( ID3D11Device* pd3dDevice, ID3D11DeviceContext* pd3d11DeviceContext, LPCWSTR strText, const RECT& rcScreen, XMFLOAT4 vFontColor, float fBBWidth, float fBBHeight, bool bCenter )",89,67,60,3,16,0,6,36
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"EndText11( ID3D11Device* pd3dDevice, ID3D11DeviceContext* pd3d11DeviceContext )",58,47,40,4,8,0,3,13
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::CDXUTDialog(),5,4,4,0,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::~CDXUTDialog(),12,9,7,1,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::Init( CDXUTDialogResourceManager* pManager, bool bRegisterDialog )",7,6,5,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::Init( CDXUTDialogResourceManager* pManager, bool bRegisterDialog, LPCWSTR pszControlTextureFilename )",6,6,5,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::Init( CDXUTDialogResourceManager* pManager, bool bRegisterDialog, LPCWSTR szControlTextureResourceName, HMODULE hControlTextureResourceModule )",7,6,5,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::SetCallback( PCALLBACKDXUTGUIEVENT pCallback, void* pUserContext )",9,4,4,0,1,0,4,47
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::RemoveControl( _In_ int ID ),22,17,10,5,3,0,2,8
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::RemoveAllControls(),13,11,7,3,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::Refresh(),18,14,9,4,4,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::OnRender( _In_ float fElapsedTime ),114,78,53,13,18,1,18,126
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::SendEvent( UINT nEvent, bool bTriggeredByUser, CDXUTControl* pControl )",11,6,4,2,2,0,3,25
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::SetFont( UINT index, LPCWSTR strFaceName, LONG height, LONG weight )",18,10,8,2,3,0,5,61
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::GetFont( _In_ UINT index ) const,4,4,3,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::SetTexture( UINT index, LPCWSTR strFilename )",18,10,8,2,3,0,5,61
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::SetTexture( UINT index, LPCWSTR strResourceName, HMODULE hResourceModule )",18,10,8,2,3,0,5,61
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::GetTexture( _In_ UINT index ) const,4,4,3,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::MsgProc( HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam )",256,192,79,55,26,0,38,353
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::GetControlAtPoint( _In_ const POINT& pt ) const,20,13,7,5,2,0,5,41
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::GetControlEnabled( _In_ int ID ) const,6,5,4,3,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::SetControlEnabled( _In_ int ID, _In_ bool bEnabled )",6,5,4,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::OnMouseUp( _In_ const POINT& pt ),4,4,4,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::OnMouseMove( _In_ const POINT& pt ),16,9,6,3,3,0,4,35
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::SetDefaultElement( UINT nControlType, UINT iElement, CDXUTElement* pElement )",25,19,13,6,4,0,2,19
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::GetDefaultElement( UINT nControlType, UINT iElement ) const",11,10,5,4,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::AddStatic( int ID, LPCWSTR strText, int x, int y, int width, int height, bool bIsDefault, CDXUTStatic** ppCreated )",23,16,13,6,6,0,1,6
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::AddButton( int ID, LPCWSTR strText, int x, int y, int width, int height, UINT nHotkey, bool bIsDefault, CDXUTButton** ppCreated )",24,17,14,6,6,0,1,6
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::AddCheckBox( int ID, LPCWSTR strText, int x, int y, int width, int height, bool bChecked, UINT nHotkey, bool bIsDefault, CDXUTCheckBox** ppCreated )",25,18,15,6,6,0,1,6
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::AddRadioButton( int ID, UINT nButtonGroup, LPCWSTR strText, int x, int y, int width, int height, bool bChecked, UINT nHotkey, bool bIsDefault, CDXUTRadioButton** ppCreated )",27,20,17,6,6,0,1,6
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::AddComboBox( int ID, int x, int y, int width, int height, UINT nHotkey, bool bIsDefault, CDXUTComboBox** ppCreated )",23,16,13,6,6,0,1,6
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::AddSlider( int ID, int x, int y, int width, int height, int min, int max, int value, bool bIsDefault, CDXUTSlider** ppCreated )",25,18,15,6,6,0,1,6
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::AddEditBox( int ID, LPCWSTR strText, int x, int y, int width, int height, bool bIsDefault, CDXUTEditBox** ppCreated )",25,17,13,7,7,0,1,5
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::AddListBox( int ID, int x, int y, int width, int height, DWORD dwStyle, CDXUTListBox** ppCreated )",21,15,12,6,5,0,1,5
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::InitControl( _In_ CDXUTControl* pControl ),18,12,8,5,5,0,1,6
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::AddControl( _In_ CDXUTControl* pControl ),11,7,6,3,3,0,1,4
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::GetControl( _In_ int ID ) const,12,9,5,4,1,0,2,11
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::GetControl( _In_ int ID, _In_ UINT nControlType ) const",12,9,5,4,1,0,2,11
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::GetNextControl( _In_ CDXUTControl* pControl ),15,9,7,2,3,0,3,29
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::GetPrevControl( _In_ CDXUTControl* pControl ),18,11,8,3,4,0,3,29
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::ClearRadioButtonGroup( _In_ UINT nButtonGroup ),12,10,5,3,1,0,1,9
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::ClearComboBox( _In_ int ID ),6,5,4,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::RequestFocus( _In_ CDXUTControl* pControl ),12,9,6,3,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::DrawRect( const RECT* pRect, DWORD color )",5,4,4,1,0,0,1,2
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::DrawSprite( CDXUTElement* pElement, const RECT* prcDest, float fDepth )",78,54,51,6,17,0,7,64
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::CalcTextRect( LPCWSTR strText, CDXUTElement* pElement, const RECT* prcDest, int nCount )",11,8,7,3,2,0,1,2
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::DrawText( LPCWSTR strText, CDXUTElement* pElement, const RECT* prcDest, bool bShadow, bool bCenter )",36,25,17,5,9,0,2,18
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialog::SetBackgroundColors( DWORD colorTopLeft, DWORD colorTopRight, DWORD colorBottomLeft, DWORD colorBottomRight )",5,5,5,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::SetNextDialog( _In_ CDXUTDialog* pNextDialog ),7,6,4,2,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::ClearFocus(),8,7,5,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::FocusDefaultControl(),15,11,7,2,1,0,3,19
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::OnCycleFocus( _In_ bool bForward ),127,92,55,26,11,2,24,207
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialog::InitDefaultElements(),291,137,137,0,60,0,94,216
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialogResourceManager::CDXUTDialogResourceManager(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialogResourceManager::~CDXUTDialogResourceManager(),12,11,7,2,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialogResourceManager::MsgProc( HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam )",6,6,6,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialogResourceManager::OnD3D11CreateDevice( ID3D11Device* pd3dDevice, ID3D11DeviceContext* pd3d11DeviceContext )",122,96,87,5,18,0,8,31
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialogResourceManager::OnD3D11ResizedSwapChain( ID3D11Device* pd3dDevice, const DXGI_SURFACE_DESC* pBackBufferSurfaceDesc )",9,6,6,1,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialogResourceManager::OnD3D11ReleasingSwapChain(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialogResourceManager::OnD3D11DestroyDevice(),33,22,20,1,6,0,5,23
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialogResourceManager::StoreD3D11State( _In_ ID3D11DeviceContext* pd3dImmediateContext ),5,5,5,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialogResourceManager::RestoreD3D11State( _In_ ID3D11DeviceContext* pd3dImmediateContext ),10,9,9,0,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialogResourceManager::ApplyRenderUI11( _In_ ID3D11DeviceContext* pd3dImmediateContext ),14,11,12,0,1,0,2,2
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialogResourceManager::ApplyRenderUIUntex11( _In_ ID3D11DeviceContext* pd3dImmediateContext ),14,11,12,0,1,0,2,2
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialogResourceManager::BeginSprites11( ),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialogResourceManager::EndSprites11( ID3D11Device* pd3dDevice, ID3D11DeviceContext* pd3dImmediateContext )",49,40,34,3,6,0,3,13
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialogResourceManager::RegisterDialog( _In_ CDXUTDialog* pDialog ),17,11,7,5,3,0,3,17
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialogResourceManager::UnregisterDialog( _In_ CDXUTDialog* pDialog ),26,22,12,5,3,0,1,7
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialogResourceManager::EnableKeyboardInputForAllDialogs(),4,3,2,1,0,0,1,7
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialogResourceManager::AddFont( LPCWSTR strFaceName, LONG height, LONG weight )",30,23,16,6,4,0,3,24
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialogResourceManager::AddTexture( _In_z_ LPCWSTR strFilename ),30,21,15,6,6,1,3,27
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTDialogResourceManager::AddTexture( LPCWSTR strResourceName, HMODULE hResourceModule )",49,38,22,11,6,2,5,35
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTDialogResourceManager::CreateTexture11( _In_ UINT iTexture ),35,27,21,7,6,0,2,5
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTControl::CDXUTControl( _In_opt_ CDXUTDialog* pDialog ),22,18,18,0,4,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTControl::~CDXUTControl(),7,7,5,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTControl::SetTextColor( _In_ DWORD Color ),5,4,3,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTControl::SetElement( _In_ UINT iElement, _In_ CDXUTElement* pElement )",19,13,9,6,4,0,2,10
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTControl::Refresh(),8,7,5,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTControl::UpdateRects(),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTStatic::CDXUTStatic( _In_opt_ CDXUTDialog* pDialog ),13,10,8,1,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTStatic::Render( _In_ float fElapsedTime ),14,9,7,2,5,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTStatic::GetTextCopy( LPWSTR strDest, UINT bufferCount ) const",11,7,5,3,2,0,2,7
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTStatic::SetText( _In_z_ LPCWSTR strText ),9,8,6,3,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTButton::CDXUTButton( _In_opt_ CDXUTDialog* pDialog ),6,5,5,0,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTButton::HandleKeyboard( UINT uMsg, WPARAM wParam, LPARAM lParam )",33,30,15,9,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTButton::HandleMouse( UINT uMsg, const POINT& pt, WPARAM wParam, LPARAM lParam )",49,36,22,13,11,0,2,7
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTButton::Render( _In_ float fElapsedTime ),61,43,32,2,14,0,4,11
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTCheckBox::CDXUTCheckBox( _In_opt_ CDXUTDialog* pDialog ),5,4,4,0,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTCheckBox::HandleKeyboard( UINT uMsg, WPARAM wParam, LPARAM lParam )",33,30,15,9,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTCheckBox::HandleMouse( UINT uMsg, const POINT& pt, WPARAM wParam, LPARAM lParam )",46,34,21,12,10,0,2,7
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTCheckBox::SetCheckedInternal( bool bChecked, bool bFromInput )",4,3,3,0,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTCheckBox::ContainsPoint( _In_ const POINT& pt ),3,3,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTCheckBox::UpdateRects(),8,6,6,0,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTCheckBox::Render( _In_ float fElapsedTime ),33,25,18,3,8,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTRadioButton::CDXUTRadioButton( _In_opt_ CDXUTDialog* pDialog ),3,3,3,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTRadioButton::HandleKeyboard( UINT uMsg, WPARAM wParam, LPARAM lParam )",37,32,17,9,5,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTRadioButton::HandleMouse( UINT uMsg, const POINT& pt, WPARAM wParam, LPARAM lParam )",51,38,24,12,11,0,2,7
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTRadioButton::SetCheckedInternal( bool bChecked, bool bClearGroup, bool bFromInput )",6,5,4,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTComboBox::CDXUTComboBox( _In_opt_ CDXUTDialog* pDialog ),10,8,8,0,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTComboBox::~CDXUTComboBox(),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTComboBox::SetTextColor( _In_ DWORD Color ),10,7,5,2,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTComboBox::UpdateRects(),33,23,21,1,7,0,3,21
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTComboBox::OnFocusOut(),4,3,3,0,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTComboBox::HandleKeyboard( UINT uMsg, WPARAM wParam, LPARAM lParam )",81,62,33,24,17,0,2,14
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTComboBox::HandleMouse( UINT uMsg, const POINT& pt, WPARAM wParam, LPARAM lParam )",154,122,66,37,22,0,10,64
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTComboBox::OnHotkey(),17,12,8,4,5,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTComboBox::Render( _In_ float fElapsedTime ),141,100,67,14,29,0,12,48
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTComboBox::AddItem( const WCHAR* strText, void* pData )",32,22,16,6,6,0,4,28
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTComboBox::RemoveItem( _In_ UINT index ),8,8,7,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTComboBox::RemoveAllItems(),10,9,7,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTComboBox::ContainsItem( _In_z_ const WCHAR* strText, _In_ UINT iStart )",2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTComboBox::FindItem( _In_z_ const WCHAR* strText, _In_ UINT iStart ) const",15,12,7,6,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTComboBox::GetSelectedData() const,6,5,4,3,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTComboBox::GetSelectedItem() const,5,4,3,3,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTComboBox::GetItemData( _In_z_ const WCHAR* strText ) const,15,13,9,5,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTComboBox::GetItemData( _In_ int nIndex ) const,5,4,3,3,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTComboBox::SetSelectedByIndex( _In_ UINT index ),8,6,5,3,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTComboBox::SetSelectedByText( _In_z_ const WCHAR* strText ),12,9,7,5,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTComboBox::SetSelectedByData( _In_ void* pData ),14,12,8,4,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTSlider::CDXUTSlider( _In_opt_ CDXUTDialog* pDialog ),9,7,7,0,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTSlider::ContainsPoint( _In_ const POINT& pt ),3,3,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTSlider::UpdateRects(),9,7,7,0,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTSlider::ValueFromPos( _In_ int x ),3,3,3,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTSlider::HandleKeyboard( UINT uMsg, WPARAM wParam, LPARAM lParam )",46,37,20,12,9,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTSlider::HandleMouse( UINT uMsg, const POINT& pt, WPARAM wParam, LPARAM lParam )",88,67,42,21,18,0,3,11
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTSlider::SetRange( _In_ int nMin, _In_ int nMax )",5,4,4,0,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTSlider::SetValueInternal( _In_ int nValue, _In_ bool bFromInput )",12,8,7,1,3,0,1,3
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTSlider::Render( _In_ float fElapsedTime ),49,37,26,2,10,0,2,6
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTScrollBar::CDXUTScrollBar( _In_opt_ CDXUTDialog* pDialog ),17,15,15,0,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTScrollBar::~CDXUTScrollBar(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTScrollBar::UpdateRects(),15,11,8,0,3,0,1,4
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTScrollBar::UpdateThumbRect(),18,16,10,1,1,0,1,4
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTScrollBar::Scroll( _In_ int nDelta ),9,4,4,0,2,0,3,7
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTScrollBar::ShowItem( _In_ int nIndex ),17,10,6,3,5,0,2,5
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTScrollBar::HandleKeyboard( UINT uMsg, WPARAM wParam, LPARAM lParam )",5,5,5,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTScrollBar::HandleMouse( UINT uMsg, const POINT& pt, WPARAM wParam, LPARAM lParam )",109,86,53,20,18,3,5,57
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTScrollBar::MsgProc( UINT uMsg, WPARAM wParam, LPARAM lParam )",12,8,5,3,2,0,2,18
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTScrollBar::Render( _In_ float fElapsedTime ),96,71,44,14,14,0,11,42
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTScrollBar::SetTrackRange( _In_ int nStart, _In_ int nEnd )",4,4,4,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTScrollBar::Cap(),8,8,4,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTListBox::CDXUTListBox( _In_opt_ CDXUTDialog* pDialog ),12,11,11,0,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTListBox::~CDXUTListBox(),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTListBox::UpdateRects(),21,15,13,1,3,0,3,21
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTListBox::AddItem( const WCHAR* wszText, void* pData )",14,11,10,3,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTListBox::InsertItem( int nIndex, const WCHAR* wszText, void* pData )",14,11,10,3,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTListBox::RemoveItem( _In_ int nIndex ),13,11,9,2,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTListBox::RemoveAllItems(),9,8,6,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTListBox::GetItem( _In_ int nIndex ) const,5,4,3,3,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTListBox::GetSelectedIndex( _In_ int nPreviousSelected ) const,22,17,9,8,3,0,2,14
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTListBox::SelectItem( _In_ int nNewIndex ),31,19,12,5,7,0,5,16
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTListBox::HandleKeyboard( UINT uMsg, WPARAM wParam, LPARAM lParam )",103,74,36,20,16,0,13,49
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTListBox::HandleMouse( UINT uMsg, const POINT& pt, WPARAM wParam, LPARAM lParam )",218,145,83,33,39,1,34,234
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTListBox::MsgProc( UINT uMsg, WPARAM wParam, LPARAM lParam )",12,8,5,3,2,0,2,18
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTListBox::Render( _In_ float fElapsedTime ),76,55,35,10,14,0,7,42
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTEditBox::CDXUTEditBox( _In_opt_ CDXUTDialog* pDialog ),20,17,17,0,3,2,0,5
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTEditBox::~CDXUTEditBox(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTEditBox::PlaceCaret( _In_ int nCP ),42,26,18,4,5,4,11,131
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTEditBox::ClearText(),5,5,5,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTEditBox::SetText( _In_z_ LPCWSTR wszText, _In_ bool bSelected )",8,6,6,0,1,0,1,9
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTEditBox::GetTextCopy( LPWSTR strDest, UINT bufferCount ) const",6,4,4,1,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTEditBox::DeleteSelectionText(),9,7,6,1,0,0,2,7
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTEditBox::UpdateRects(),21,14,14,0,3,0,4,20
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTEditBox::CopyToClipboard(),28,25,16,5,1,1,2,19
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTEditBox::PasteFromClipboard(),22,18,11,4,1,0,3,17
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTEditBox::HandleKeyboard( UINT uMsg, WPARAM wParam, LPARAM lParam )",123,91,53,22,11,1,21,136
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTEditBox::HandleMouse( UINT uMsg, const POINT& pt, WPARAM wParam, LPARAM lParam )",60,49,29,15,7,2,4,38
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTEditBox::OnFocusIn(),4,3,3,0,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTEditBox::MsgProc( UINT uMsg, WPARAM wParam, LPARAM lParam )",137,107,49,19,12,25,18,164
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTEditBox::Render( _In_ float fElapsedTime ),107,65,42,10,15,3,27,119
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTEditBox::ParseFloatArray( float* pNumbers, int nCount )",28,21,16,5,4,1,3,18
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTEditBox::SetTextFloatArray( const float* pNumbers, int nCount )",21,16,10,3,4,0,1,5
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTEditBox::ResetCaretBlink(),3,3,3,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CUniBuffer::SetBufferSize( _In_ int nNewSize ),28,19,13,7,6,0,3,22
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CUniBuffer::Analyse(),36,32,13,7,4,4,0,11
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CUniBuffer::CUniBuffer( _In_ int nInitialSize ),9,8,7,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CUniBuffer::~CUniBuffer(),4,4,3,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CUniBuffer::operator[]( _In_ int n ),6,3,3,1,0,0,3,18
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CUniBuffer::Clear(),3,3,3,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CUniBuffer::InsertChar( _In_ int nIndex, _In_ WCHAR wChar )",33,22,15,9,8,2,3,25
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CUniBuffer::RemoveChar( _In_ int nIndex ),8,7,5,3,1,1,0,2
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CUniBuffer::InsertString( int nIndex, const WCHAR* pStr, int nCount )",27,20,12,11,6,2,1,10
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CUniBuffer::SetText( _In_z_ LPCWSTR wszText ),21,16,10,8,3,0,2,16
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CUniBuffer::CPtoX( int nCP, bool bTrail, int* pX )",18,14,10,5,4,1,0,1
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CUniBuffer::XtoCP( int nX, int* pCP, int* pnTrail )",36,29,18,8,4,1,3,30
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CUniBuffer::GetPriorItemPos( int nCP, int* pPrior )",26,22,12,7,3,3,1,35
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CUniBuffer::GetNextItemPos( int nCP, int* pPrior )",40,34,22,7,5,4,1,40
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"DXUTBlendColor::Init( DWORD defaultColor, DWORD disabledColor, DWORD hiddenColor )",9,8,6,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"DXUTBlendColor::Blend( UINT iState, float fElapsedTime, float fRate )",6,6,6,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,DXUTBlendColor::SetCurrent( DWORD color ),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTElement::SetTexture( UINT iTexture, RECT* prcTexture, DWORD defaultTextureColor )",9,7,5,1,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,"CDXUTElement::SetFont( UINT iFont, DWORD defaultFontColor, DWORD dwTextFormat )",5,4,4,0,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,CDXUTElement::Refresh(),3,3,3,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,"CDXUTIMEEditBox::CreateIMEEditBox( CDXUTDialog* pDialog, int ID, LPCWSTR strText, int x, int y, int width, int height, bool bIsDefault, CDXUTIMEEditBox** ppCreated )",19,13,10,5,5,0,1,5
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,CDXUTIMEEditBox::InitDefaultElements( _In_ CDXUTDialog* pDialog ),43,35,35,0,3,0,5,14
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,CDXUTIMEEditBox::CDXUTIMEEditBox( _In_opt_ CDXUTDialog* pDialog ),23,22,22,0,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,CDXUTIMEEditBox::~CDXUTIMEEditBox(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,CDXUTIMEEditBox::SendKey( _In_ BYTE nVirtKey ),3,3,3,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,CDXUTIMEEditBox::UpdateRects(),13,7,7,0,1,2,5,41
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,CDXUTIMEEditBox::EnableImeSystem( _In_ bool bEnable ),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,CDXUTIMEEditBox::ResetCompositionString(),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,CDXUTIMEEditBox::PumpMessage(),13,12,8,2,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,CDXUTIMEEditBox::OnFocusIn(),3,3,3,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,CDXUTIMEEditBox::OnFocusOut(),4,4,4,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,"CDXUTIMEEditBox::StaticMsgProc( HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam )",47,33,22,9,6,0,8,55
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,"CDXUTIMEEditBox::HandleMouse( UINT uMsg, const POINT& pt, WPARAM wParam, LPARAM lParam )",163,111,61,29,26,1,26,210
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,"CDXUTIMEEditBox::MsgProc( UINT uMsg, WPARAM wParam, LPARAM lParam )",29,21,13,8,5,0,3,23
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,CDXUTIMEEditBox::RenderCandidateReadingWindow( bool bReading ),206,158,98,27,21,2,27,181
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,CDXUTIMEEditBox::RenderComposition(),171,113,77,13,23,0,35,250
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,CDXUTIMEEditBox::RenderIndicator( _In_ float fElapsedTime ),18,14,12,0,3,0,1,8
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,CDXUTIMEEditBox::Render( _In_ float fElapsedTime ),55,30,19,5,9,0,16,73
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,CDXUTIMEEditBox::SetImeEnableFlag( _In_ bool bFlag ),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,CDXUTIMEEditBox::Initialize( _In_ HWND hWnd ),10,8,8,0,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTres.cpp,"DXUTCreateGUITextureFromInternalArray(ID3D11Device* pd3dDevice, ID3D11Texture2D** ppTexture)",17,13,9,5,4,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,DXUTGetD3DSettingsDialog(),4,3,3,1,0,0,1,10
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::CD3DSettingsDlg(),8,8,8,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::~CD3DSettingsDlg(),9,8,5,2,0,0,1,14
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::Init( _In_ CDXUTDialogResourceManager* pManager ),6,6,6,0,0,2,0,8
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,"CD3DSettingsDlg::Init( CDXUTDialogResourceManager* pManager, LPCWSTR szControlTextureFileName )",6,6,6,0,0,2,0,8
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,"CD3DSettingsDlg::Init( CDXUTDialogResourceManager* pManager, LPCWSTR pszControlTextureResourcename, HMODULE hModule )",6,6,6,0,0,2,0,8
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::CreateControls(),115,72,60,5,22,0,21,37
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::Refresh(),160,116,78,26,35,0,9,27
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::SetSelectedD3D11RefreshRate( _In_ DXGI_RATIONAL RefreshRate ),13,11,7,2,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::OnRender( _In_ float fElapsedTime ),3,2,2,0,0,0,1,3
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,"CD3DSettingsDlg::MsgProc( HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam )",5,5,4,2,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::OnD3D11CreateDevice( _In_ ID3D11Device* pd3dDevice ),9,6,5,3,2,0,1,3
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,"CD3DSettingsDlg::OnD3D11ResizedSwapChain( ID3D11Device* pd3dDevice, const DXGI_SURFACE_DESC* pBackBufferSurfaceDesc )",18,15,9,1,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::OnD3D11DestroyDevice(),3,1,1,0,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,"CD3DSettingsDlg::StaticOnEvent( UINT nEvent, int nControlID, CDXUTControl* pControl, void* pUserData )",4,4,3,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,"CD3DSettingsDlg::StaticOnModeChangeTimer( UINT nIDEvent, void* pUserContext )",17,15,13,1,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,"CD3DSettingsDlg::OnEvent( UINT nEvent, int nControlID, CDXUTControl* pControl )",127,111,66,8,9,0,7,48
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::GetCurrentD3D11AdapterInfo() const,3,3,3,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::GetCurrentD3D11DeviceInfo() const,4,4,3,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::GetCurrentD3D11OutputInfo() const,4,4,3,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::GetCurrentD3D11DeviceSettingsCombo() const,5,5,3,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::OnD3D11ResolutionChanged(),15,11,9,5,3,0,1,1
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::OnFeatureLevelChanged(),68,49,40,11,16,0,3,10
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::OnAdapterChanged(),25,17,13,6,6,0,2,5
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::OnDeviceTypeChanged(),62,50,29,14,11,0,1,2
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::OnWindowedFullScreenChanged(),43,31,26,8,11,0,1,4
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::OnAdapterOutputChanged(),71,52,34,17,13,0,6,33
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::OnRefreshRateChanged(),5,3,3,1,1,0,1,3
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::OnBackBufferFormatChanged(),50,37,25,15,13,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::OnMultisampleTypeChanged(),37,28,20,9,8,0,1,1
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::OnMultisampleQualityChanged(),4,3,3,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::OnPresentIntervalChanged(),4,3,3,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::OnDebugDeviceChanged(),9,7,5,2,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,"CD3DSettingsDlg::AddAdapter( _In_z_ const WCHAR* strDescription, _In_ UINT iAdapter )",5,4,3,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::GetSelectedAdapter() const,4,3,3,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::SetWindowed( _In_ bool bWindowed ),15,12,12,0,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::IsWindowed() const,3,3,3,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,"CD3DSettingsDlg::AddD3D11AdapterOutput( _In_z_ const WCHAR* strName, _In_ UINT Output )",5,4,3,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::GetSelectedD3D11AdapterOutput() const,4,3,3,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,"CD3DSettingsDlg::AddD3D11Resolution( DWORD dwWidth, DWORD dwHeight )",10,8,7,1,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,"CD3DSettingsDlg::GetSelectedD3D11Resolution( DWORD* pdwWidth, DWORD* pdwHeight ) const",7,5,5,0,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::AddD3D11FeatureLevel( _In_ D3D_FEATURE_LEVEL fl),48,47,24,15,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::GetSelectedFeatureLevel() const,4,3,3,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::AddD3D11RefreshRate( _In_ DXGI_RATIONAL RefreshRate ),19,16,10,3,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::GetSelectedD3D11RefreshRate() const,3,3,3,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::AddD3D11BackBufferFormat( _In_ DXGI_FORMAT format ),11,9,5,3,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::GetSelectedD3D11BackBufferFormat() const,4,3,3,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::AddD3D11MultisampleCount( _In_ UINT Count ),8,6,5,1,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::GetSelectedD3D11MultisampleCount() const,4,3,3,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::AddD3D11MultisampleQuality( _In_ UINT Quality ),8,6,5,1,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::GetSelectedD3D11MultisampleQuality() const,4,3,3,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::GetSelectedD3D11PresentInterval() const,4,3,3,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::GetSelectedDebugDeviceValue() const,4,3,3,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::UpdateD3D11Resolutions(),60,46,31,9,9,0,5,41
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::UpdateD3D11RefreshRates(),41,35,24,9,6,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::AddD3D11DeviceType( _In_ D3D_DRIVER_TYPE devType ),5,4,3,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::GetSelectedD3D11DeviceType() const,4,3,3,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,CD3DSettingsDlg::UpdateModeChangeTimeoutText( _In_ int nSecRemaining ),9,7,7,0,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,DXUTDeviceTypeToString( _In_ D3D_DRIVER_TYPE devType ),14,14,7,6,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"SendKeyMsg( HWND hwnd, UINT msg, WPARAM wp )",5,5,5,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"_strtoul( LPCSTR psz, LPTSTR*, int )",32,31,18,8,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"ComposeCandidateLine( int index, LPCTSTR pszCandidate )",12,12,8,2,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,SendCompString(),18,18,10,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"GetCandidateList( HIMC himc, DWORD dwIndex, LPCANDIDATELIST* ppCandList )",8,8,6,2,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"SendControlKeys( UINT vk, UINT num )",8,8,5,2,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"CancelCompString( HWND hwnd, bool bUseBackSpace = true, int iNewStrLen = 0 )",31,20,13,4,3,1,8,76
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,InitCompStringData(),5,5,5,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"DrawCaret( DWORD x, DWORD y, DWORD height )",4,4,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"ImeUi_RenderUI( _In_ bool bDrawCompAttr, _In_ bool bDrawOtherUi )",18,15,8,6,3,2,0,8
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,DrawImeIndicator(),154,133,87,19,13,7,8,78
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,DrawCompositionString( _In_ bool bDrawCompAttr ),183,154,102,28,13,2,16,115
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,DrawCandidateList(),271,240,143,41,18,0,13,116
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CloseCandidateList(),7,7,5,1,0,1,0,5
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"ImeUi_ProcessMessage( HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM& lParam, bool* trapped )",334,278,161,58,25,1,31,193
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"ImeUi_SetCaretPosition( UINT x, UINT y )",5,5,4,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"ImeUi_SetCompStringAppearance( CImeUiFont_Base* pFont, DWORD color, const RECT* prc )",14,13,8,3,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_SetState( _In_ DWORD dwState ),56,53,30,13,1,1,2,9
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_GetState(),5,5,4,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_EnableIme( _In_ bool bEnable ),17,16,10,4,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_IsEnabled(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"ImeUi_Initialize(_In_ HWND hwnd, _In_ bool bDisable )",86,72,54,10,11,1,3,40
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_Uninitialize(),19,19,13,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,GetImeId( _In_ UINT uIndex ),104,91,43,23,8,1,5,44
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,GetReadingString( _In_ HWND hWnd ),180,160,112,28,18,29,2,136
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_IgnoreHotKey( _In_ const MSG* pmsg ),39,34,17,13,1,0,4,66
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_FinalizeString( _In_ bool bSend ),41,31,22,6,3,1,7,84
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,SetCompStringColor(),8,7,7,0,0,0,1,8
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,SetSupportLevel( _In_ DWORD dwImeLevel ),11,10,7,2,0,0,1,4
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_SetSupportLevel( _In_ DWORD dwImeLevel ),5,5,4,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_SetAppearance( _In_opt_ const IMEUI_APPEARANCE* pia ),13,13,12,1,0,8,0,16
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_GetAppearance( _Out_opt_ IMEUI_APPEARANCE* pia ),12,12,6,2,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CheckToggleState(),32,26,16,4,3,1,3,53
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_SetInsertMode( _In_ bool bInsert ),4,4,3,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_GetCaretStatus(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"ImeUi_SetScreenDimension( _In_ UINT width, _In_ UINT height )",5,5,4,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,_PumpMessage(),14,12,8,2,0,0,2,8
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,GetReadingWindowOrientation( _In_ DWORD dwId ),31,31,15,4,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_ToggleLanguageBar( _In_ BOOL bRestore ),55,53,31,11,1,0,1,10
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_IsSendingKeyMessage(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,OnInputLangChangeWorker(),6,6,4,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,OnInputLangChange(),17,14,10,2,0,0,3,28
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,SetImeApi(),24,23,16,5,1,1,0,2
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CheckInputLocale(),49,45,29,10,0,1,4,11
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_SetWindow( _In_ HWND hwnd ),3,3,3,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_GetInputCodePage(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_GetFlags(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"ImeUi_SetFlags( _In_ DWORD dwFlags, _In_ bool bSet )",9,9,5,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CTsfUiLessMode::SetupSinks(),48,40,19,10,3,2,5,32
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CTsfUiLessMode::ReleaseSinks(),15,13,11,1,1,1,1,7
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CTsfUiLessMode::CUIElementSink::CUIElementSink(),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CTsfUiLessMode::CUIElementSink::~CUIElementSink(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"CTsfUiLessMode::CUIElementSink::QueryInterface( _In_ REFIID riid, _COM_Outptr_ void** ppvObj )",30,26,15,6,4,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CTsfUiLessMode::CUIElementSink::AddRef(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CTsfUiLessMode::CUIElementSink::Release(),9,7,5,2,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"CTsfUiLessMode::CUIElementSink::BeginUIElement( DWORD dwUIElementId, BOOL* pbShow )",24,22,15,4,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CTsfUiLessMode::CUIElementSink::UpdateUIElement( DWORD dwUIElementId ),22,20,13,4,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CTsfUiLessMode::CUIElementSink::EndUIElement( DWORD dwUIElementId ),25,22,14,6,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CTsfUiLessMode::UpdateImeState( BOOL bResetCompartmentEventSink ),36,35,21,6,1,1,0,3
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"CTsfUiLessMode::CUIElementSink::OnActivated( DWORD dwProfileType, LANGID langid, _In_ REFCLSID clsid, _In_ REFGUID catid, _In_ REFGUID guidProfile, HKL hkl, DWORD dwFlags )",21,20,13,3,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CTsfUiLessMode::CUIElementSink::OnChange( _In_ REFGUID rguid ),4,4,4,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CTsfUiLessMode::MakeReadingInformationString( ITfReadingInformationUIElement* preading ),49,46,34,5,2,3,1,34
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CTsfUiLessMode::MakeCandidateStrings( ITfCandidateListUIElement* pcandidate ),57,51,35,7,6,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CTsfUiLessMode::GetUIElement( DWORD dwUIElementId ),11,9,7,2,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CTsfUiLessMode::CurrentInputLocaleIsIme(),24,23,16,4,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,CTsfUiLessMode::EnableUiUpdates( bool bEnable ),23,23,12,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"CTsfUiLessMode::GetCompartments( ITfCompartmentMgr** ppcm, ITfCompartment** ppTfOpenMode, ITfCompartment** ppTfConvMode )",28,26,17,5,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,"CTsfUiLessMode::SetupCompartmentSinks( BOOL bRemoveOnly, ITfCompartment* pTfOpenMode, ITfCompartment* pTfConvMode )",58,52,30,11,1,0,5,34
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_GetPrimaryLanguage(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_GetImeId( _In_ UINT uIndex ),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_GetLanguage(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_GetIndicatior(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_IsShowReadingWindow(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_IsShowCandListWindow(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_IsVerticalCand(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_IsHorizontalReading(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_GetCandidate( _In_ UINT idx ),5,5,3,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_GetCandidateSelection(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_GetCandidateCount(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_GetCompositionString(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_GetCompStringAttr(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,ImeUi_GetImeCursorChars(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::LoadMaterials( ID3D11Device* pd3dDevice, SDKMESH_MATERIAL* pMaterials, UINT numMaterials, SDKMESH_CALLBACKS11* pLoaderCallbacks )",74,68,33,12,4,0,2,4
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::CreateVertexBuffer( ID3D11Device* pd3dDevice, SDKMESH_VERTEX_BUFFER_HEADER* pHeader, void* pVertices, SDKMESH_CALLBACKS11* pLoaderCallbacks )",28,25,18,3,2,0,1,2
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::CreateIndexBuffer( ID3D11Device* pd3dDevice, SDKMESH_INDEX_BUFFER_HEADER* pHeader, void* pIndices, SDKMESH_CALLBACKS11* pLoaderCallbacks )",28,25,18,3,2,0,1,2
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::CreateFromFile( ID3D11Device* pDev11, LPCWSTR szFileName, SDKMESH_CALLBACKS11* pLoaderCallbacks11 )",53,37,23,9,10,0,6,26
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::CreateFromMemory( ID3D11Device* pDev11, BYTE* pData, size_t DataBytes, bool bCopyStatic, SDKMESH_CALLBACKS11* pLoaderCallbacks11 )",229,167,121,32,39,2,23,84
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::TransformBindPoseFrame( UINT iFrame, CXMMATRIX parentWorld )",20,14,9,3,3,0,3,8
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::TransformFrame( UINT iFrame, CXMMATRIX parentWorld, double fTime )",43,31,22,4,7,0,5,21
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::TransformFrameAbsolute( UINT iFrame, double fTime )",24,19,17,1,5,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::RenderMesh( UINT iMesh, bool bAdjacent, ID3D11DeviceContext* pd3dDeviceContext, UINT iDiffuseSlot, UINT iNormalSlot, UINT iSpecularSlot )",90,76,52,18,14,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::RenderFrame( UINT iFrame, bool bAdjacent, ID3D11DeviceContext* pd3dDeviceContext, UINT iDiffuseSlot, UINT iNormalSlot, UINT iSpecularSlot )",23,18,6,4,3,0,2,6
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::CDXUTSDKMesh(),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::~CDXUTSDKMesh(),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::Create( ID3D11Device* pDev11, LPCWSTR szFileName, SDKMESH_CALLBACKS11* pLoaderCallbacks )",2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::Create( ID3D11Device* pDev11, BYTE* pData, size_t DataBytes, bool bCopyStatic, SDKMESH_CALLBACKS11* pLoaderCallbacks )",2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::LoadAnimation( _In_z_ const WCHAR* szFileName ),58,43,28,9,8,0,7,18
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::Destroy(),77,60,37,12,11,0,6,18
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::TransformMesh( CXMMATRIX world, double fTime )",21,18,11,3,1,0,2,17
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::Render( ID3D11DeviceContext* pd3dDeviceContext, UINT iDiffuseSlot, UINT iNormalSlot, UINT iSpecularSlot )",2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::RenderAdjacent( ID3D11DeviceContext* pd3dDeviceContext, UINT iDiffuseSlot, UINT iNormalSlot, UINT iSpecularSlot )",2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetPrimitiveType11( _In_ SDKMESH_PRIMITIVE_TYPE PrimType ),35,33,23,11,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetIBFormat11( _In_ UINT iMesh ) const,9,9,6,4,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::GetVB11( _In_ UINT iMesh, _In_ UINT iVB ) const",2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetIB11( _In_ UINT iMesh ) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetIndexType( _In_ UINT iMesh ) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetAdjIB11( _In_ UINT iMesh ) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetMeshPathA() const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetMeshPathW() const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetNumMeshes() const,4,4,3,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetNumMaterials() const,4,4,3,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetNumVBs() const,4,4,3,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetNumIBs() const,4,4,3,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetVB11At( _In_ UINT iVB ) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetIB11At( _In_ UINT iIB ) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetRawVerticesAt( _In_ UINT iVB ) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetRawIndicesAt( _In_ UINT iIB ) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetMaterial( _In_ UINT iMaterial ) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetMesh( _In_ UINT iMesh ) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetNumSubsets( _In_ UINT iMesh ) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::GetSubset( _In_ UINT iMesh, _In_ UINT iSubset ) const",2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::GetVertexStride( _In_ UINT iMesh, _In_ UINT iVB ) const",2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetNumFrames() const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetFrame( _In_ UINT iFrame ) const,3,3,3,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::FindFrame( _In_z_ const char* pszName ) const,9,9,5,4,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::GetNumVertices( _In_ UINT iMesh, _In_ UINT iVB ) const",2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetNumIndices( _In_ UINT iMesh ) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetMeshBBoxCenter( _In_ UINT iMesh ) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetMeshBBoxExtents( _In_ UINT iMesh ) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetOutstandingResources() const,32,27,13,11,5,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetOutstandingBufferResources() const,6,5,4,3,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::CheckLoadDone(),8,7,5,3,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::IsLoaded() const,7,6,4,3,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::IsLoading() const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::SetLoading( _In_ bool bLoading ),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::HadLoadingError() const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetNumInfluences( _In_ UINT iMesh ) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::GetMeshInfluenceMatrix( _In_ UINT iMesh, _In_ UINT iInfluence ) const",3,3,3,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetWorldMatrix( _In_ UINT iFrameIndex ) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetInfluenceMatrix( _In_ UINT iFrameIndex ) const,2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,CDXUTSDKMesh::GetAnimationKeyFromTime( _In_ double fTime ) const,12,9,7,3,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,"CDXUTSDKMesh::GetAnimationProperties( UINT* pNumKeys, float* pFrameTime ) const",12,10,8,3,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,DXUTGetGlobalResourceCache(),15,14,8,2,0,0,1,10
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,DXUTDisplaySwitchingToREFWarning(),88,75,58,8,6,6,7,99
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,"DisplaySwitchToREFWarningProc( HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam )",36,34,19,6,1,0,1,9
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,DXUTMediaSearchPath(),7,6,4,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,DXUTGetMediaSearchPath(),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,DXUTSetMediaSearchPath( _In_z_ LPCWSTR strPath ),18,14,9,3,3,0,1,4
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,"DXUTFindDXSDKMediaFileCch( WCHAR* strDestPath, int cchDest, LPCWSTR strFilename )",85,52,36,17,14,0,19,121
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,"DXUTFindMediaSearchTypicalDirs( WCHAR* strSearchPath, int cchSearch, LPCWSTR strLeaf, const WCHAR* strExePath, const WCHAR* strExeName )",67,36,24,22,11,0,20,60
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,"DXUTFindMediaSearchParentDirs( WCHAR* strSearchPath, int cchSearch, const WCHAR* strStartAt, const WCHAR* strLeafName )",34,30,17,8,4,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,safe_handle( HANDLE h ),1,1,1,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,"DXUTCompileFromFile( LPCWSTR pFileName, const D3D_SHADER_MACRO* pDefines, LPCSTR pEntrypoint, LPCSTR pTarget, UINT Flags1, UINT Flags2, ID3DBlob** ppCode )",91,66,39,19,21,0,4,43
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,"DXUTCreateShaderResourceViewFromFile( ID3D11Device* d3dDevice, const wchar_t* szFileName, ID3D11ShaderResourceView** textureView )",22,18,12,6,4,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,"DXUTCreateTextureFromFile( ID3D11Device* d3dDevice, const wchar_t* szFileName, ID3D11Resource** texture )",22,18,12,6,4,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,"DXUTSaveTextureToFile( ID3D11DeviceContext* pContext, ID3D11Resource* pSource, bool usedds, const wchar_t* szFileName )",16,13,8,4,3,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,DXUTGetCubeMapViewMatrix( _In_ DWORD dwFace ),29,24,20,4,4,0,1,8
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,CDXUTResourceCache::~CDXUTResourceCache(),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,"CDXUTResourceCache::CreateTextureFromFile( ID3D11Device* pDevice, ID3D11DeviceContext *pContext, LPCWSTR pSrcFile, ID3D11ShaderResourceView** ppOutputRV, bool bSRGB )",46,39,23,11,7,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,"CDXUTResourceCache::CreateTextureFromFile( ID3D11Device* pDevice, ID3D11DeviceContext *pContext, LPCSTR pSrcFile, ID3D11ShaderResourceView** ppOutputRV, bool bSRGB )",6,5,5,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,CDXUTResourceCache::OnDestroyDevice(),10,8,6,2,1,0,1,3
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,"CDXUTTextHelper::CDXUTTextHelper( ID3D11Device* pd3d11Device, ID3D11DeviceContext* pd3d11DeviceContext, CDXUTDialogResourceManager* pManager, int nLineHeight )",5,5,5,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,CDXUTTextHelper::~CDXUTTextHelper(),2,1,1,0,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,CDXUTTextHelper::Init( _In_ int nLineHeight ),10,8,8,0,1,0,1,10
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,"CDXUTTextHelper::DrawFormattedTextLine( _In_z_ const WCHAR* strMsg, ... )",10,8,8,1,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,CDXUTTextHelper::DrawTextLine( _In_z_ const WCHAR* strMsg ),16,12,9,5,4,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,"CDXUTTextHelper::DrawFormattedTextLine( const RECT& rc, const WCHAR* strMsg, ... )",10,8,8,1,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,"CDXUTTextHelper::DrawTextLine( const RECT& rc, const WCHAR* strMsg )",14,10,7,5,4,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,CDXUTTextHelper::Begin(),8,6,4,1,2,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,CDXUTTextHelper::End(),5,5,3,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.h,IsErrorResource( TYPE data ),4,4,3,3,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11.cpp,"wWinMain( _In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _In_ LPWSTR lpCmdLine, _In_ int nCmdShow )",32,21,19,1,6,3,5,75
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11.cpp,InitApp(),37,27,28,0,7,0,3,6
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11.cpp,"ModifyDeviceSettings( DXUTDeviceSettings* pDeviceSettings, void* pUserContext )",2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11.cpp,"OnFrameMove( double fTime, float fElapsedTime, void* pUserContext )",3,2,2,0,0,0,1,8
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11.cpp,RenderText(),33,27,19,1,5,0,1,2
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11.cpp,"MsgProc( HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam, bool* pbNoFurtherProcessing, void* pUserContext )",27,18,13,9,5,0,4,45
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11.cpp,"OnKeyboard( UINT nChar, bool bKeyDown, bool bAltDown, void* pUserContext )",9,9,4,2,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11.cpp,"OnGUIEvent( UINT nEvent, int nControlID, CDXUTControl* pControl, void* pUserContext )",47,40,26,13,5,0,2,4
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11.cpp,"IsD3D11DeviceAcceptable( const CD3D11EnumAdapterInfo *AdapterInfo, UINT Output, const CD3D11EnumDeviceInfo *DeviceInfo, DXGI_FORMAT BackBufferFormat, bool bWindowed, void* pUserContext )",2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11.cpp,"OnD3D11CreateDevice( ID3D11Device* pd3dDevice, const DXGI_SURFACE_DESC* pBackBufferSurfaceDesc, void* pUserContext )",187,130,118,5,39,1,18,172
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11.cpp,"OnD3D11ResizedSwapChain( ID3D11Device* pd3dDevice, IDXGISwapChain* pSwapChain, const DXGI_SURFACE_DESC* pBackBufferSurfaceDesc, void* pUserContext )",18,13,13,1,4,0,1,5
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11.cpp,"OnD3D11FrameRender( ID3D11Device* pd3dDevice, ID3D11DeviceContext* pd3dImmediateContext, double fTime, float fElapsedTime, void* pUserContext )",184,124,100,10,32,6,28,192
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11.cpp,OnD3D11ReleasingSwapChain( void* pUserContext ),2,2,2,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11.cpp,OnD3D11DestroyDevice( void* pUserContext ),46,33,29,2,10,0,3,13
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11_PSBuffers.h,register( b0 ),6,6,6,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11_PSBuffers.h,register( b1 ),7,7,7,0,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11_PSBuffers.h,cAmbientLight::IlluminateAmbient(float3 vNormal),2,2,2,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11_PSBuffers.h,cHemiAmbientLight::IlluminateAmbient(float3 vNormal),4,3,3,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11_PSBuffers.h,cDirectionalLight::IlluminateDiffuse( float3 vNormal ),3,3,3,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11_PSBuffers.h,"cDirectionalLight::IlluminateSpecular( float3 vNormal, int specularPower )",6,5,5,1,1,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11_PSBuffers.h,cOmniLight::IlluminateDiffuse( float3 vNormal ),2,2,2,1,0,1,0,2
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11_PSBuffers.h,"cEnvironmentLight::IlluminateSpecular( float3 vNormal, int specularPower )",13,8,8,1,3,0,2,12
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11_PSBuffers.h,cPlasticTexturedMaterial::GetAmbientColor(float2 vTexcoord),4,4,4,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11_PSBuffers.h,cPlasticTexturedMaterial::GetDiffuseColor(float2 vTexcoord),4,4,4,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11_PSBuffers.h,cRoughTexturedMaterial::GetAmbientColor(float2 vTexcoord),4,4,4,1,0,0,0,0
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11_PSBuffers.h,cRoughTexturedMaterial::GetDiffuseColor(float2 vTexcoord),4,4,4,1,0,0,0,0
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+File,,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DDSTextureLoader.cpp,19,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\dxerr.cpp,3,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.cpp,116,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTDevice11.cpp,26,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.cpp,39,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\ScreenGrab.cpp,9,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\WICTextureLoader.cpp,14,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUT.h,7,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Core\DXUTmisc.h,3,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTcamera.cpp,30,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTgui.cpp,198,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTguiIME.cpp,20,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTres.cpp,1,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\DXUTsettingsdlg.cpp,59,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\ImeUi.cpp,82,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.cpp,60,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmisc.cpp,28,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DXUT\Optional\SDKmesh.h,1,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11.cpp,14,,,,,,,,
+F:\papter datasets\Dynamic Shader Linkage Win32 Sample\C++\DynamicShaderLinkage11\DynamicShaderLinkage11_PSBuffers.h,12,,,,,,,,
